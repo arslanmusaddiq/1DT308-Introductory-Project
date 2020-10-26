@@ -4,7 +4,7 @@
 
 ## Viktiga länkar
 
-- [**Studieguide**](Studieguide1DT308_1DT902.md)
+- [**Studieguide**](study_guide_1DT308.md)
 
 - [Slack kanal](coursepress.lnu.se) **#1dt308-1dt902-introducerande-projekt**
 - [Moodle](https://mymoodle.lnu.se/course/view.php?id=48555)
