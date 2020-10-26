@@ -47,15 +47,15 @@ Kursen har två spår. Det första spåret presenterar en enkel enchipsdator och
 
 ## Kommunikationsstrategi
 
-- *Personliga* frågor gällande formella medverkan på kursen, frånvaro, betyg skickas via email till kursansvarig, [Fredrik Ahlgren](mailto:fredrik.ahlgren@lnu.se).
+- *Personliga* frågor gällande formella medverkan på kursen, frånvaro, betyg skickas via email till ansvarig lärare. OBS, undvik gärna mail.
 - Frågor kring kursen, uppgifter, examination, schema, ställs i Slack **#1dt308-1dt902-introducerande-projekt**.
 - Information gällande kursen kommer postas på Slack. Det är _viktigt_ att du läser allt som är '*Pinned*'.
 - Reagera till **alla** '*Pinned posts*' på Slack.
 - Ni kan filtrera alla '*Pinned posts*' enligt figur nedan.
 
-![pinned-posts](https://i.imgur.com/tzT1ZIP.png =450x)
+![pinned-posts](images/pinned_slack.png)
 
-![reactions](https://i.imgur.com/ThRu4s1.png =450x)
+![reactions](images/react_slack.png)
 
 ## Kursmål
 
