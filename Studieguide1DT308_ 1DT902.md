@@ -1,12 +1,7 @@
-
----
-
-Date: 2020-11-26
-
 # Studieguide 1DT308 / 1DT902
 
 [Inspelning av denna studieguide](https://youtu.be/)
-{%youtube }
+{youtube }
 
 
 ## Viktiga länkar
