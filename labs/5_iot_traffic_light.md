@@ -3,15 +3,12 @@
 The previous tasks has been a single LoPy4 device on its own without any communication. In this final assignment we connect our LoPy4 to internet over WiFi and push information to an online server. 
 
  * Simple Internet Of Things (IoT) scenario
- * Connect Lopy4 by wifi. 
- * Synchronize with cloud using mqtt
-
-
-
+ * Connect Lopy4 by WiFi. 
+ * Synchronize with cloud using MQTT
 
 ## Rules
 
-This task is going to be conducted in a group of two students. Both students must be active during all steps of the assignment.
+This task is going to be conducted in a group of students. All students must be active during all steps of the assignment.
 
 During the assignment you may discuss the assignment with students outside the group. 
 You may help other groups but you may NOT do all steps for them, or share any code. Note that these rules change between assignments.
@@ -21,15 +18,16 @@ You may help other groups but you may NOT do all steps for them, or share any co
  * mqtt wikipedia https://en.wikipedia.org/wiki/MQTT
  * mqtt pycom https://docs.pycom.io/tutorials/all/mqtt/
  
-
 ## Ingredients
 
 ### Hardware
+
  One LoPy4 unit.
  
 ## Steps
 
 ### Step 1. Simple communication from pycom over WLAN
+
 To be able to communicate to io.adafruit.com we need a WiFi connection. There is very little data sent so easiest is to share network from a smartphone, or use a guest WiFi-network.
 
 Replace WIFI_NETWORK_ID with the sid of your network and YOUR_WIFI_PASSWORD with the passkey in the following code and make sure you can connect to your WIFI before continuing. 
@@ -52,7 +50,6 @@ Go to https://io.adafruit.com/  and sign up for a free account. Make note of you
 
  * ADAFRUIT_USER_NAME
  * YOUR_AIO_KEY
-
 
 Note that you get the following in a free account.
 
@@ -101,7 +98,6 @@ while True:
     client.check_msg()
     time.sleep(3)
 ```
-
 
 ### Step 4. Resilient connections
 

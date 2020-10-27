@@ -4,6 +4,9 @@
 {youtube }
 
 
+## 
+
+
 ## Viktiga länkar
 
 - [Moodle]()
@@ -21,6 +24,14 @@
 - Fråga gärna dina frågor tidigt om något är oklart, vänta inte. Påbörja uppgifter i god tid, annars finns mycket litet utrymme för att hinna hjälpa.
 - **Interagera med studenter och lärare på Slack**. Fråga, och var inte rädd att svara på frågor från andra studenter. Kom ihåg - var trevlig och respektfull. Kursens framgång bygger på er medverkan.
 - Framförallt - försök anamma en positiv inställning och **ha kul.**
+
+## Föreläsningar och laborationer
+
+- Samtliga föreläsningar kommer hållas på distans. Föreläsningarna kommer vara en mix mellan förinspelat material och livestream. Om det är är live så vill vi gärna att du är med live.
+- Föreläsningarna kommer att uppdateras via TimeEdit.
+- Laborationer kommer vara lärarledda och på campus, se schema. 
+- Laboration 
+
 
 ## Mål
 

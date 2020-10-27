@@ -16,10 +16,11 @@
 
 ### Labs
 
-This course consists of six labs. The labs are designed to start as tutorials and progressively introduce new concepts and complexity. 
+This course consists of several labs. The labs are designed to start as tutorials and progressively introduce new concepts and complexity. 
 
- * [1. Getting Started](labs/1%20Getting%20Started.md)
- * [2. Blink External LEDs](labs/2%20Blink%20External%20LEDs.md)
- * [3. Input and Sound](labs/3%20Input%20and%20Sound.md)
- * [4. Traffic Light](labs/4%20Traffic%20Light.md)
- * [5. IOT Traffic Light](labs/5%20IOT%20Traffic%20Light%20.md)
+* [1. Getting Started](labs/1_getting_started.md)
+* [2. Blink External LEDs](labs/2_blink_led.md)
+* [3. Input and Sound](labs/3_input.md)
+* [4. Traffic Light](labs/4_traffic_light.md)
+* [5. IOT Traffic Light](labs/5_iot_traffic_light.md)
+*
