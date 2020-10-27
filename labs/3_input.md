@@ -3,7 +3,8 @@
 In this assignment we are going to work with user-input through a button circuit and also introduce a new form of output (sound). 
 
  * Work with input
- * Work with sound
+ * Work with sound or/and
+ * Work with a sensor
 
 ## Rules
 
@@ -12,6 +13,8 @@ This task is going to be conducted in a group of two students. Both students mus
 During the assignment you may discuss the assignment with students outside the group. You may help other groups but you may NOT do all steps for them, or share any code. Note that these rules change between assignments.
 
 ## Knowledge Components
+
+
  * Buzzers (Svenska: Summer) https://en.wikipedia.org/wiki/Buzzer
     * Buzzer circuit https://www.instructables.com/id/How-to-use-a-Buzzer-Arduino-Tutorial/
     * Creating a PWM object https://docs.pycom.io/firmwareapi/pycom/machine/pwm/
@@ -22,6 +25,18 @@ During the assignment you may discuss the assignment with students outside the g
     * Interrupts https://en.wikipedia.org/wiki/Interrupt
     * Taking a utime.ticks_ms() https://docs.pycom.io/firmwareapi/micropython/utime/
     * Contact Bounce https://www.allaboutcircuits.com/textbook/digital/chpt-4/contact-bounce/
+ 
+* Temperature sensors
+    * Analog input
+        * Thermistor https://learn.adafruit.com/thermistor
+        * NTC Thermistor https://en.wikipedia.org/wiki/Thermistor
+        * Read an analog value Pycom. https://docs.pycom.io/firmwareapi/pycom/machine/adc/
+
+    * Digitial input
+        * DHT sensors https://learn.adafruit.com/dht
+        * 1-Wire. https://en.wikipedia.org/wiki/1-Wire
+        * Pycom Onewire driver: https://docs.pycom.io/tutorials/hardware/owd/
+
  * Code
     * API: Reading time in ms. utime.ticks_ms()
     * event callback functions https://docs.pycom.io/firmwareapi/pycom/machine/pin/
@@ -40,11 +55,11 @@ During the assignment you may discuss the assignment with students outside the g
  * pull-down resistor 1k Ohm (Brown, Black, Red, Gold)
  * Buzzer 
  * Buzzer-resistor 1k Ohm (Brown, Black, Red, Gold) 
+ * Temperature sensor, analog and/or digital
  
 ### Software 
  * Everything from task 2.
  
-
 ## Steps
 
 ### Breadboard circuit
@@ -168,6 +183,20 @@ for i in mario:
 Assign one LED for each tone (multiple tones can be attached to the same LED ) turn on LED's in tune with the music.
 
 
+## Step 4. Read an analog temperature sensor
+
+Read the analog value from the NTC-sensor and present it in time intervals to the console with a `print()`-function. Note, depending on your sensor you might need to do a voltage divider. Read more about NTC thermistors and how to connect a voltage divider here: https://www.electronics-tutorials.ws/io/thermistors.html
+
+Discuss how accurate the reading is and the range of the temperature span that is presented. How many bits do you have for the value, and how does this affect your reading?
+
+
+## Step 5. Read a digital temperature and humidity sensor
+
+Connect a temperature and/or humidity (DHT11 / 22 or a DS18B20) sensor to the device. The sensor communicates with the 1-Wire protocol.
+
+
+
+
 ## Examination
 
 This assignment should be examined by a TA. Prepare for that by checking yourself so that you know the answers to the following questions.
@@ -185,7 +214,6 @@ When completed you should ask a TA to check your setup and ask you the questions
  * If lights blink in tune with music, make extra credit note. 
  
 ### Check Code:
- * The code should follow Flake8 code standard ( however lines may be longer than 79 characters )
  * Code should be DRY ( no unnecessary repeated statements )
  * Code should be divided into methods
  * The song should not be played in the eventhandler-function but started in a separate loop (or thread).
