@@ -192,7 +192,7 @@ Discuss how accurate the reading is and the range of the temperature span that i
 
 ## Step 5. Read a digital temperature and humidity sensor
 
-Connect a temperature and/or humidity (DHT11 / 22 or a DS18B20) sensor to the device. The sensor communicates with the 1-Wire protocol.
+Connect a temperature and/or humidity (DHT11 / 22 or a DS18B20) sensor to the device. The sensor communicates with the 1-Wire protocol, you will need to use a library 
 
 
 
