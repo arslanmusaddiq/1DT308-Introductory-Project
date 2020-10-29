@@ -6,6 +6,8 @@ The previous tasks has been a single LoPy4 device on its own without any communi
  * Connect Lopy4 by WiFi. 
  * Synchronize with cloud using MQTT
 
+**Requirement**: The IoT traffic light should be connected to another light, and they should communicate.
+
 ## Rules
 
 This task is going to be conducted in a group of students. All students must be active during all steps of the assignment.
@@ -28,23 +30,17 @@ You may help other groups but you may NOT do all steps for them, or share any co
 
 ### Step 1. Simple communication from pycom over WLAN
 
-To be able to communicate to io.adafruit.com we need a WiFi connection. There is very little data sent so easiest is to share network from a smartphone, or use a guest WiFi-network.
-
-Replace WIFI_NETWORK_ID with the sid of your network and YOUR_WIFI_PASSWORD with the passkey in the following code and make sure you can connect to your WIFI before continuing. 
-
-```python
-from network import WLAN
-wlan = WLAN(mode=WLAN.STA)
-wlan.connect("WIFI_NETWORK_ID", auth=(WLAN.WPA2, "YOUR_WIFI_PASSWORD"), timeout=5000)
-while not wlan.isconnected():
-    machine.idle()
-print("Connected to WiFi")
-```
+To be able to communicate to io.adafruit.com we need a WiFi connection. There is very little data sent so easiest is to share network from a smartphone, or use a guest WiFi-network. Replace WIFI_NETWORK_ID with the sid of your network and YOUR_WIFI_PASSWORD with the passkey in the following code and make sure you can connect to your WIFI before continuing. 
 
 The above scrips should eventually connect, not very fast to WiFi and show "Connected to WiFi".
 
 
-### Step 2. Get an Adafruit IO account
+### Step 2. Connect to a MQTT server.
+
+Either use the LNU MQTT server provided by the course administrator, or one service online (example Adafruit). 
+
+
+- Adafruit IO account
 
 Go to https://io.adafruit.com/  and sign up for a free account. Make note of your ADAFRUIT_USER_NAME since we need to use it in the following. When logged in, get the YOUR_AIO_KEY from https://io.adafruit.com/, click on "AIO Key"
 
@@ -60,6 +56,7 @@ Note that you get the following in a free account.
 
 When exceeding the data points I seem to get ECONNRESET
 
+
 ### Step 3. subscription and publishing
 
 Now its time to communicate using a mqtt-library to adafruit.io through the WiFi network. First step is just to verify that we got communication going in both directions.
@@ -72,32 +69,6 @@ On https://io.adafruit.com/
 
 Then combine the following code with the WLAN code. Dont forget to change the needed string constants so that it uses your account.
 
-```python
-
-#Before WLAN
-from mqtt import MQTTClient
-import machine
-import time
-
-#After WLAN connection
-def sub_cb(topic, msg):
-   print(msg)
-   
-client = MQTTClient("device_id", "io.adafruit.com",user="ADAFRUIT_USER_NAME", password="YOUR_AIO_KEY", port=1883)
-
-client.set_callback(sub_cb)
-client.connect()
-client.subscribe(topic="ADAFRUIT_USER_NAME/feeds/myfeed")
-
-while True:
-    print("Sending ON")
-    client.publish(topic="ADAFRUIT_USER_NAME/feeds/myfeed", msg="ON")
-    time.sleep(3)
-    print("Sending OFF")
-    client.publish(topic="ADAFRUIT_USER_NAME/feeds/myfeed", msg="OFF")
-    client.check_msg()
-    time.sleep(3)
-```
 
 ### Step 4. Resilient connections
 
