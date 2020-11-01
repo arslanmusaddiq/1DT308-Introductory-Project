@@ -1,19 +1,20 @@
 # The IoT Traffic Light
 
-The previous tasks has been a single LoPy4 device on its own without any communication. In this final assignment we connect our LoPy4 to internet over WiFi and push information to an online server. 
+The previous tasks has been a single LoPy4 device on its own without any communication. In this final lab we connect our LoPy4 to internet over WiFi and push information to an online server. 
 
  * Simple Internet Of Things (IoT) scenario
- * Connect Lopy4 by WiFi. 
+ * Connect Lopy4 by WiFi
  * Synchronize with cloud using MQTT
 
 **Requirement**: The IoT traffic light should be connected to another light, and they should communicate.
+
+That means that your two light should communicate over the network, if one light is green the other should react accordingly. 
 
 ## Rules
 
 This task is going to be conducted in a group of students. All students must be active during all steps of the assignment.
 
-During the assignment you may discuss the assignment with students outside the group. 
-You may help other groups but you may NOT do all steps for them, or share any code. Note that these rules change between assignments.
+During the assignment you may discuss the assignment with students outside the group. You may help other groups but you may NOT do all steps for them, or share any code. Note that these rules change between assignments.
 
 ## Knowledge Components
 
@@ -24,7 +25,9 @@ You may help other groups but you may NOT do all steps for them, or share any co
 
 ### Hardware
 
- One LoPy4 unit.
+- One LoPy4 + expansion board
+- LED's, resistors etc.
+
  
 ## Steps
 
@@ -39,8 +42,7 @@ The above scrips should eventually connect, not very fast to WiFi and show "Conn
 
 Either use the LNU MQTT server provided by the course administrator, or one service online (example Adafruit). 
 
-
-- Adafruit IO account
+### Adafruit IO account
 
 Go to https://io.adafruit.com/  and sign up for a free account. Make note of your ADAFRUIT_USER_NAME since we need to use it in the following. When logged in, get the YOUR_AIO_KEY from https://io.adafruit.com/, click on "AIO Key"
 
@@ -72,7 +74,7 @@ Then combine the following code with the WLAN code. Dont forget to change the ne
 
 ### Step 4. Resilient connections
 
-> Daniel: The mqtt connection to Adafruit IO has been very unstable for me. Therefore I suggest writing your code so that it can reset connections in case of errors. Thus we want to be able to be disconnected from both WIFI and Adafruit IO and automatically reconnect again.
+We suggest writing your code so that it can reset connections in case of errors. Thus we want to be able to be disconnected from both WIFI and Adafruit IO and automatically reconnect again.
 
 To accomplish this I suggest writing most of your code inside a while-True loop and have a branching statement (if-elif-else) that directs the application to different actions. 
 
@@ -92,6 +94,7 @@ Repeat Forever
 ```
 
 In many cases something can go wrong, thus you need to add one or more try-except statements. In my case I only had one try-except that catches OSError inside the loop statement
+
 
 ```python
 while True:

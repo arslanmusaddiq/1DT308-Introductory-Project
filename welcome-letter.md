@@ -19,7 +19,9 @@ OBS. Vi kommer att sända föreläsningar online, och de flesta föreläsningarn
 
 
 Med vänliga hälsningar,
+
 Fredrik, Morgan och Jonas
+
 
 
 
