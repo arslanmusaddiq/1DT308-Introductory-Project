@@ -3,7 +3,7 @@
 In this assignment we are going to work with user-input through a button circuit and also introduce a new form of output (sound). 
 
  * Work with input
- * Work with sound or/and
+ * Work with sound
  * Work with a sensor
 
 ## Rules
@@ -55,7 +55,9 @@ During the assignment you may discuss the assignment with students outside the g
  * pull-down resistor 1k Ohm (Brown, Black, Red, Gold)
  * Buzzer 
  * Buzzer-resistor 1k Ohm (Brown, Black, Red, Gold) 
- * Temperature sensor, analog and/or digital
+ * Temperature sensor
+    - analog NTC or...
+    - digital DHT-11 / 22
  
 ### Software 
  * Everything from task 2.
@@ -192,21 +194,21 @@ Discuss how accurate the reading is and the range of the temperature span that i
 
 ## Step 5. Read a digital temperature and humidity sensor
 
-Connect a temperature and/or humidity (DHT11 / 22 or a DS18B20) sensor to the device. The sensor communicates with the 1-Wire protocol, you will need to use a library 
-
-
-
+Connect a temperature and/or humidity (DHT11 / 22 or a DS18B20) sensor to the device. The sensor communicates with the 1-Wire protocol, you will need to use a library.
 
 ## Examination
 
-This assignment should be examined by a TA. Prepare for that by checking yourself so that you know the answers to the following questions.
+This assignment should be examined by a teacher/TA. 
+
+Prepare for that by checking yourself so that you know the answers to the following questions.
+
  * What is the difference between a pull-up and a pull-down button circuit?
  * What is contact bounceing and why would we be bothered?
  * What is a microcontroller interrupt?
  * Why should we keep the code in event-callbacks to a minimum?
  * How can the song continue while the event-callback prints out key-presses?
 
-When completed you should ask a TA to check your setup and ask you the questions above.
+When completed you should ask a teacher/TA to check your setup and ask you the questions above.
 
 ### Test setup:
  * The time for key-presses should be printed as the example in Step 2. 
@@ -214,7 +216,7 @@ When completed you should ask a TA to check your setup and ask you the questions
  * If lights blink in tune with music, make extra credit note. 
  
 ### Check Code:
- * Code should be DRY ( no unnecessary repeated statements )
+ * Code should be DRY (no unnecessary repeated statements )
  * Code should be divided into methods
  * The song should not be played in the eventhandler-function but started in a separate loop (or thread).
  

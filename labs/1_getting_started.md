@@ -9,17 +9,15 @@ https://docs.pycom.io/gettingstarted/
 
 ## Introduction
 
-This assignment is all about getting to know the Atom or VSCode development environment and to be able to run code on the pycom LoPy4 boards.
+This assignment is all about getting to know the Atom  development environment and to be able to run code on the pycom LoPy4 boards.
 
- * Install Atom / VSCode and PyMakr plugin
+ * Install Atom and PyMakr plugin
  * Connect LoPy4 to a computer
  * Connect to board in Atom and run code in console (on the hardware)
  * Upload files and run code on the microcontroller
 
 ## Rules
-This task is going to be conducted in a group of students. All students must be active during all steps of the assignment.
-
-During the assignment you may discuss the assignment with students outside the group. You may help other groups but you may NOT do all steps for them. Note that these rules change between assignments.
+This task is going to be conducted individually.
 
 ## Ingredients
 
@@ -131,4 +129,4 @@ When you have completed this assignment you are expected to know:
  * How to upload and run code in files using PyMakr
  * How to blink the built in LED
 
-This task is examined using self-examination. Make sure all students in your group understands every step before you proceed.
+This task is examined using self-examination. Make sure you understand every step before you proceed.

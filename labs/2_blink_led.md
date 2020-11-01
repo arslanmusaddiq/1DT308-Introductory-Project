@@ -10,9 +10,7 @@ In this assignment we connect basic circuits with LED's on a breadbord and write
 
 ## Rules
 
-This task is going to be conducted in a group of two students. Both students must be active during all steps of the assignment.
-
-During the assignment you may discuss the assignment with students outside the group. You may help other groups but you may NOT do all steps for them. Note that these rules change between assignments.
+This task is going to be conducted individually.
 
 ## Ingredients
 
@@ -22,7 +20,7 @@ During the assignment you may discuss the assignment with students outside the g
  * 1 Red LED
  * 1 Yellow LED
  * 1 Green LED
- * 3 Resistors 560 Ohm (Green, Blue, Brown, Gold) or higher
+ * 3 Resistors \~400 Ohm (Green, Blue, Brown, Gold) or higher
  
 ### Software 
  * Everything from task 1.
@@ -63,7 +61,7 @@ Summary of connections. "<-->" means a cable or connection
 
 
 ### Step. Driving LED with GPIO  
-IMPORTANT: We are going to connect external LED's to the microcontroller. The LoPy4 microcontroller provides "General Purpose Input Output"-ports also called GPIO-ports that can be used to communicate with external components. The ports are a bit sensitive and should not be used to directly drive heavy loads (like a motor). The Datasheet for LOPY4 says "Absolute MAX per pin 12mA, recommended 6mA" which means we must reduce current by using resistors. If more current is needed, additional components (eg. transistors, or drivers) can be used. Thankfully this assignment does not require high current and we can reduce the current flow by having a 560 Ohm resistor in series with each LED we connect.
+IMPORTANT: We are going to connect external LED's to the microcontroller. The LoPy4 microcontroller provides "General Purpose Input Output"-ports also called GPIO-ports that can be used to communicate with external components. The ports are a bit sensitive and should not be used to directly drive heavy loads (like a motor). The Datasheet for LOPY4 says "Absolute MAX per pin 12mA, recommended 6mA" which means we must reduce current by using resistors. If more current is needed, additional components (eg. transistors, or drivers) can be used. Thankfully this assignment does not require high current and we can reduce the current flow by having a resistor in series with each LED we connect.
 
  * Disconnect the USB cable again
  * For each of the LED's, remove the wire going from the red power rail to the anode (but keep the GND cable and resistor).
