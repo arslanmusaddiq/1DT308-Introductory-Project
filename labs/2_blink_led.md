@@ -1,7 +1,7 @@
-# Blink External LED's
+# Blink External LEDs
 
 ## Introduction
-In this assignment we connect basic circuits with LED's on a breadbord and write python code that turns these on and off. 
+In this assignment, we connect basic circuits with LED's on a breadbord and write python code that turns these on and off.
 
  * Get LED-lights to blink.
  * Work with GPIO ports.
@@ -15,24 +15,24 @@ This task is going to be conducted individually.
 ## Ingredients
 
 ### Hardware
- * Everything from task 1.
- * breadboard
+ * Everything from Task 1.
+ * 1 breadboard
  * 1 Red LED
  * 1 Yellow LED
  * 1 Green LED
  * 3 Resistors \~400 Ohm (Green, Blue, Brown, Gold) or higher
  
 ### Software 
- * Everything from task 1.
+ * Everything from Task 1.
  * Atom with pymakr plugin
 
 ### Knowledge components
  * Breadboards (kopplingsdäck) https://learn.sparkfun.com/tutorials/how-to-use-a-breadboard/all
  * Basic LED circuit https://en.wikipedia.org/wiki/LED_circuit
-  * Light Emitting Diode's (LED's) https://en.wikipedia.org/wiki/Light-emitting_diode
+  * Light Emitting Diodes (LEDs) https://en.wikipedia.org/wiki/Light-emitting_diode
   * Resistors (motstånd) https://en.wikipedia.org/wiki/Resistor
  * Microcontroller GPIO https://en.wikipedia.org/wiki/General-purpose_input/output
-  * LOPY4 Datasheet https://docs.pycom.io/gitbook/assets/specsheets/Pycom_002_Specsheets_LoPy4_v2.pdf 
+  * LoPy4 Datasheet https://docs.pycom.io/gitbook/assets/specsheets/Pycom_002_Specsheets_LoPy4_v2.pdf 
   * Make a GPIO port an output https://docs.pycom.io/firmwareapi/pycom/machine/pin/
   * Turn GPIO output on and off. ```python pin.value([value]) ```
  * Make the thread sleep for a second  ```python  time.sleep(seconds) ```
@@ -44,16 +44,16 @@ This task is going to be conducted individually.
 
 ### Step. Connect Three LED circuits
 We are going to connect three LED circuits on the breadboard and power these from the GND(-) and 3V3(+) connections on the LoPy4 board. See breadboard tutorial if needed.
-WARNING! When changing components on the breadboard, always have the USB disconnected!
+**WARNING! When changing components on the breadboard, always have the USB disconnected!**
 
  * Disconnect the USB cable. 
- * Connect the GND on LOPY4 to the black power rail(BPR) on the breadboard. Also connect 3V3 to the red power rail(RPR). 
+ * Connect the GND on LOPY4 to the black/blue power rail(BPR) on the breadboard. Also connect 3V3 to the red power rail(RPR). 
  * Connect the three LED circuits as in this video https://www.youtube.com/watch?v=yQ2-yVXFMeE but use the power rails as + and - of the battery and use a 560 Ohm resistor. 
  * Make sure each LED lights up when you connect the USB-cable. 
  
 #### Connections 
 Summary of connections. "<-->" means a cable or connection
- * LOPY4 GND <--> Black Power Rail (BPR)
+ * LOPY4 GND <--> Black/Blue Power Rail (BPR)
  * LOPY4 3V3 <--> Red Power Rail (RPR)
  * RPR(3V3) <--> [ Anode - LED - Cathode ] <--> [ 560 Ohm resistor ] <--> BPR(GND)
  
@@ -64,16 +64,16 @@ Summary of connections. "<-->" means a cable or connection
 IMPORTANT: We are going to connect external LED's to the microcontroller. The LoPy4 microcontroller provides "General Purpose Input Output"-ports also called GPIO-ports that can be used to communicate with external components. The ports are a bit sensitive and should not be used to directly drive heavy loads (like a motor). The Datasheet for LOPY4 says "Absolute MAX per pin 12mA, recommended 6mA" which means we must reduce current by using resistors. If more current is needed, additional components (eg. transistors, or drivers) can be used. Thankfully this assignment does not require high current and we can reduce the current flow by having a resistor in series with each LED we connect.
 
  * Disconnect the USB cable again
- * For each of the LED's, remove the wire going from the red power rail to the anode (but keep the GND cable and resistor).
+ * For each of the LEDs, remove the wire going from the red power rail to the anode (but keep the GND cable and resistor).
  * Introduce new cables going from the P8-10 port on the LoPy4 to the LED anodes as in connections below.
  
  #### Connections 
- * LOPY4 GND <--> Black Power Rail (BPR)
- * LOPY4 P8 <--> [ Anode - Red LED - Cathode ] <--> [ 560 Ohm resistor ] <--> BPR(GND)
- * LOPY4 P9 <--> [ Anode - Yellow LED - Cathode ] <--> [ 560 Ohm resistor ] <--> BPR(GND)
- * LOPY4 P10 <--> [ Anode - Green LED - Cathode ] <--> [ 560 Ohm resistor ] <--> BPR(GND)
+ * LoPy4 GND <--> Black Power Rail (BPR)
+ * LoPy4 P8 <--> [ Anode - Red LED - Cathode ] <--> [ 560 Ohm resistor ] <--> BPR(GND)
+ * LoPy4 P9 <--> [ Anode - Yellow LED - Cathode ] <--> [ 560 Ohm resistor ] <--> BPR(GND)
+ * LoPy4 P10 <--> [ Anode - Green LED - Cathode ] <--> [ 560 Ohm resistor ] <--> BPR(GND)
  
- When done, connect USB again and upload the following code in the main.py file.
+ When done! connect USB again and upload the following code in the main.py file.
 
 ```python
 import time
@@ -86,27 +86,27 @@ redLED.value(0) # Send a 0 to the GPIO to turn the LED off
 
 #### Expected output
 
-The Red LED should light up after the LOPY4 has booted, should stay lit for one second, and turn off. The behaviour is repeated if the board is resetted by pressing the reset button on the LoPy4 board (next to the RGB-LED on the side of the microUSB.
+The Red LED should be ON after the LOPY4 has booted, should stay ON one second, and turn off. The behaviour is repeated if the board is reset by pressing the reset button on the LoPy4 board (next to the RGB-LED on the side of the micro-USB.
 
 ### Driving multiple LED's with GPIO
 
 Now adjust the code so that all three LED's blink like this:
- * RED lights up for 1 s. Other LEDs are unlit.
- * GREEN lights up for 1 s. Other LEDs are unlit.
- * YELLOW lights up for 1 s. Other LEDs are unlit.
+ * RED lights up for 1 second. Other LEDs are unlit.
+ * GREEN lights up for 1 second. Other LEDs are unlit.
+ * YELLOW lights up for 1 second. Other LEDs are unlit.
  * Repeat forever with RED again
 
 #### Expected output
 [![](http://img.youtube.com/vi/Wtd8pp-DW3w/0.jpg)](http://www.youtube.com/watch?v=Wtd8pp-DW3w "")
 
 ## Examination
-This task can be self-examined. When the LED's blink in the expected sequence you are done with the programming task.
+This task is self-examined. When the LEDs blink in the expected sequence you are done with the programming task.
 
 Check yourself so that you know the answers to the following questions.
- * Which leg of the LED is longer, the cathode or the anode?
+ * Which leg (pin) of the LED is longer, the cathode or the anode?
  * Why do we need a resistor?
- * How can we make the LED's blink faster?
- * Where can you find information about the different hardware limits in the LOPY4 board?
- * What are the components of a basic LED-circuit and how do we connect them in order for the LED to light up?
+ * How can we make the LEDs blink faster?
+ * Where can you find information about the different hardware limits in the LoPy4 board?
+ * What are the components of a basic LED-circuit and how do we connect them in order for the LED to be ON?
 
 
