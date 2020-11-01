@@ -27,7 +27,6 @@
 - Samtliga föreläsningar kommer hållas på distans. Föreläsningarna kommer vara en mix mellan förinspelat material och livestream via Youtube och Zoom. Om det är är live så vill vi gärna att du är med live.
 	- OBS. Frågor på föreläsningar sker i **Slack**.
 - Föreläsningarna kommer att uppdateras via TimeEdit.
-
 - Laborationer kommer vara lärarledda och på campus, se schema.
 - Laborationer har ej obligatoriskt närvarokrav, däremot är redovisningen av lab 4 och 5 examinerande.
 
@@ -45,22 +44,22 @@ Kursen har två spår.
 - Det första spåret presenterar en enkel enchipsdator och hur man kan skriva program som interagerar med externa enheter såsom sensorer och nätverkskopplade enheter. 
 - Inom det andra spåret introduceras hur man arbetar i projekt och grupp, samt yrkesrollen ingenjör.
 
-[Kursplan 1DT308](https://kursplan.lnu.se/kursplaner/kursplan-1DT308-1.pdf)
+[Kursplan 1DT308](https://kursplan.lnu.se/kursplaner/kursplan-1DT308-1.pdf) [Kursplan 1DT902](https://kursplan.lnu.se/kursplaner/kursplan-1DT902-1.pdf)
 
-**Kunskap och förståelse**
+
+**Kunskap och förståelse**:
 A.1 förklara hur systemkrav tas fram, specificeras och testas,
 A.2 översiktligt redogöra för vad projektledning och kvalitetsarbete innebär i praktiken, samt
 A.3 redogöra för mjukvaruindustrins olika sektorer och olika arbetsuppgifter.
 
-**Färdighet och förmåga**
+**Färdighet och förmåga**:
 B.1 utveckla program för en enchipsdator (microcontroller) med externa enheter, såsom sensorer, och nätverkskoppling,
 B.2 analysera ett problem, skapa en kravspecifikation, designa och implementera lösningar, och verifiera att lösningen uppfyller alla krav,
 B.3 använda vanliga tekniska projektverktyg (såsom versionshantering med Git), l B.4 självständigt söka efter och värdera information om hårdvara och hur man löser programmeringsproblem,
 B.5 strukturera och genomföra en skriftlig och muntlig presentation av genomfört projekt, samt
 B.6 genomföra ett projekt i grupp under begränsad tid och där tillämpa en arbetsform som presenterats i kursen.
 
-**Värderingsförmåga och förhållningssätt**
-
+**Värderingsförmåga och förhållningssätt**:
 C.1 reflektera över och värdera en given ansats att lösa ett problem,
 C.2 reflektera över relationen mellan ämneskunskap, ingenjörsfärdigheter och yrkesrollen ingenjör, samt
 C.3 reflektera över och värdera sin egen kontra gruppens insats vid laborations­ och projektarbete.
