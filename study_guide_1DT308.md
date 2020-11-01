@@ -44,7 +44,7 @@ Kursen har två spår.
 - Det första spåret presenterar en enkel enchipsdator och hur man kan skriva program som interagerar med externa enheter såsom sensorer och nätverkskopplade enheter. 
 - Inom det andra spåret introduceras hur man arbetar i projekt och grupp, samt yrkesrollen ingenjör.
 
-[Kursplan 1DT308](https://kursplan.lnu.se/kursplaner/kursplan-1DT308-1.pdf) [Kursplan 1DT902](https://kursplan.lnu.se/kursplaner/kursplan-1DT902-1.pdf)
+[Kursplan 1DT308](https://kursplan.lnu.se/kursplaner/kursplan-1DT308-1.pdf), [Kursplan 1DT902](https://kursplan.lnu.se/kursplaner/kursplan-1DT902-1.pdf)
 
 
 **Kunskap och förståelse**:
