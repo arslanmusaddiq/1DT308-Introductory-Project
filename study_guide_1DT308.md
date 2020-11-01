@@ -1,23 +1,17 @@
 # Studieguide 1DT308 / 1DT902
 
-
-
-[Inspelning av denna studieguide](https://youtu.be/)
-{youtube }
-
-## 
+[Inspelning av denna kursintroduktion](https://www.youtube.com/watch?v=vHUfvAV33SQ)
 
 
 ## Viktiga länkar
 
-- [Moodle]()
-- [IoT tutorial template](https://hackmd.io/@lnu-iot/iot-tutorial)
-- [Planning](https://hackmd.io/@lnu-iot/planning)
+- [Moodle](https://mymoodle.lnu.se/course/view.php?id=49031)
+- [Planning](planning.md)
 - [Kursplan 1DT308](https://kursplan.lnu.se/kursplaner/kursplan-1DT308-1.pdf)
 - [Kursplan 1DT902](https://kursplan.lnu.se/kursplaner/kursplan-1DT902-1.pdf)
 - [Gitlab](https://gitlab.lnu.se)
 - [Slack kanal](coursepress.lnu.se) **#1dt308-1dt902-introducerande-projekt**
-
+- [Project template](project-template.md)
 
 
 ## Förväntningar
@@ -28,23 +22,21 @@
 - **Interagera med studenter och lärare på Slack**. Fråga, och var inte rädd att svara på frågor från andra studenter. Kom ihåg - var trevlig och respektfull. Kursens framgång bygger på er medverkan.
 - Framförallt - försök anamma en positiv inställning och **ha kul.**
 
-
-
 ## Föreläsningar och laborationer
 
-- Samtliga föreläsningar kommer hållas på distans. Föreläsningarna kommer vara en mix mellan förinspelat material och livestream. Om det är är live så vill vi gärna att du är med live.
+- Samtliga föreläsningar kommer hållas på distans. Föreläsningarna kommer vara en mix mellan förinspelat material och livestream via Youtube och Zoom. Om det är är live så vill vi gärna att du är med live.
+	- OBS. Frågor på föreläsningar sker i **Slack**.
 - Föreläsningarna kommer att uppdateras via TimeEdit.
-- Laborationer kommer vara lärarledda och på campus, se schema. 
 
+- Laborationer kommer vara lärarledda och på campus, se schema.
+- Laborationer har ej obligatoriskt närvarokrav, däremot är redovisningen av lab 4 och 5 examinerande.
 
 
 ## Deltagande
 
 Under de inledande veckorna (lab 1-5) skall endast lab 4 och 5 redovisas för lärare. Själva laborationerna görs på egen hand, men måste lab 4 måste checkas av (individuellt) av lärare/labassistent innan deadline. Lab 5 presenteras i grupp.
 
-Under sista halvan av kursen kommer ni jobba i ert IoT-projekt. Kravet på deltagande från er är att ni måste boka ett avstämningsmöte varje vecka med lärare/labassistent.
-
-
+Under sista halvan av kursen kommer ni jobba i ert IoT-projekt. Kravet på deltagande från er är att ni **måste boka ett avstämningsmöte varje vecka** med lärare/labassistent.
 
 ## Kursmål
 
@@ -54,7 +46,6 @@ Kursen har två spår.
 - Inom det andra spåret introduceras hur man arbetar i projekt och grupp, samt yrkesrollen ingenjör.
 
 [Kursplan 1DT308](https://kursplan.lnu.se/kursplaner/kursplan-1DT308-1.pdf)
-
 
 **Kunskap och förståelse**
 A.1 förklara hur systemkrav tas fram, specificeras och testas,
@@ -103,22 +94,21 @@ C.3 reflektera över och värdera sin egen kontra gruppens insats vid laboration
 
 ![reactions](images/react_slack.png)
 
-
 ## Deadlines
 
 Kursen börjar **måndagen den 2:e november 2020** och slutar **fredagen den 15:e januari 2021**.
 
-- Torsdag 12:e november. Lab 4 presenteras för lärare. U/G
-- Torsdag 24: november. Lab 5 presenteras i grupp. U/G
-- Onsdag 16:e december. Inlämning rapport, ingenjörens roll. U/G
-- Torsdag 14:e januari. Projektredovisningar i grupp. A-F
-- Fredag 15: januari. Deadline för projektrapport. A-F
+- **Torsdag 12:e november**: Lab 4 presenteras, individuellt. U/G
+- **Torsdag 24: november**: Lab 5 presenteras i grupp. U/G
+- **Måndag 30:e november**: Inlämning av projektplan.
+- **Onsdag 16:e december**: Inlämning rapport, ingenjörens roll. U/G
+- **Torsdag 14:e januari**: Projektredovisningar i grupp. A-F
+- **Fredag 15: januari**: Deadline för projektrapport. A-F
 
 Samtliga moment ska vara genomförda innan kursens slut för ett betyg.
 
 
 ## Examination
-
 
 | Benämning | Betygsskala | Poäng |
 | --- | --- | --- |
@@ -127,33 +117,22 @@ Samtliga moment ska vara genomförda innan kursens slut för ett betyg.
 | Presentation | A-F | 0.5 |
 | Uppgifter om yrkesrollen ingenjör | U/G | 1 |
 
-- Projektarbetet, en [**Rapport template MÅSTE UPPDATERAS**](template.md) som beskriver ditt projekt.
+- [Projektarbetet](project-template.md) görs i rapportform, och läggs upp i en `README.md` i ert GitLab repository.
 
 ---
 
-
-
-
-| Grade | Complexity level | Presentation | Participation in group |
-|:-----:|:----:|:----:|:-------------:|:----:|:--------------:|:----------:|:--------------------:|
-|   A   |     | 100% |       x       |  x   |      3        |     x      |         very high            |
-|   B   |  x   |  90% |       x       |  x   |      2        |     x      |          high           |
-|   C   |  x   |      |               |  x   |      1        |            |         moderate            |
-|   D   |  x   |      |               |  x   |       1        |            |         moderate            |
-|   E   |  x   |      |               |  x   |       1        |            |       low            |
-|   Fx  | part |      |               | part |       1        |            |       low            |
-|   F   |      |      |               |      |                |            |                      |
-
 **OBS! Om ni önskar ett högre betyg än C** måste ni presentera och diskutera ert projekt med lärare, samt anmäla intresse för högre betyg.
-
-Profilprojekt (dvs med högre betyg A och B) kommer att sammanställas och presenteras som [goda exempel. Ni hittar en mall och instruktioner för slutrapporten på denna sida:
-
-
-[Slutrapport MÅSTE UPPDATERAS]()
-
 
 ## Planering
 
 Kursen är tio veckor lång, varav de fyra första veckorna innehåller mer grundläggande föreläsningar och laborationer för att komma igång med hårvara. 
 
-Vi kommer att publicera alla öppna inspelningar på vår [Youtube .. update here](), följ gärna den.
+### Öppna videos:
+
+- Samtliga föreläsningar kommer annonseras på Slack.
+- Vi kommer att publicera alla öppna inspelningar via [Computer Science Play 5](https://www.youtube.com/channel/UCrIAERCddbByuZ8cP76qJoQ/live), följ gärna den.
+- Videos kommer att läggas in på följande spellista [1dt308-1dt902-introducerande-projekt](https://www.youtube.com/playlist?list=PL70wNv4dBdJzS599hgky6oMcVWWjKcLnW)
+
+### Ej öppna föreläsningar
+
+- Eventuella föreläsningar som ej kommer spelas in öppet kommer att publiceras i Slack samt på MyMoodle. 
