@@ -50,7 +50,7 @@ During the assignment you may discuss the assignment with students outside the g
 ## Ingredients
 
 ### Hardware
- * Everything from task 2. (3 LED with resistors)
+ * Everything from Task 2. (3 LED with resistors)
  * Button 
  * pull-down resistor 1k Ohm (Brown, Black, Red, Gold)
  * Buzzer 
@@ -60,29 +60,29 @@ During the assignment you may discuss the assignment with students outside the g
     - digital DHT-11 / 22
  
 ### Software 
- * Everything from task 2.
+ * Everything from Task 2.
  
 ## Steps
 
 ### Breadboard circuit
 Connect the breadboard power-rails to GND and 3V3.
 
- * LOPY4 GND <--> Black Power Rail (BPR)
- * LOPY4 3V3 <--> Red Power Rail (RPR)
+ * LoPy4 GND <--> Black/Blue Power Rail (BPR)
+ * LoPy4 3V3 <--> Red Power Rail (RPR)
  
 ### The buzzer circuit
-The buzzer is driven directly from the LOPY4 port but using a current reducing resistor. For higher volume it is adviceable to use a driver circuit.
+The buzzer is driven directly from the LoPy4 port but using a current reducing resistor. For higher volume it is adviceable to use a driver circuit.
 
 Place the buzzer with one leg on each side of the breadboard ravine. Connect one side to the microcontroller port and the other through a resistor to GND. 
 
- * LOPY4 P6 <--> Buzzer <--> 1k Ohm resistor <--> BPR(GND)
+ * LoPy4 P6 <--> Buzzer <--> 1k Ohm resistor <--> BPR(GND)
  
 ### The button circuit
 The button has two sides with two legs each (We call them A and B) that are connected when the button is pressed. The button is placed over the breadboard ravine. We connect the A-side to the input port of the microcontroller. We also connect the A side through a 1k Ohm resistor to GND, this pulls the input port voltage down to GND. GND counts as a LOW (or 0) when we read the input of the port through our code. The resistor is called a "pull-down resistor". We connect the B side of the button to 3v3. 
 
-When the button is pressed the A and B-sides become connected the input becomes a HIGH (or 1) since we measure on the side now directly connected to 3v3. Please note that a current now runs through the 1kOhm connector. 
+When the button is pressed the A and B-sides become connected the input becomes a HIGH (or 1) since we measure on the side now directly connected to 3v3. Please note that a current now runs through the 1k Ohm connector. 
 
-  * LOPY4 P11 <--> Button side A <--> 1k Ohm resistor <--> BPR(GND)
+  * LoPy4 P11 <--> Button side A <--> 1k Ohm resistor <--> BPR(GND)
   * Button side B <--> RPR(3v3)
   
 ![Pull down button circuit](/images/pull-down-button.jpg)
@@ -107,6 +107,7 @@ buttonPin.callback(Pin.IRQ_FALLING, buttonEventCallback)
 ```
 
 Press the button a couple of times. Note that not all presses results in a single event being launched. Due to *contact bounces* we might end up with multiple button-presses even if the button was only pressed once.
+
 Contact bounces are explained here: https://www.allaboutcircuits.com/textbook/digital/chpt-4/contact-bounce/
 
 Rewrite the code so that at most one button press can happen each second. 
@@ -180,7 +181,7 @@ for i in mario:
     time.sleep(0.15)
 ```
 
-## Step 3. Blinky lights to tune. (Optional for extra credit/fun)
+## Step 3. Blink lights to tune. (Optional for extra credit/fun)
 
 Assign one LED for each tone (multiple tones can be attached to the same LED ) turn on LED's in tune with the music.
 
@@ -194,21 +195,21 @@ Discuss how accurate the reading is and the range of the temperature span that i
 
 ## Step 5. Read a digital temperature and humidity sensor
 
-Connect a temperature and/or humidity (DHT11 / 22 or a DS18B20) sensor to the device. The sensor communicates with the 1-Wire protocol, you will need to use a library.
+Connect a temperature and/or humidity (DHT11 / 22 or a DS18B20) sensor to the device. The sensor communicates using the 1-Wire protocol, you will need to use a library.
 
 ## Examination
 
 This assignment should be examined by a teacher/TA. 
 
-Prepare for that by checking yourself so that you know the answers to the following questions.
+Prepare for that by checking yourself so that you know the answers to the following questions:
 
  * What is the difference between a pull-up and a pull-down button circuit?
- * What is contact bounceing and why would we be bothered?
+ * What is contact bouncing and why would we be bothered?
  * What is a microcontroller interrupt?
  * Why should we keep the code in event-callbacks to a minimum?
  * How can the song continue while the event-callback prints out key-presses?
 
-When completed you should ask a teacher/TA to check your setup and ask you the questions above.
+When completed you should ask a teacher/TA to check your setup and verify the questions above yourself.
 
 ### Test setup:
  * The time for key-presses should be printed as the example in Step 2. 
@@ -218,7 +219,7 @@ When completed you should ask a teacher/TA to check your setup and ask you the q
 ### Check Code:
  * Code should be DRY (no unnecessary repeated statements )
  * Code should be divided into methods
- * The song should not be played in the eventhandler-function but started in a separate loop (or thread).
+ * The song should not be played in the eventhandler function but started in a separate loop (or thread).
  
 ### Check knowledge: 
  * Ask the group members individually two questions each of the above questions.
