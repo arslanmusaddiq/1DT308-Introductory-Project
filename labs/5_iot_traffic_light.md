@@ -1,49 +1,52 @@
 # The IoT Traffic Light
 
-The previous tasks has been a single LoPy4 device on its own without any communication. In this final lab we connect our LoPy4 to internet over WiFi and push information to an online server. 
+The previous tasks has been a single LoPy4 device (on its own) without any communication. In this final lab, we connect our LoPy4 to the Internet over the WiFi and push information to an online server.
 
  * Simple Internet Of Things (IoT) scenario
- * Connect Lopy4 by WiFi
- * Synchronize with cloud using MQTT
+ * Connect LoPy4 on WiFi https://docs.pycom.io/tutorials/networkprotocols/wifisniffer/
+ * Synchronize with the Cloud using MQTT
 
 **Requirement**: The IoT traffic light should be connected to another light, and they should communicate.
 
-That means that your two light should communicate over the network, if one light is green the other should react accordingly. 
+This means that your two lights should communicate over the network, if one light is green the other should react accordingly.
 
 ## Rules
 
-This task is going to be conducted in a group of students. All students must be active during all steps of the assignment.
+This task is going to be conducted in a group of TWO students. The group can be same as in Lab 3 and Lab 4. All students must be active during all steps of the assignment.
 
 During the assignment you may discuss the assignment with students outside the group. You may help other groups but you may NOT do all steps for them, or share any code. Note that these rules change between assignments.
 
 ## Knowledge Components
 
- * mqtt wikipedia https://en.wikipedia.org/wiki/MQTT
- * mqtt pycom https://docs.pycom.io/tutorials/all/mqtt/
+ * MQTT wikipedia https://en.wikipedia.org/wiki/MQTT
+ * MQTT pycom https://docs.pycom.io/tutorials/networkprotocols/mqtt/
  
 ## Ingredients
 
 ### Hardware
 
-- One LoPy4 + expansion board
-- LED's, resistors etc.
+- One LoPy4 + Pycom Expansion board
+- LEDs, resistors etc.
 
  
 ## Steps
 
-### Step 1. Simple communication from pycom over WLAN
+### Step 1. Simple communication from Pycom over WiFi
 
-To be able to communicate to io.adafruit.com we need a WiFi connection. There is very little data sent so easiest is to share network from a smartphone, or use a guest WiFi-network. Replace WIFI_NETWORK_ID with the sid of your network and YOUR_WIFI_PASSWORD with the passkey in the following code and make sure you can connect to your WIFI before continuing. 
-
-The above scrips should eventually connect, not very fast to WiFi and show "Connected to WiFi".
+To be able to communicate to io.adafruit.com we need a WiFi connection. The amount of data sent is very little; thus, easiest is to share network from a smartphone, or use a guest WiFi-network. Replace WIFI_NETWORK_ID with the sid of your network and YOUR_WIFI_PASSWORD with the passkey in the  code and make sure you can connect to your WIFI before continuing. Link https://docs.pycom.io/tutorials/networkprotocols/wifisniffer/
+The script should eventually connect to WiFi and show "Connected to WiFi".
 
 ### Step 2. Connect to a MQTT server.
 
+<<<<<<< HEAD
 Either use the LNU MQTT server provided by the teacher, or a service online (example Adafruit). 
+=======
+Either use the LNU MQTT server provided by the course administrator, or one service online (e.g., Adafruit).
+>>>>>>> 0dd46641f41610b60dee141ed0c3b8f08317db62
 
 ### Adafruit IO account
 
-Go to https://io.adafruit.com/  and sign up for a free account. Make note of your ADAFRUIT_USER_NAME since we need to use it in the following. When logged in, get the YOUR_AIO_KEY from https://io.adafruit.com/, click on "AIO Key"
+Go to https://io.adafruit.com/  and sign up for a free account. Make note of your ADAFRUIT_USER_NAME since you need to use it in the following. When logged in, get the YOUR_AIO_KEY from https://io.adafruit.com/, click on "AIO Key"
 
  * ADAFRUIT_USER_NAME
  * YOUR_AIO_KEY
@@ -55,11 +58,11 @@ Note that you get the following in a free account.
  * 10 feeds
  * 5 dashboards
 
-When exceeding the data points I seem to get ECONNRESET
+When exceeding the data points, you may get ECONNRESET.
 
 ### Step 3. subscription and publishing
 
-Now its time to communicate using a mqtt-library to adafruit.io through the WiFi network. First step is just to verify that we got communication going in both directions.
+Now its time to communicate using a mqtt-library to adafruit.io through the WiFi network. First step is to verify that we got communication going in both directions.
 
 On https://io.adafruit.com/
 * Create a feed "myfeed" at https://io.adafruit.com/ADAFRUIT_USER_NAME/feeds (replace ADAFRUIT_USER_NAME with your username )
@@ -67,14 +70,14 @@ On https://io.adafruit.com/
  * Add a simple Toggle item to the dashboard that you connect to your feed.
 * Import the mqtt library. Download [mqtt.py](../lib/mqtt.py) and upload it to the LoPy4 device. 
 
-Then combine the following code with the WLAN code. Dont forget to change the needed string constants so that it uses your account.
+Then combine the following code with the WLAN code. Dont forget to change the needed string constants so that it uses your own account.
 
 
 ### Step 4. Resilient connections
 
-We suggest writing your code so that it can reset connections in case of errors. Thus we want to be able to be disconnected from both WIFI and Adafruit IO and automatically reconnect again.
+We suggest writing your code so that it can reset connections in case of errors. Thus, we want you to be able to be disconnected from both WiFi and Adafruit IO and automatically reconnect again.
 
-To accomplish this I suggest writing most of your code inside a while-True loop and have a branching statement (if-elif-else) that directs the application to different actions. 
+To accomplish this we suggest writing most of your code inside a while-True loop and have a branching statement (if-elif-else) that directs the application to different actions. 
 
 
 Consider the following pseudocode:
@@ -91,7 +94,7 @@ Repeat Forever
     check for incomming messages from adafruit IO
 ```
 
-In many cases something can go wrong, thus you need to add one or more try-except statements. In my case I only had one try-except that catches OSError inside the loop statement
+Sometimes things may go wrong, thus, you need to add one or more try-except statements. In the following case, it has only one try-except that catches OSError inside the loop statement:
 
 
 ```python

@@ -1,15 +1,15 @@
 # Getting started
 
-In this course we are going to use microcontrollers programmed with MicroPython. The controllers are considered as an IoT-device or 'IoT-thing'.
+In this course, we are going to use microcontrollers programmed with MicroPython. The controllers are considered as an IoT-device or 'IoT-thing'.
 
-In these labs we are first going to get started with the hardware, and then later on controlling some lights and reading digital inputs. Later on you will also read a sensor value and transmit that to an online service. In the basic lab setup we are only going to use USB and WiFi as our interfaces. The Pycom LoPy4 device has WiFi, Bluetooth, LoRa and SigFox and is based on the Espressif ESP32-chipset. The main advantage of using MicroPython compared to C++ and Arduino IDE is that we can quickly test and run our code without compiling and flashing. It makes the development phase much faster.
+In the labs for this course, we are first going to get started with the hardware, and then later on controlling some lights and reading digital inputs. Later on, you will also read a sensor value and transmit that to an online service. In the basic lab setup we are only going to use USB and WiFi as our interfaces. The Pycom LoPy4 device has WiFi, Bluetooth, LoRa and SigFox and is based on the Espressif ESP32-chipset. The main advantage of using MicroPython compared to C++ and Arduino IDE is that we can quickly test and run our code without compiling and flashing. It makes the development much faster.
 
 Reference:
 https://docs.pycom.io/gettingstarted/
 
 ## Introduction
 
-This assignment is all about getting to know the Atom  development environment and to be able to run code on the pycom LoPy4 boards.
+This assignment is all about getting to know the Atom development environment and to be able to run code on the pycom LoPy4 boards.
 
  * Install Atom and PyMakr plugin
  * Connect LoPy4 to a computer
@@ -22,7 +22,7 @@ This task is going to be conducted individually.
 ## Ingredients
 
 ### Hardware
- * One LOPY-4 board
+ * One LoPy4 board
  * One expansion board
  * One LoRa Antenna
  * One Micro-USB-Cable
@@ -33,7 +33,7 @@ This task is going to be conducted individually.
  * **NodeJS** (current 15+), https://nodejs.org
  * **PyMakr** plugin is found via the extension tab in either IDE
 
-(Note: The PyMakr plugin exists also for Visual Studio Code https://code.visualstudio.com/, Atom.io is recommended due to better functionality.)
+(Note: The PyMakr plug-in exists also for Visual Studio Code https://code.visualstudio.com/. Atom.io is recommended due to better functionality.)
 
 ### Knowledge components
 
@@ -52,18 +52,18 @@ Complete each step before progressing to the next.
 ### Step 1. Hardware setup
 
 ![Setup for Getting Started](/images/1_hardware.png)
-* Connect the LoPy4 on the expansion board. Doublecheck the direction, the LED should be in the same direction as the micro-USB connection.
-* Connect the Antenna to the Lopy 868MHz/915MHz (LoRa & Sigfox) antenna port. Be careful, and note there are three connectors. Check this: https://docs.pycom.io/gettingstarted/connection/lopy4/
-* Connect the usb-cable to both computer and board
+* Connect the LoPy4 on the expansion board. **Double check the direction, the LED should be in the same direction as the micro-USB connection.**
+* Connect the Antenna to the Lopy 868MHz/915MHz (LoRa & Sigfox) antenna port. Be careful, and note that there are three connectors. Check this: https://docs.pycom.io/gettingstarted/connection/lopy4/
+* Connect the usb-cable to both computer and expansion board
 
-WARNING! "Be gentle when plugging and unplugging from the USB connector. Whilst the USB connector is soldered and is relatively strong, if it breaks off it can be very difficult to fix."
+WARNING! "**Be gentle on hardware** when plugging and unplugging from the USB connector. Whilst the USB connector is soldered and is relatively strong, if it breaks  it can be very difficult to fix."
 
 ### Step 2. Software setup
- * Download and install Atom
- * Install pymakr plugin in Atom (using the package manager, settings Packages)
+ * Download and install Atom.io
+ * Install PyMakr plugin in Atom.io (using the package manager, settings Packages)
 
 ### Step 3.
-Make sure the LoPy board is connected to a computer with atom and pymkr installed.
+Make sure the LoPy board is connected to a computer with Atom and PyMkr installed.
 
 When the board is properly setup you can run micropython code directly on it using the pymakr-console. The output from the commands are sent to the computer so that you can interact with the board.
 
@@ -76,7 +76,7 @@ The help command prints some useful short-cuts you can use to for example interr
 
 HINT! To reset the device
  * Click inside the PyMkr console then press CTRL+F
- * Press the reset-button on the LOPY4 device, next to the RGB LED!
+ * Press the reset-button on the LoPy4 device, next to the RGB LED!
 
 
 #### Expected output. Run help() on board
@@ -108,7 +108,7 @@ Then rewrite the code so that the RGB-LED flashes in two second interval but als
 
 ### Expected output 3. :
 
- * The color of the built-in LED on the LOPY4 board switches between red, green, yellow ever second.
+ * The color of the built-in LED on the LoPy4 board switches between red, green, yellow every second.
  * The color-name is also written on the console at the same time.
 
 ```
@@ -124,9 +124,9 @@ Red
 ## Examination
 
 When you have completed this assignment you are expected to know:
- * How to setup a pycom-development environment with Atom and the pymakr plugin.
+ * How to setup a pycom-development environment with Atom and the PyMakr plugin.
  * How to run python commands using the REPL console.
  * How to upload and run code in files using PyMakr
- * How to blink the built in LED
+ * How to blink the built-in LED
 
 This task is examined using self-examination. Make sure you understand every step before you proceed.
