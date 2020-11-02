@@ -2,7 +2,6 @@
 
 [Inspelning av denna kursintroduktion](https://www.youtube.com/watch?v=vHUfvAV33SQ)
 
-
 ## Viktiga länkar
 
 - [Moodle](https://mymoodle.lnu.se/course/view.php?id=49031)
@@ -12,7 +11,6 @@
 - [Gitlab](https://gitlab.lnu.se)
 - [Slack kanal](coursepress.lnu.se) **#1dt308-1dt902-introducerande-projekt**
 - [Project template](project-template.md)
-
 
 ## Förväntningar
 
@@ -39,7 +37,7 @@ Under sista halvan av kursen kommer ni jobba i ert IoT-projekt. Kravet på delta
 
 ## Kursmål
 
-Kursen har två spår.
+**Kursen har två spår.**
 
 - Det första spåret presenterar en enkel enchipsdator och hur man kan skriva program som interagerar med externa enheter såsom sensorer och nätverkskopplade enheter. 
 - Inom det andra spåret introduceras hur man arbetar i projekt och grupp, samt yrkesrollen ingenjör.

@@ -1,21 +1,16 @@
 # 1DT309 / 1DT902, Introducerande projekt 7.5p
 
-
 Läs studieguiden:
 
 ## [**Studieguide**](study_guide_1DT308.md)
 
-
 ## Övriga viktiga länkar
-
 
 - [Slack kanal](coursepress.lnu.se) **#1dt308-1dt902-introducerande-projekt**
 - [Moodle](https://mymoodle.lnu.se/course/view.php?id=49031)
-- [IoT tutorial template](report_template.md)
-- [Planning](planning.md)
+- [Project template](project_template.md)
 
-
-### Labs
+## Labs
 
 This course consists of several labs. The labs are designed to start as tutorials and progressively introduce new concepts and complexity. 
 

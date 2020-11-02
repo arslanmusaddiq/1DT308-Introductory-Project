@@ -37,10 +37,9 @@ To be able to communicate to io.adafruit.com we need a WiFi connection. There is
 
 The above scrips should eventually connect, not very fast to WiFi and show "Connected to WiFi".
 
-
 ### Step 2. Connect to a MQTT server.
 
-Either use the LNU MQTT server provided by the course administrator, or one service online (example Adafruit). 
+Either use the LNU MQTT server provided by the teacher, or a service online (example Adafruit). 
 
 ### Adafruit IO account
 
@@ -57,7 +56,6 @@ Note that you get the following in a free account.
  * 5 dashboards
 
 When exceeding the data points I seem to get ECONNRESET
-
 
 ### Step 3. subscription and publishing
 
