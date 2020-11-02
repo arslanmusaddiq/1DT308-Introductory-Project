@@ -2,15 +2,15 @@
 
 You will need.
 
-* Pycom LoPy4-device
-* Pycom Expansion board
-* Antenna (if using LoRa)
+* [Pycom LoPy4-device](https://pycom.io/product/lopy4/)
+* [Pycom Expansion board](https://pycom.io/product/expansion-board-3-0/)
+* [Antenna (if using LoRa)](https://pycom.io/product/lora-868mhz-915mhz-sigfox-antenna-kit/)
 * Micro USB cable
 * Your own computer
 
 In the lab, you should have access to:
 
-* Breadboard
+* [Breadboard](https://www.electrokit.com/produkt/kopplingsdack-270-anslutningar/)
 * Wires
 * LED's, green, blue, etc.
 * Resistors
@@ -20,3 +20,5 @@ In the lab, you should have access to:
     * Pressure
     * Light
     * etc ...
+
+ Recommended sensor kit @ Electrokit [Sensor kit 26 moduler](https://www.electrokit.com/produkt/sensor-kit-26-moduler/)

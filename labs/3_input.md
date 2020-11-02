@@ -4,7 +4,7 @@ In this assignment we are going to work with user-input through a button circuit
 
  * Work with input
  * Work with sound
- * Work with a sensor
+ * Work with a temperature sensor
 
 ## Rules
 
@@ -190,12 +190,17 @@ Assign one LED for each tone (multiple tones can be attached to the same LED ) t
 
 Read the analog value from the NTC-sensor and present it in time intervals to the console with a `print()`-function. Note, depending on your sensor you might need to do a voltage divider. Read more about NTC thermistors and how to connect a voltage divider here: https://www.electronics-tutorials.ws/io/thermistors.html
 
-Discuss how accurate the reading is and the range of the temperature span that is presented. How many bits do you have for the value, and how does this affect your reading?
+Discuss how accurate the reading is and the range of the temperature span that is presented.
+
+- How many bits do you have for the value, and how does this affect your reading?
 
 
 ## Step 5. Read a digital temperature and humidity sensor
 
 Connect a temperature and/or humidity (DHT11 / 22 or a DS18B20) sensor to the device. The sensor communicates using the 1-Wire protocol, you will need to use a library.
+
+![](../images/dht11_wiring.jpeg)
+
 
 ## Examination
 

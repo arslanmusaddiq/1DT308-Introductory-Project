@@ -6,11 +6,8 @@ In this assignment we aim to work with more code and components. We apply the th
 
 This task is going to be conducted in a group of TWO students. The group can be the same for Lab 3 (previous project). Both students must be active during all steps of the assignment.
 
-ALERT! DURING THIS ASSIGNMENT
-NONE OF THE ARTIFACTS FROM THIS ASSIGNMENT MAY BE SHARED WITH OTHER STUDENT GROUPS.
-YOU MAY NOT ASK FOR HELP FROM OTHER STUDENT GROUPS, THINK OF THIS AS AN EXAM. 
+ALERT! DURING THIS ASSIGNMENT NONE OF THE ARTIFACTS FROM THIS ASSIGNMENT MAY BE SHARED WITH OTHER STUDENT GROUPS. YOU MAY NOT ASK FOR HELP FROM OTHER STUDENT GROUPS, THINK OF THIS AS AN EXAM. 
 YOU MAY GET HELP FROM A TEACHING ASSISTANT OR THE TEACHER.
-
 
 ## Knowledge Components
  * Apply knowledge components from previous assignments. 
