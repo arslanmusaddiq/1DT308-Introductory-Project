@@ -1,13 +1,6 @@
 
 ## Planning
 
-### Deadlines
-
-
-### Pre-recorded lectures
-
-
-
 
 ### Guest lectures (live)
 
