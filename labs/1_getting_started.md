@@ -53,8 +53,10 @@ Complete each step before progressing to the next.
 
 ![Setup for Getting Started](/images/1_hardware.png)
 * Connect the LoPy4 on the expansion board. **Double check the direction, the LED should be in the same direction as the micro-USB connection.**
+* Do not connect the expansion board to USB without the LoPy4 connected!
 * Connect the Antenna to the Lopy 868MHz/915MHz (LoRa & Sigfox) antenna port. Be careful, and note that there are three connectors. Check this: https://docs.pycom.io/gettingstarted/connection/lopy4/
 * Connect the usb-cable to both computer and expansion board
+
 
 WARNING! "**Be gentle on hardware** when plugging and unplugging from the USB connector. Whilst the USB connector is soldered and is relatively strong, if it breaks  it can be very difficult to fix."
 

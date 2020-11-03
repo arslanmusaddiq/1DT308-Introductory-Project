@@ -1,10 +1,10 @@
-# Blink External LED's
+# Lab 3 - external
 
 In this assignment we are going to work with user-input through a button circuit and also introduce a new form of output (sound). 
 
  * Work with input
  * Work with sound
- * Work with a temperature sensor
+ * Work with temperature sensors
 
 ## Rules
 
@@ -43,7 +43,7 @@ During the assignment you may discuss the assignment with students outside the g
     * global variables. https://www.programiz.com/python-programming/global-local-nonlocal-variables
     * API: Create PWM timer PWM(0, frequency=i)
     * timer duty cycle: duty_cycle(0.5) https://en.wikipedia.org/wiki/Duty_cycle
-    * API: Make the microcontroller sleep. time.sleep()
+    * API: Make the microcontroller sleep. `time.sleep()`
     * declare function
   
 
@@ -56,7 +56,7 @@ During the assignment you may discuss the assignment with students outside the g
  * Buzzer 
  * Buzzer-resistor 1k Ohm (Brown, Black, Red, Gold) 
  * Temperature sensor
-    - analog NTC or...
+    - analog NTC
     - digital DHT-11 / 22
  
 ### Software 
@@ -217,12 +217,12 @@ Prepare for that by checking yourself so that you know the answers to the follow
 When completed you should ask a teacher/TA to check your setup and verify the questions above yourself.
 
 ### Test setup:
- * The time for key-presses should be printed as the example in Step 2. 
+ * The time for key-presses should be printed as the example.
  * Test by "spamming" the button with lots of short presses. The song should start on the first press and continue without interruption until it ends. The buttonclicks do not stack and after the song is over id does not restart unless a new click is introduced afterwards. The printouts of times should continue while the song is played.
  * If lights blink in tune with music, make extra credit note. 
  
 ### Check Code:
- * Code should be DRY (no unnecessary repeated statements )
+ * Code should be DRY (no unnecessary repeated statements)
  * Code should be divided into methods
  * The song should not be played in the eventhandler function but started in a separate loop (or thread).
  
