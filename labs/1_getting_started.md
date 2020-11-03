@@ -43,7 +43,7 @@ This task is going to be conducted individually.
  * print() strings to console https://www.w3schools.com/python/ref_func_print.asp
  * import statements http://wiki.micropython.org/Importing-Modules
  * for-loops with `range()` https://www.w3schools.com/python/python_for_loops.asp
- * `pycom.rgbled()` https://docs.pycom.io/firmwareapi/pycom/pycom/
+ * `pycom.rgbled()` https://docs.pycom.io/tutorials/basic/rgbled/
  * `time.sleep()` https://docs.pycom.io/firmwareapi/micropython/utime/
 
 ## Steps
