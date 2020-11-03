@@ -21,4 +21,6 @@ In the lab, you should have access to:
     * Light
     * etc ...
 
- Recommended sensor kit @ Electrokit [Sensor kit 26 moduler](https://www.electrokit.com/produkt/sensor-kit-26-moduler/)
+Recommended kit for LED's and resistors, breadboard: [Kjell](https://www.kjell.com/se/produkter/el-verktyg/arduino/arduino-kit/luxorparts-basic-start-kit-for-arduino-p90632)
+
+Recommended sensor kit @ Electrokit [Sensor kit 26 moduler](https://www.electrokit.com/produkt/sensor-kit-26-moduler/)
