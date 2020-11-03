@@ -190,6 +190,15 @@ Assign one LED for each tone (multiple tones can be attached to the same LED ) t
 
 Read the analog value from the NTC-sensor and present it in time intervals to the console with a `print()`-function. Note, depending on your sensor you might need to do a voltage divider. Read more about NTC thermistors and how to connect a voltage divider here: https://www.electronics-tutorials.ws/io/thermistors.html
 
+
+[Analog temperature sensor NTC Electrokit](https://www.electrokit.com/uploads/productfile/41015/41015732_-_Analog_Temperature_Sensor.pdf) Note. The schematics are wrong on this one.
+
+
+**NOTE** The NTC thermistor mounted on a PCB that is distributed from the lab is incorrectly marked. The correct setup is shown in the Figure below.
+
+![NTC Thermistor](../images/ntc-sensor-electrokit.jpg)
+
+
 Discuss how accurate the reading is and the range of the temperature span that is presented.
 
 - How many bits do you have for the value, and how does this affect your reading?
@@ -198,6 +207,8 @@ Discuss how accurate the reading is and the range of the temperature span that i
 ## Step 5. Read a digital temperature and humidity sensor
 
 Connect a temperature and/or humidity (DHT11 / 22 or a DS18B20) sensor to the device. The sensor communicates using the 1-Wire protocol, you will need to use a library.
+
+[Digital temp sensor DHT11 bought from Electrokit](https://www.electrokit.com/uploads/productfile/41016/DHT11.pdf)
 
 ![](../images/dht11_wiring.jpeg)
 

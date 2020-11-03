@@ -55,7 +55,7 @@ We are going to connect three LED circuits on the breadboard and power these fro
 Summary of connections. "<-->" means a cable or connection
  * LOPY4 GND <--> Black/Blue Power Rail (BPR)
  * LOPY4 3V3 <--> Red Power Rail (RPR)
- * RPR(3V3) <--> [ Anode - LED - Cathode ] <--> [ 560 Ohm resistor ] <--> BPR(GND)
+ * RPR(3V3) <--> [ Anode - LED - Cathode ] <--> [ resistor ] <--> BPR(GND)
  
  ![LED Circuit, Wikipedia](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/LED_circuit.svg/1200px-LED_circuit.svg.png)
 
