@@ -103,8 +103,7 @@ When the upload has completed the code willrun on the board and should produce t
 ### Step 5. Follow a tutorial and modify code, blink a light.
 Use the built in RGB-LED-light to blink in different colors.
 
-Read and complete this tutorial
-https://docs.pycom.io/tutorials/all/rgbled/
+Read and complete this tutorial [https://docs.pycom.io/tutorials/basic/rgbled/](https://docs.pycom.io/tutorials/all/rgbled/)
 
 Then rewrite the code so that the RGB-LED flashes in two second interval but also prints the name of the color(red, green, yellow) to the console.
 
