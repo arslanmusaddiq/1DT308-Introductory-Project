@@ -16,10 +16,11 @@ def ThermistorNTC(raw_adc):
     vref = 3.3
     measure = (raw_adc / 4096 ) * vref
     ntc_ohm = ( (r1 * vref) / measure ) - r1
-    return str(ntc_ohm) + ' Ohm'
+    A,B,C = 0.001129148, 0.000234125, 0.0000000876741 # Variables from manufact. Steinhart
+    temp = 1/(A + B*(log(ntc_ohm))+ C*(log(ntc_ohm))**3) - 273.15
+    return temp
 
 while True:
     val = apin()                    # read an analog value
     print(ThermistorNTC(val))
-    #print(str(val/4096*3.3)+'V .......... counter ....... ' + str(time.time()%10))
     time.sleep(1)

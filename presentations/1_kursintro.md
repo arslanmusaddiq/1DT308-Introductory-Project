@@ -21,10 +21,13 @@
 	- m.fl.
 
 - Kom igång med lab 1-2
-	- Knappar, sensorer, 
+	- Material i mån
+	- Knappar
+	- buzzers
+	- sensorer
+	- micro-usb
+	- resistorer
+	- LED
 
-
-
-- 
 
 
