@@ -58,7 +58,7 @@ The traffic light should work like described above and go back to Green after ha
 
 #### Check code
  * Code should be DRY (no unnecessary repeated statements)
- * Code should be divided into methods
+ * Code should be divided into methods / functions
  * Method names should represent the content (for example state names)
  
  
