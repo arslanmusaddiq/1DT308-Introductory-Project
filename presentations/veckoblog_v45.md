@@ -1,0 +1,28 @@
+# Veckoblog V45 1DT308 (Fredrik) och 1DT902 (Morgan)
+
+- Getting started
+	- GitLab
+	- Vanliga problem?
+		- Öppenhet på Slack!
+		- Lös problem.
+	- Om ni hittar fel - meddela i Slack (eller DM)
+	- Utrustning. LoPy4 + Exp, antenner (LoRa)
+	- Handla själv - mindre kostnad, ej kurslitteratur.
+	- Arduino funkar (note. 5V 3.3V)
+- Covid
+	- Kronoberg. Särskilda rekommendationer.
+	- Umgås ej utanför hushållet.
+	- Gå ej hit i onödan.
+	- Online all in.
+	- **Inga fysiska laborationer!!!**
+- Nästa vecka
+	- Introduction to IoT, Francis.
+	- Uppkoppling.
+	- Deadline lab 4 (distans). Viktigt kamera + mic.
+	- Discord, Slack, Zoom. Än mer viktigt nu.
+- Börja fundera på projektet redan nu.
+	- Gruppindelning -> egen (2-3)
+		- Inga campusgränser. Civ. Ing Högskol ing. Kalmar/Växjö.
+	- Högre betyg -> tidig anmälan vid projektrapport.
+	- Det _viktiga_ är projektet.
+	- Youtube - [Kalmar Kommun som testplattform](https://youtu.be/H2dSHswHegw)
