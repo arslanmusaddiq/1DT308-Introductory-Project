@@ -68,7 +68,7 @@ On https://io.adafruit.com/
 * Create a feed "myfeed" at https://io.adafruit.com/ADAFRUIT_USER_NAME/feeds (replace ADAFRUIT_USER_NAME with your username )
 * Create a dashboard:  https://io.adafruit.com/ADAFRUIT_USER_NAME/dashboards/pycom
  * Add a simple Toggle item to the dashboard that you connect to your feed.
-* Import the mqtt library. Download [mqtt.py](../lib/mqtt.py) and upload it to the LoPy4 device. 
+* Import the mqtt library. Download [mqtt.py](https://github.com/pycom/pycom-libraries/blob/master/examples/mqtt/mqtt.py) and upload it to the LoPy4 device. 
 
 Then combine the following code with the WLAN code. Dont forget to change the needed string constants so that it uses your own account.
 
