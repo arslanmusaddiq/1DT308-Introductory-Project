@@ -38,13 +38,36 @@ The script should eventually connect to WiFi and show "Connected to WiFi".
 
 ### Step 2. Connect to a MQTT server.
 
-<<<<<<< HEAD
-Either use the LNU MQTT server provided by the teacher, or a service online (example Adafruit). 
-=======
-Either use the LNU MQTT server provided by the course administrator, or one service online (e.g., Adafruit).
->>>>>>> 0dd46641f41610b60dee141ed0c3b8f08317db62
+Either use the LNU MQTT server (iot-edu-lab.lnu.se), a local instance or a service online (example eclipse.org or Adafruit). 
 
-### Adafruit IO account
+#### LNU MQTT test-server
+
+We are running a development setup Mosquitto MQTT server on LNU CSCloud. Note, the information will be accessible by all your peers that are using the same server.
+
+- mqtt://iot-edu-lab.lnu.se, user=king,pass=arthur, port=1883
+
+#### Run your own MQTT server with Docker
+
+https://hub.docker.com/_/eclipse-mosquitto
+
+Using Docker locally, default config. Note, this will only be accessible within your own subnet if you don't open up ports in your router.
+
+
+```bash
+docker run -p 1883:1883 eclipse-mosquitto
+```
+
+#### Public Eclipse.org
+
+Eclipse has an open mqtt.eclipse.org server that can be used for testing. Recommended if you just want to play around and see if things work. NOTE, this is open.
+
+#### Flespi.com
+
+Free MQTT broker.
+
+https://flespi.com/mqtt-broker
+
+#### Adafruit IO account
 
 Go to https://io.adafruit.com/  and sign up for a free account. Make note of your ADAFRUIT_USER_NAME since you need to use it in the following. When logged in, get the YOUR_AIO_KEY from https://io.adafruit.com/, click on "AIO Key"
 
