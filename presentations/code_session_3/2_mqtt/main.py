@@ -14,21 +14,20 @@ connect_wifi()
 def sub_cb(topic, msg):
    print(msg)
 
-
 def connect_mqtt():
     from mqtt import MQTTClient
-    client = MQTTClient("gizella_1", "mqtt.eclipse.org", port=1883)
+    client = MQTTClient("fipy-1", "iot-edu-lab.lnu.se",user="king",password="arthur", port=1883)
 
     client.set_callback(sub_cb)
     client.connect()
-    client.subscribe(topic="frahlg_lab/feeds/lights")
+    client.subscribe(topic="home_office/env1/control")
 
     while True:
         print("Sending ON")
-        client.publish(topic="frahlg_lab/feeds/lights", msg="ON")
+        client.publish(topic="home_office/env1/switch", msg="ON")
         time.sleep(1)
         print("Sending OFF")
-        client.publish(topic="frahlg_lab/feeds/lights", msg="OFF")
+        client.publish(topic="home_office/env1/switch", msg="OFF")
         client.check_msg()
         time.sleep(1)
 

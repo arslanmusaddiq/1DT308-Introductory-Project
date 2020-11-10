@@ -14,6 +14,7 @@ import CCS811
 ccs = CCS811.CCS811(i2c=i2c,addr=91)
 time.sleep(1) # Just to get it some slack starting up ...
 
+
 while True:
     ccs.data_ready() # Make a reading
     time.sleep(2)
