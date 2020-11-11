@@ -15,7 +15,7 @@ def sub_cb(topic, msg):
     if msg == b'Off': pycom.rgbled(0x000000)
     print((topic, msg))
 
-client = MQTTClient("fipy-2", broker_url,user="king",password="arthur", port=1883)
+client = MQTTClient("trafficlight-23", broker_url,user="king",password="arthur", port=1883)
 client.set_callback(sub_cb)
 client.connect()
 client.subscribe(topic=topic_sub)

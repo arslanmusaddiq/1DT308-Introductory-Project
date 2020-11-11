@@ -1,7 +1,8 @@
 import pycom
-import _thread
+# import _thread
 from mqtt import MQTTClient
 import sensor
+pycom.heartbeat(False)
 
 topic_sub = 'home_office/env1/control'
 broker_url = 'iot-edu-lab.lnu.se'

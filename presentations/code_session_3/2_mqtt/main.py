@@ -16,7 +16,7 @@ def sub_cb(topic, msg):
 
 def connect_mqtt():
     from mqtt import MQTTClient
-    client = MQTTClient("fipy-1", "iot-edu-lab.lnu.se",user="king",password="arthur", port=1883)
+    client = MQTTClient("lopy-test-1", "iot-edu-lab.lnu.se",user="king",password="arthur", port=1883)
 
     client.set_callback(sub_cb)
     client.connect()
