@@ -1,6 +1,5 @@
 # Connectivity
 
-
 ## Agenda
 
 1. Connect to WiFi
@@ -87,9 +86,12 @@ The MQTT protocol was invented in 1999. They needed a protocol for minimal batte
 
 #### What is MQTT
 
-MQTT stands for **MQ Telemetry Transport**. It is a publish/subscribe, extremely simple and lightweight messaging protocol, designed for **constrained** devices and **low-bandwidth, high-latency or unreliable networks**. The design principles are to minimise network bandwidth and device resource requirements whilst also attempting to ensure reliability and some degree of assurance of delivery. These principles also turn out to make the protocol ideal of the emerging “machine-to-machine” (M2M) or “Internet of Things” world of connected devices, and for mobile applications where bandwidth and battery power are at a premium.
+MQTT stands for **MQ Telemetry Transport**. It is a publish/subscribe, extremely simple and lightweight messaging protocol, designed for **constrained** devices and **low-bandwidth, high-latency or unreliable networks**. The design principles are to minimise network bandwidth and device resource requirements whilst also attempting to ensure reliability and some degree of assurance of delivery.
+
+These principles also turn out to make the protocol ideal of the emerging “machine-to-machine” (M2M) or “Internet of Things” world of connected devices, and for mobile applications where bandwidth and battery power are at a premium.
 
 #### MQTT security
+
 You can pass a user name and password with an MQTT packet in V3.1 of the protocol. Encryption across the network can be handled with **SSL**, independently of the MQTT protocol itself. Additional security can be added by an application encrypting data that it sends and receives, but this is not something built-in to the protocol, in order to keep it simple and lightweight.
 
 
@@ -157,7 +159,12 @@ a/b/c/#
 
 
 #### Quality of Service
-MQTT defines three levels of Quality of Service (QoS). The QoS defines how hard the broker/client will try to ensure that a message is received. Messages may be sent at any QoS level, and clients may attempt to subscribe to topics at any QoS level. This means that the client chooses the maximum QoS it will receive. For example, if a message is published at QoS 2 and a client is subscribed with QoS 0, the message will be delivered to that client with QoS 0. If a second client is also subscribed to the same topic, but with QoS 2, then it will receive the same message but with QoS 2. For a second example, if a client is subscribed with QoS 2 and a message is published on QoS 0, the client will receive it on QoS 0.
+
+MQTT defines three levels of Quality of Service (QoS). The QoS defines how hard the broker/client will try to ensure that a message is received. Messages may be sent at any QoS level, and clients may attempt to subscribe to topics at any QoS level. This means that the client chooses the maximum QoS it will receive.
+
+For example, if a message is published at QoS 2 and a client is subscribed with QoS 0, the message will be delivered to that client with QoS 0. If a second client is also subscribed to the same topic, but with QoS 2, then it will receive the same message but with QoS 2.
+
+For a second example, if a client is subscribed with QoS 2 and a message is published on QoS 0, the client will receive it on QoS 0.
 
 **Higher levels of QoS are more reliable, but involve higher latency and have higher bandwidth requirements.**
 
@@ -239,10 +246,7 @@ I2C is a serial communication protocol, so data is transferred bit by bit along 
 Not to be confused with 
 [SPI (Serial Peripheral Interface)](https://www.circuitbasics.com/basics-of-the-spi-communication-protocol). 
 
-
-
 ### If time permits ..
-
 
 ### Webhooks REST
 
@@ -256,8 +260,7 @@ Not to be confused with
 
 ### Pybytes
 
-- PyBytes intro
-
+-  PyBytes intro
 
 
 ## Additional material
