@@ -1,11 +1,6 @@
-
-
 Planning along. All code...
 
-
-
-
-First . Playing with the RGBLED.
+1. First . Playing with the RGBLED.
 
 
 
@@ -28,13 +23,28 @@ while True:
 ```
 
 
-
-
 ## Connecting
 
 
 https://docs.pycom.io/firmwareapi/pycom/network/wlan/
 
+
+
+## List SSID:s
+
+```python
+
+
+from network import WLAN
+
+nets = wlan.scan()
+
+for net in nets:
+    print(net.ssid)
+
+
+
+```
 
 Quick start
 
@@ -51,9 +61,6 @@ print(wlan.ifconfig())
 ```
 
 Another example.
-
-
-
 
 ```python
 
@@ -74,33 +81,10 @@ print(wlan.ifconfig())
 ```
 
 
-## List SSID:s
-
-```python
-
-
-from network import WLAN
-
-nets = wlan.scan()
-
-for net in nets:
-    print(net.ssid)
-
-
-
-```
-
-
-
-
-
-
 https://docs.pycom.io/tutorials/networkprotocols/wifisniffer/
 
 
 ```python
-
-
 
 from network import WLAN
 import ubinascii
@@ -132,14 +116,22 @@ wlan.promiscuous(True) #pass all to CPU
 
 
 
+- Install MQTT Explorer
+
 Using Docker locally, default config.
+
+https://hub.docker.com/_/eclipse-mosquitto
 
 ```bash
 docker run -p 1883:1883 eclipse-mosquitto
 ```
 
 
+### Using Adafruit
 
+
+
+Note.
 
 
 

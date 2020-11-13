@@ -1,4 +1,6 @@
-# Veckoblog V45 1DT308 (Fredrik) och 1DT902 (Morgan)
+# Veckobloggar 1DT308 (Fredrik) och 1DT902 (Morgan)
+
+## V45
 
 - Getting started
 	- GitLab
@@ -26,3 +28,46 @@
 	- Högre betyg -> tidig anmälan vid projektrapport.
 	- Det _viktiga_ är projektet.
 	- Youtube - [Kalmar Kommun som testplattform](https://youtu.be/H2dSHswHegw)
+
+## V46
+
+- Vad har hänt i veckan
+    - Föreläsningar
+        - Intro till IoT, Francis
+        - Connectivity, Fredrik
+        - Distans - lab 4. Deadline.
+    - Gruppindelningar
+    - Lab 4.
+        - Redovisningar nästa vecka också.
+        - Fungerade toppen. Discord.
+
+- Vad händer nästa vecka?
+    - Deadline IoT traffic light, MQTT WiFi.
+        - Viktigt, grupp om två!
+        - Visa Lab 5. Torsdag.
+    - GitLab planeringsdokument
+    - Gästföreläsare!
+        - OBS. Läs uppgiften på Moodle!
+    - Jobba i projekt med Morgan (GitLab)
+        - Önskemål ... innan fredag kväll (idag!)
+    - Covid update
+        - Före sommaren ??!
+        - På distans
+        - Discord
+        - **VIKTIGT**
+            - Håll ihop
+
+9.15 nästa fredag!
+
+
+
+
+
+
+
+
+
+
+
+
+
