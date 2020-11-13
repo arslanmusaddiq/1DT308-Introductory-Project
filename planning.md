@@ -1,4 +1,3 @@
-
 ## Planning
 
 
@@ -13,8 +12,7 @@
 | 2020-11-06  | 10:15-11:00 | Fredrik Ahlgren and Morgan Ericsson, vblog 45 | [YT](https://youtu.be/-bP9hoArxgo) |
 | 2020-11-09  | 10:15-11:00 | Francis Palma, Intro to IoT | [Zoom](404) |
 | 2020-11-11  | 10:15-11:00 | Fredrik Ahlgren, Connectivity | [YT](https://youtu.be/MZbPvDoEzxc) |
-
-
+| 2020-11-11  | 10:15-11:00 | Fredrik Ahlgren and Morgan Ericsson, vblog 46 | [YT](https://youtu.be/uphwOPJPKjg) |
 
 
 
