@@ -15,7 +15,8 @@
 | 2020-11-11  | 10:15-11:00 | Fredrik Ahlgren and Morgan Ericsson, vblog 46 | [YT](https://youtu.be/uphwOPJPKjg) |
 | 2020-11-11  | 10:15-11:00 | vblog 47, Fredrik Ahlgren and Morgan Ericsson | [YT](https://youtu.be/pIwS9dqJDBM) |
 | 2020-11-16  | 10:15-12:00 | Arbeta i projekt, Morgan Ericsson | [YT](https://youtu.be/EFi5w5M_vPI) |
-| 2020-11-19  | 11:15-12:00 | Krav, Tobias Ohlson | [Youtube](https://youtu.be/0S_EyHF3x6I) |
+| 2020-11-18  | 11:15-12:00 | Krav, Tobias Ohlson | [Youtube](https://youtu.be/0S_EyHF3x6I) |
+| 2020-11-18  | 15:15-16:00 | Kravhantering, Tobias Ohlson | [Youtube](https://youtu.be/mrdqzSp-PsM) |
 
 
 
