@@ -104,7 +104,6 @@ Kursen börjar **måndagen den 2:e november 2020** och slutar **fredagen den 15:
 
 Samtliga moment ska vara genomförda innan kursens slut för ett betyg.
 
-
 ## Examination
 
 | Benämning | Betygsskala | Poäng |
@@ -114,6 +113,7 @@ Samtliga moment ska vara genomförda innan kursens slut för ett betyg.
 | Presentation | A-F | 0.5 |
 | Uppgifter om yrkesrollen ingenjör | U/G | 1 |
 
+- [Uppgifter om yrkesrollen ingenjör](ingenjor.md)
 - [Projektarbetet](project-template.md) görs i rapportform, och läggs upp i en `README.md` i ert GitLab repository.
 
 ---
