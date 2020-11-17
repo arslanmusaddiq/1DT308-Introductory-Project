@@ -21,8 +21,6 @@
 
 
 
-
-
 ### Guest lectures (live)
 
 | Date        | Time 		| Speaker | Link |
