@@ -9,14 +9,13 @@ During the planning meeting discuss the ambition-level of the group. Read the ex
 ## Requirements
 
 The programming project should contain.
- * Pycom devices from two groups
+ * IoT device(s)
  * Additional hardware (For example sensors, buttons, LED's, Buzzers etc...)
  * Some cloud connection
-
  
  ## Deliverables
  
- Git repository link with git-history ( With at least one commit per group gathering )
+ Git repository link with git-history (With at least one commit per group gathering)
  You are to deliver everything needed to complete the project
  
  Project documentation on git in a /doc folder. Written in markdown.
