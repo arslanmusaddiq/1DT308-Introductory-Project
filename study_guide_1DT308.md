@@ -97,7 +97,7 @@ Kursen börjar **måndagen den 2:e november 2020** och slutar **fredagen den 15:
 
 - **Torsdag 12:e november**: Lab 4 presenteras, individuellt. U/G
 - **Torsdag 24: november**: Lab 5 presenteras i grupp. U/G
-- **Måndag 30:e november**: Inlämning av projektplan.
+- **Måndag 30:e november**: Inlämning av projektplan och gruppindelning.
 - **Onsdag 16:e december**: Inlämning rapport, ingenjörens roll. U/G
 - **Torsdag 14:e januari**: Projektredovisningar i grupp. A-F
 - **Fredag 15: januari**: Deadline för projektrapport. A-F
