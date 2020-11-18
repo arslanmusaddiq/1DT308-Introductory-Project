@@ -3,7 +3,7 @@
 The previous tasks has been a single LoPy4 device (on its own) without any communication. In this final lab, we connect our LoPy4 to the Internet over the WiFi and push information to an online server.
 
  * Simple Internet Of Things (IoT) scenario
- * Connect LoPy4 on WiFi https://docs.pycom.io/tutorials/networkprotocols/wifisniffer/
+ * Connect LoPy4 on WiFi https://docs.pycom.io/firmwareapi/pycom/network/wlan/
  * Synchronize with the Cloud using MQTT
 
 **Requirement**: The IoT traffic light should be connected to another light, and they should communicate.
