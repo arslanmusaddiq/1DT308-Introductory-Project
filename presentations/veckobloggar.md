@@ -42,7 +42,7 @@
         - Fungerade toppen. Discord.
 
 - Vad händer nästa vecka?
-    - Deadline IoT traffic light, MQTT WiFi.
+    - OBS FEL. Deadline IoT traffic light, MQTT WiFi.
         - Viktigt, grupp om två!
         - Visa Lab 5. Torsdag.
     - GitLab planeringsdokument
@@ -59,9 +59,22 @@
 
 9.15 nästa fredag!
 
+# V47
 
+- Vad har hänt i veckan?
+    - Att arbeta i projekt 
+    - Kravhantering med Tobias
 
+- Vad händer nästa vecka?
+    - Projektintroduktion med Jonas, inspelning på måndag
+    - project-template.md uppdaterad. Läs på GitLab.
+    - Projektdiskussion, onsdag 08.30 - 09.45 med Fredrik och Jonas
+    - Testning med Daniel
+    - Deadline IoT traffic light, MQTT WiFi.
+    - Nytt schema, labtillfällen som passar alla på Discord.
 
+    - Gruppindelning!!! 2-3.
+    - Lab 4 och 5. Se till att dessa är klara.
 
 
 
