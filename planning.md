@@ -18,7 +18,10 @@
 | 2020-11-18  | 15:15-16:00 | Kravhantering, Tobias Ohlson | [Youtube](https://youtu.be/mrdqzSp-PsM) |
 | 2020-11-20  | 09:15-09:45 | vblog 47, Fredrik Ahlgren and Morgan Ericsson | [YT](https://youtu.be/pIwS9dqJDBM) |
 | 2020-11-25  | 08:30-09:45 | Projektdiskussion, Fredrik och Jonas | [Zoom](https://lnu-se.zoom.us/j/6466400631) |
-| 2020-11-27  | 10:15-11:00 | vblog 47, Fredrik Ahlgren and Morgan Ericsson | [YT](https://youtu.be/JCzbjxyOZvg) |
+| 2020-11-25  | --- | Vad är testning?, Daniel Toll | [Youtube](https://youtu.be/MrRaXrOOF9Y) |
+| 2020-11-26  | --- | Testning i praktiken, Daniel och Fredrik | [Youtube TBA]() |
+| 2020-11-27  | 10:15-11:00 | vblog 48, Fredrik Ahlgren and Morgan Ericsson | [YT](https://youtu.be/JCzbjxyOZvg) |
+
 
 
 ### Guest lectures (live)
