@@ -93,8 +93,28 @@ On https://io.adafruit.com/
  * Add a simple Toggle item to the dashboard that you connect to your feed.
 * Import the mqtt library. Download [mqtt.py](https://github.com/pycom/pycom-libraries/blob/master/examples/mqtt/mqtt.py) and upload it to the LoPy4 device. 
 
-Then combine the following code with the WLAN code. Dont forget to change the needed string constants so that it uses your own account.
-
+Then combine the following code with the WLAN code. Dont forget to change the needed string constants so that it uses your own account on your mqqt server.
+```python
+#Before WLAN
+from mqtt import MQTTClient
+import machine
+import time
+#After WLAN connection
+def sub_cb(topic, msg):
+   print(msg)
+client = MQTTClient("device_id", "io.adafruit.com",user="ADAFRUIT_USER_NAME", password="YOUR_AIO_KEY", port=1883)
+client.set_callback(sub_cb)
+client.connect()
+client.subscribe(topic="ADAFRUIT_USER_NAME/feeds/myfeed")
+while True:
+    print("Sending ON")
+    client.publish(topic="ADAFRUIT_USER_NAME/feeds/myfeed", msg="ON")
+    time.sleep(3)
+    print("Sending OFF")
+    client.publish(topic="ADAFRUIT_USER_NAME/feeds/myfeed", msg="OFF")
+    client.check_msg()
+    time.sleep(3)
+```
 
 ### Step 4. Resilient connections
 
