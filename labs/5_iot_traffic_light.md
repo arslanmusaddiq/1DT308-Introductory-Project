@@ -79,13 +79,13 @@ docker run -p 1883:1883 eclipse-mosquitto
 
 Eclipse has an open mqtt.eclipse.org server that can be used for testing. Recommended if you just want to play around and see if things work. NOTE, this is open.
 
-#### Flespi.com
+#### Option 4. Flespi.com
 
 Free MQTT broker.
 
 https://flespi.com/mqtt-broker
 
-#### Adafruit IO account
+#### Option 5. Adafruit IO account
 
 Go to https://io.adafruit.com/  and sign up for a free account. Make note of your ADAFRUIT_USER_NAME since you need to use it in the following. When logged in, get the YOUR_AIO_KEY from https://io.adafruit.com/, click on "AIO Key"
 
