@@ -58,13 +58,13 @@ The script should eventually connect to WiFi and show "Connected to WiFi".
 
 Either use the LNU MQTT server (iot-edu-lab.lnu.se), a local instance or a service online (example eclipse.org or Adafruit). 
 
-#### LNU MQTT test-server
+#### Option 1. LNU MQTT test-server
 
 We are running a development setup Mosquitto MQTT server on LNU CSCloud. Note, the information will be accessible by all your peers that are using the same server.
 
 - mqtt://iot-edu-lab.lnu.se, user=king,pass=arthur, port=1883
 
-#### Run your own MQTT server with Docker
+#### Option 2. Run your own MQTT server with Docker
 
 https://hub.docker.com/_/eclipse-mosquitto
 
@@ -75,7 +75,7 @@ Using Docker locally, default config. Note, this will only be accessible within 
 docker run -p 1883:1883 eclipse-mosquitto
 ```
 
-#### Public Eclipse.org
+#### Option 3. Public Eclipse.org
 
 Eclipse has an open mqtt.eclipse.org server that can be used for testing. Recommended if you just want to play around and see if things work. NOTE, this is open.
 
