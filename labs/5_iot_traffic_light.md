@@ -35,6 +35,8 @@ During the assignment you may discuss the assignment with students outside the g
 
 To be able to communicate to io.adafruit.com we need a WiFi connection. The amount of data sent is very little; thus, easiest is to share network from a smartphone, or use a guest WiFi-network. 
 
+To sniff for Wifi: Link https://docs.pycom.io/tutorials/networkprotocols/wifisniffer/
+
 #### Script
 Replace WIFI_NETWORK_ID with the sid of your network and YOUR_WIFI_PASSWORD with the passkey in the  code and make sure you can connect to your WIFI before continuing. 
 
@@ -50,7 +52,7 @@ print("Connected to WiFi")
 
 The script should eventually connect to WiFi and show "Connected to WiFi".
 
-To sniff for Wifi: Link https://docs.pycom.io/tutorials/networkprotocols/wifisniffer/
+
 
 ### Step 2. Connect to a MQTT server.
 
