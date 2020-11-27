@@ -33,20 +33,38 @@ During the assignment you may discuss the assignment with students outside the g
 
 ### Step 1. Simple communication from Pycom over WiFi
 
-To be able to communicate to io.adafruit.com we need a WiFi connection. The amount of data sent is very little; thus, easiest is to share network from a smartphone, or use a guest WiFi-network. Replace WIFI_NETWORK_ID with the sid of your network and YOUR_WIFI_PASSWORD with the passkey in the  code and make sure you can connect to your WIFI before continuing. Link https://docs.pycom.io/tutorials/networkprotocols/wifisniffer/
+To be able to communicate to io.adafruit.com we need a WiFi connection. The amount of data sent is very little; thus, easiest is to share network from a smartphone, or use a guest WiFi-network. 
+
+To sniff for Wifi: Link https://docs.pycom.io/tutorials/networkprotocols/wifisniffer/
+
+#### Script
+Replace WIFI_NETWORK_ID with the sid of your network and YOUR_WIFI_PASSWORD with the passkey in the  code and make sure you can connect to your WIFI before continuing. 
+
+```python
+from network import WLAN
+wlan = WLAN(mode=WLAN.STA)
+wlan.connect("WIFI_NETWORK_ID", auth=(WLAN.WPA2, "YOUR_WIFI_PASSWORD"), timeout=5000)
+while not wlan.isconnected():
+    machine.idle()
+print("Connected to WiFi")
+```
+
+
 The script should eventually connect to WiFi and show "Connected to WiFi".
+
+
 
 ### Step 2. Connect to a MQTT server.
 
 Either use the LNU MQTT server (iot-edu-lab.lnu.se), a local instance or a service online (example eclipse.org or Adafruit). 
 
-#### LNU MQTT test-server
+#### Option 1. LNU MQTT test-server
 
 We are running a development setup Mosquitto MQTT server on LNU CSCloud. Note, the information will be accessible by all your peers that are using the same server.
 
 - mqtt://iot-edu-lab.lnu.se, user=king,pass=arthur, port=1883
 
-#### Run your own MQTT server with Docker
+#### Option 2. Run your own MQTT server with Docker
 
 https://hub.docker.com/_/eclipse-mosquitto
 
@@ -57,17 +75,17 @@ Using Docker locally, default config. Note, this will only be accessible within 
 docker run -p 1883:1883 eclipse-mosquitto
 ```
 
-#### Public Eclipse.org
+#### Option 3. Public Eclipse.org
 
 Eclipse has an open mqtt.eclipse.org server that can be used for testing. Recommended if you just want to play around and see if things work. NOTE, this is open.
 
-#### Flespi.com
+#### Option 4. Flespi.com
 
 Free MQTT broker.
 
 https://flespi.com/mqtt-broker
 
-#### Adafruit IO account
+#### Option 5. Adafruit IO account
 
 Go to https://io.adafruit.com/  and sign up for a free account. Make note of your ADAFRUIT_USER_NAME since you need to use it in the following. When logged in, get the YOUR_AIO_KEY from https://io.adafruit.com/, click on "AIO Key"
 
@@ -84,6 +102,7 @@ Note that you get the following in a free account.
 When exceeding the data points, you may get ECONNRESET.
 
 ### Step 3. subscription and publishing
+Assumes Option 5, but works similarly for other Options but you need to find out how yourself.
 
 Now its time to communicate using a mqtt-library to adafruit.io through the WiFi network. First step is to verify that we got communication going in both directions.
 
