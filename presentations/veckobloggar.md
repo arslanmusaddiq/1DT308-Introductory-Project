@@ -76,6 +76,38 @@
     - Gruppindelning!!! 2-3.
     - Lab 4 och 5. Se till att dessa är klara.
 
+# V48
+
+- Genomgång av tidigare veckan.
+- Git.
+    - Hur kommer man igång med Git?
+    - Vi skapar Repositories till er när ni har grupp.
+    - Under nästa vecka...
+    - Är ni klara, meddela oss.
+    - Google Drive dokument (kommer strax)
+        - Gruppnamn.
+        - Vad ni heter och ert student ID
+    - Börja med `git clone`
+    - `.gitignore` OBS.
+    - Gör misstag!
+    - #topic-git
+    - #topic-micropython
+- Projektinfo med Jonas (bra!)
+- Gruppindelning
+- Projektdiskussioner.
+- Lab 5 bör vara klart nu
+- Närvarodiskussion i Zoom
+- Feedback för föreläsningar. Gärna!
+- Vi gillar öppenhet. 
+- Feedback för laborationer. Gärna GitLab.
+    - merge request +++
+    - issues
+
+
+
+
+
+
 
 
 
