@@ -103,7 +103,7 @@ When exceeding the data points, you may get ECONNRESET.
 
 ### Step 3. subscription and publishing
 
-Now its time to communicate using a mqtt-library to adafruit.io through the WiFi network. First step is to verify that we got communication going in both directions.
+Now its time to communicate using a mqtt-library to adafruit.io( Option 5, but similar things for other Options but you need to find out) through the WiFi network. First step is to verify that we got communication going in both directions.
 
 On https://io.adafruit.com/
 * Create a feed "myfeed" at https://io.adafruit.com/ADAFRUIT_USER_NAME/feeds (replace ADAFRUIT_USER_NAME with your username )
