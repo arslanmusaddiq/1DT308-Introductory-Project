@@ -20,7 +20,7 @@ For the project students work in groups consisting of two to three students. All
 
 During the planning meeting discuss the ambition-level of the group. Read the examination criteria and come up with a plan. 
 
-**All groups are required to have a weekly meeting with the project supervisor.** Time slots will be planned.
+**All groups are required to have a weekly meeting with the project supervisor.** Time slots will be planned [here](https://docs.google.com/spreadsheets/d/1Qu5aW9imXaxWTpthV_sjVzB7169cBDxHYlATHi5hwbw)
 
 ## Requirements
 
