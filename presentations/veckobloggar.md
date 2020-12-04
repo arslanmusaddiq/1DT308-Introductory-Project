@@ -104,6 +104,18 @@
     - issues
 
 
+# V49
+
+- Genomgång av tidigare veckan.
+- Projektdiskussioner
+    - Kom igång nu.
+    - Skriv upp er på handledning.
+    - Handledningen är obligatorisk.
+- GitLab och Kanban (boards)
+- Vi vill se issues på GitLab
+- Alla grupper bör ha fått GitLab projekt nu
+- Diskussion om betyg. Svårigheter med A/B bedömning nu i början.
+- Gästföreläsningar.
 
 
 

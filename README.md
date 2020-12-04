@@ -9,7 +9,7 @@ Läs studieguiden:
 
 - [Slack kanal](coursepress.lnu.se) **#1dt308-1dt902-introducerande-projekt**
 - [Moodle](https://mymoodle.lnu.se/course/view.php?id=49031)
-- [Project template](project_template.md)
+- [Project template](project-template.md)
 - [Inlämningsuppgift om yrkesrollen ingenjör](ingenjor.md)
 
 ## Labs
