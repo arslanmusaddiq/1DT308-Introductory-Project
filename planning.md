@@ -20,10 +20,10 @@
 | 2020-11-22  | --- | Projektinstruktioner, Jonas Lundberg | [Youtube](https://youtu.be/bKp3BKQK9FE) |
 | 2020-11-25  | 08:30-09:45 | Projektdiskussion, Fredrik och Jonas | [Zoom](https://lnu-se.zoom.us/j/6466400631) |
 | 2020-11-25  | --- | Vad är testning?, Daniel Toll | [Youtube](https://youtu.be/MrRaXrOOF9Y) |
-| 2020-11-26  | --- | Testning i praktiken, Daniel och Fredrik | [Youtube TBA]() |
-| 2020-11-27  | 10:15-11:00 | vblog 48, Fredrik Ahlgren and Morgan Ericsson | [YT](https://youtu.be/JCzbjxyOZvg) |
-
-
+| 2020-11-27  | 15.00 | vblog 48, Fredrik Ahlgren and Morgan Ericsson | [YT](https://youtu.be/JCzbjxyOZvg) |
+| 2020-12-04  | 09.00 | vblog 49, Fredrik Ahlgren and Morgan Ericsson | [YT](https://youtu.be/woGSiwj_39k) |
+| 2020-12-09  | --- | Testning i praktiken, Daniel och Fredrik | [Youtube](https://youtu.be/P4TPIvHrhWw) |
+| 2020-12-11  | 08.15 | vblog 50, Fredrik Ahlgren and Morgan Ericsson | [YT](https://youtu.be/FV4BQ-kYFUs) |
 
 ### Guest lectures (live)
 
@@ -34,4 +34,4 @@
 | 2020-12-02  | 10:15-11:00 | Johan Andersson, Severalnines | [zoom](https://lnu-se.zoom.us/j/6466400631) |
 | 2020-12-02  | 11:15-12:00 | John Herrlin, Fortnox | [zoom](https://lnu-se.zoom.us/j/6466400631) |
 | 2020-12-09  | 10:15-11:00 | Antonina Danylenko, Spotify | [zoom](https://lnu-se.zoom.us/j/6466400631) |
-| 2020-12-09  | 11:15-12:00 | TBA, Pycom | [zoom](https://lnu-se.zoom.us/j/6466400631) |
+| 2020-12-09  | 11:15-12:00 | Aline Silva and Bettina Rubek Slater, Pycom | [zoom](https://lnu-se.zoom.us/j/6466400631) |
