@@ -117,6 +117,21 @@
 - Diskussion om betyg. Svårigheter med A/B bedömning nu i början.
 - Gästföreläsningar.
 
+# V50
+
+- Pythonhjälp på onsdagar i Discord. Tips! Länk på Slack.
+- Labtider i Discord.
+- Använd er kalender.
+- Projektdiskussioner. Förbered inför mötet.
+- Vad har gjorts? Vad ska göras?
+- Tidsloggar. Förväntat 20h/v per person.
+- Gitlab. Planering. Vi vill att ni använder detta MER.
+- LoRa. TTN. Sommarkurs.
+- Pybytes.
+- Tänk moduler i kod.
+- TTN Täckning. Campus Kalmar, Växjö. ttn.org
+- Kommer en mindre LoRa-GW på campus i Växjö.
+- 
 
 
 

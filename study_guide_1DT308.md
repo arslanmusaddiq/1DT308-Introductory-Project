@@ -28,7 +28,6 @@
 - Laborationer kommer vara lärarledda och på campus, se schema.
 - Laborationer har ej obligatoriskt närvarokrav, däremot är redovisningen av lab 4 och 5 examinerande.
 
-
 ## Deltagande
 
 Under de inledande veckorna (lab 1-5) skall endast lab 4 och 5 redovisas för lärare. Själva laborationerna görs på egen hand, men måste lab 4 måste checkas av (individuellt) av lärare/labassistent innan deadline. Lab 5 presenteras i grupp.
