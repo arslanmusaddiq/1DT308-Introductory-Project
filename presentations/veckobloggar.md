@@ -129,10 +129,27 @@
 - LoRa. TTN. Sommarkurs.
 - Pybytes.
 - Tänk moduler i kod.
-- TTN Täckning. Campus Kalmar, Växjö. ttn.org
+-  Täckning. Campus Kalmar, Växjö. ttn.org
 - Kommer en mindre LoRa-GW på campus i Växjö.
-- 
 
+# V51
+
+- Vad behöver vi veta om Pycom-enheten?
+- 3.3V och 5V. Sensorer. Koppling?
+- Elläran.
+- TinkerCAD, testa elkopplingar.
+- Labhandledning vs projektdiskussioner.
+    - Lab -> Alla tekniska frågor och diskussioner.
+    - Vi lägger resurser på detta.
+    - Projektdiskussioner, handledning. Projekt.
+    - Hur ser ni att det borde fungera?
+- GitLab. Issues. Boards (Kanban). (Betyg ...)
+- Ingenjörsrapport (38st ...).
+- Snart jul.
+- Flera grupper har begränsad (ingen?) helg.
+- Finns inget jullov (OBS!!)
+- Begränsad support ... 
+- Redovisning blir video. Rapport också! Amaze us!
 
 
 
