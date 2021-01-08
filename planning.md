@@ -24,6 +24,8 @@
 | 2020-12-04  | 09.00 | vblog 49, Fredrik Ahlgren and Morgan Ericsson | [YT](https://youtu.be/woGSiwj_39k) |
 | 2020-12-09  | --- | Testning i praktiken, Daniel och Fredrik | [Youtube](https://youtu.be/P4TPIvHrhWw) |
 | 2020-12-11  | 08.15 | vblog 50, Fredrik Ahlgren and Morgan Ericsson | [YT](https://youtu.be/FV4BQ-kYFUs) |
+| 2020-01-11  | 10.15-11:30 | Slutspurt inför projektet, Fredrik Ahlgren | [Zoom](https://lnu-se.zoom.us/j/6466400631) |
+
 
 ### Guest lectures (live)
 
