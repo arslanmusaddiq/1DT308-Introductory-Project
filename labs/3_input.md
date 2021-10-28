@@ -87,7 +87,7 @@ When the button is pressed the A and B-sides become connected the input becomes 
   
 ![Pull down button circuit](/images/pull-down-button.jpg)
 
-### Step 1. Button with contact bounce-reduction
+### Step 1. Button
 
 Run the following code with a button circuit on P11:
 ```python
@@ -181,19 +181,15 @@ for i in mario:
     time.sleep(0.15)
 ```
 
-## Step 3. Blink lights to tune. (Optional for extra credit/fun)
+## Step 3. Blink lights to tune
 
 Assign one LED for each tone (multiple tones can be attached to the same LED ) turn on LED's in tune with the music.
-
 
 ## Step 4. Read an analog temperature sensor
 
 Read the analog value from the NTC-sensor and present it in time intervals to the console with a `print()`-function. Note, depending on your sensor you might need to do a voltage divider. Read more about NTC thermistors and how to connect a voltage divider here: https://www.electronics-tutorials.ws/io/thermistors.html
 
 You will have to think about how the voltage that is read using the analog input is translated to a temperature. There are both [equations](https://eepower.com/resistor-guide/resistor-types/ntc-thermistor/#) and [lookup tables](https://cdn-shop.adafruit.com/datasheets/103_3950_lookuptable.pdf) that can be used to write a function.
-
-
-
 
 
 **NOTE** The NTC thermistor mounted on a PCB that is distributed from the lab is incorrectly marked. The correct setup is shown in the Figure below. [Analog temperature sensor NTC Electrokit](https://www.electrokit.com/uploads/productfile/41015/41015732_-_Analog_Temperature_Sensor.pdf) Note. The schematics are wrong on this one.
