@@ -192,10 +192,6 @@ while True:
         
 ```
 
-
-# Examination
-
-
 ## Examination
 
 This assignment should be examined by a teacher/TA. 

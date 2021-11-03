@@ -73,11 +73,21 @@ NOTE. Follow the instructions very carefully. You will need to extract the Devic
 
 In this first assignment you will be able to see the data that is sent to the TTN Console.
 
-
 ### Part 5. Visualising your data to an online platform
 
-There are several ready to use IoT-platforms to use to visualise data. We recommend that you start working with one of the following which are free to use for students and also have a direct integration with The Things Console.
+There are several ready to use IoT-platforms to use to visualise data. We recommend that you start working with one of the following which are free to use for students and also have a direct integration with The Things Console, for example Datacake, UBIDOTS STEM or Cayenne.
 
+- https://www.thethingsindustries.com/docs/integrations/cloud-integrations/cayenne/
+- https://www.thethingsindustries.com/docs/integrations/cloud-integrations/datacake/
+- https://datacake.co/
+- https://ubidots.com/stem/
 
+## Examination
 
+This assignment should be examined by a teacher/TA. 
 
+Prepare for that by checking yourself so that you know the answers to the following questions:
+
+- A graph of your data from the sensor. With correct labels.
+- You should be able to change the value from your device by manipulating the physical sensor (that is, changing the temperature, or distance, etc). This should be reflected on the online platform.
+- You should be able to explain the steps in the tutorial in a way that is understandable by a beginner.

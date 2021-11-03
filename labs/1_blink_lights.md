@@ -1,6 +1,5 @@
 # Lab 1. Blink Lights
 
-
 ### Follow a tutorial and modify code, blink a light.
 Use the built in RGB-LED-light to blink in different colors.
 
@@ -12,6 +11,8 @@ Then rewrite the code so that the RGB-LED flashes in two second interval but als
 
  * The color of the built-in LED on the LoPy4 board switches between red, green, yellow every second.
  * The color-name is also written on the console at the same time.
+
+Read in the Pycom documentation on how to accomplish this task.
 
 ```
 Red
