@@ -17,4 +17,4 @@ Er reflektionsrapport ska innehålla följande svar med reflektion för minst tr
 - Vilka verktyg använder de?
 - Hur säkerställs kvalitet på det de utvecklar?
 
-Inlämningen sker via [MyMoodle](https://mymoodle.lnu.se/mod/assign/view.php?id=2967703)
+Inlämningen sker via [MyMoodle](https://mymoodle.lnu.se/course/view.php?id=49031)

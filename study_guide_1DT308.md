@@ -4,33 +4,32 @@
 
 ## Viktiga länkar
 
-- [Moodle](https://mymoodle.lnu.se/course/view.php?id=49031)
-- [Planning](planning.md)
+- [Moodle](https://mymoodle.lnu.se/course/view.php?id=52254)
 - [Kursplan 1DT308](https://kursplan.lnu.se/kursplaner/kursplan-1DT308-1.pdf)
 - [Kursplan 1DT902](https://kursplan.lnu.se/kursplaner/kursplan-1DT902-1.pdf)
-- [Gitlab](https://gitlab.lnu.se)
-- [Slack kanal](coursepress.lnu.se) **#1dt308-1dt902-introducerande-projekt**
+- [Gitlab](https://gitlab.lnu.se/1dt308/content)
+- [Slack kanal](https://coursepress.slack.com/signup) **#1dt308-1dt902-introducerande-projekt**
 - [Project template](project-template.md)
 
 ## Förväntningar
 
 - Läs detta dokumentet **noggrant**. Återkoppla med kommentarer direkt om det är något som är oklart.
-- Planera dina studier. Lägg in tid i din kalender för att se/lyssna på inspelat material, närvaro på workshops och för uppgifter.
+- Planera dina studier. Lägg in tid i din kalender att jobba med uppgifter utanför schemalagd tid, närvaro krävs för att klara uppgifter.
 - Fråga gärna dina frågor tidigt om något är oklart, vänta inte. Påbörja uppgifter i god tid, annars finns mycket litet utrymme för att hinna hjälpa.
 - **Interagera med studenter och lärare på Slack**. Fråga, och var inte rädd att svara på frågor från andra studenter. Kom ihåg - var trevlig och respektfull. Kursens framgång bygger på er medverkan.
 - Framförallt - försök anamma en positiv inställning och **ha kul.**
 
 ## Föreläsningar och laborationer
 
-- Samtliga föreläsningar kommer hållas på distans. Föreläsningarna kommer vara en mix mellan förinspelat material och livestream via Youtube och Zoom. Om det är är live så vill vi gärna att du är med live.
-	- OBS. Frågor på föreläsningar sker i **Slack**.
+- De flesta föreläsningarna kommer att hållas på plats i Växjö och Kalmar campus. Vid viss tillfällen kommer vi att ge dubbla föreläsningstillfällen för respektive grupp, dessa kommer ej att spelas in eller streamas. Vid några tillfällen kommer det att erbjudas en liveström.
+	- Ställ gärna frågor via **Slack**.
 - Föreläsningarna kommer att uppdateras via TimeEdit.
 - Laborationer kommer vara lärarledda och på campus, se schema.
-- Laborationer har ej obligatoriskt närvarokrav, däremot är redovisningen av lab 4 och 5 examinerande.
+- Laborationer har ej obligatoriskt närvarokrav, däremot är redovisningen laborationerna obligatorisk. Det vill säga, det är i stort sett ett krav att vara på plats om ni ska genomföra kursen.
 
 ## Deltagande
 
-Under de inledande veckorna (lab 1-5) skall endast lab 4 och 5 redovisas för lärare. Själva laborationerna görs på egen hand, men måste lab 4 måste checkas av (individuellt) av lärare/labassistent innan deadline. Lab 5 presenteras i grupp.
+Under de inledande veckorna skall laboration 1-4 redovisas för en lärare eller amanuens. De flesta laborationerna görs individuellt, men det förväntas att ni trots det samarbetar och hjälper varandra. I en av laborationerna krävs att ni samarbetar tillsammans med en annan.
 
 Under sista halvan av kursen kommer ni jobba i ert IoT-projekt. Kravet på deltagande från er är att ni **måste boka ett avstämningsmöte varje vecka** med lärare/labassistent.
 
@@ -42,7 +41,6 @@ Under sista halvan av kursen kommer ni jobba i ert IoT-projekt. Kravet på delta
 - Inom det andra spåret introduceras hur man arbetar i projekt och grupp, samt yrkesrollen ingenjör.
 
 [Kursplan 1DT308](https://kursplan.lnu.se/kursplaner/kursplan-1DT308-1.pdf), [Kursplan 1DT902](https://kursplan.lnu.se/kursplaner/kursplan-1DT902-1.pdf)
-
 
 **Kunskap och förståelse**:
 A.1 förklara hur systemkrav tas fram, specificeras och testas,
@@ -61,7 +59,6 @@ C.1 reflektera över och värdera en given ansats att lösa ett problem,
 C.2 reflektera över relationen mellan ämneskunskap, ingenjörsfärdigheter och yrkesrollen ingenjör, samt
 C.3 reflektera över och värdera sin egen kontra gruppens insats vid laborations­ och projektarbete.
 
-
 **Innehåll:**
 
 - Introduktion till en enchipsdator (hårdvara och mjukvara).
@@ -77,27 +74,32 @@ C.3 reflektera över och värdera sin egen kontra gruppens insats vid laboration
 - Ingenjörens yrkesroll, arbetsuppgifter och förhållningssätt.
 - Ingenjörens ansvar och arbetsmiljö.
 
-
 ## Kommunikationsstrategi
 
-- *Personliga* frågor gällande formella medverkan på kursen, frånvaro, betyg skickas via email till ansvarig lärare. OBS, undvik gärna mail.
+- *Personliga* frågor gällande formella medverkan på kursen, frånvaro, betyg skickas via email till ansvarig lärare. OBS, undvik gärna direktkommunikation till lärare gällande frågor som rör kursens innehåll, sannolikt är det någon annan som har samma fråga och det ställs då i ett öppet forum i kursens Slack-kanal.
 - Frågor kring kursen, uppgifter, examination, schema, ställs i Slack **#1dt308-1dt902-introducerande-projekt**.
 - Information gällande kursen kommer postas på Slack. Det är _viktigt_ att du läser allt som är '*Pinned*'.
 - Reagera till **alla** '*Pinned posts*' på Slack.
 - Ni kan filtrera alla '*Pinned posts*' enligt figur nedan.
 
 ![pinned-posts](images/pinned_slack.png)
-
 ![reactions](images/react_slack.png)
 
 ## Deadlines
 
-Kursen börjar **måndagen den 2:e november 2020** och slutar **fredagen den 15:e januari 2021**.
+Kursen börjar **måndagen den 8:e november 2021** och slutar **fredagen den 13:e januari 2021**.
 
-- **Torsdag 12:e november**: Lab 4 presenteras, U/G.
-- **Torsdag 24: november**: Lab 5 presenteras i grupp, U/G.
-- **Måndag 30:e november**: Inlämning av projektplan och gruppindelning.
-- **Onsdag 16:e december**: Inlämning rapport på MyMoodle, ingenjörens roll, U/G.
+Deadlines för laborationer. Observera att datumen nedan är sista deadline för varje redovisning, er labgrupp kommer sannolikt att ha ett tidigare tillfälle under veckan som deadline för att redovisa labbarna.
+
+- **V2 Fredag 19:e november**: Lab 1 presenteras, U/G.
+- **V3 Fredag 26: november**: Lab 2 presenteras, U/G.
+- **V4 Fredag 3: december**: Lab 3 presenteras, U/G.
+- **V5 Fredag 10: december**: Lab 4 presenteras, U/G.
+
+Deadlines för projekt.
+
+- **Fredag 10:e december**: Inlämning av projektplan och gruppindelning.
+- **Torsdag 23:e december**: Inlämning rapport på MyMoodle, ingenjörens roll, U/G.
 - **Fredag 15: januari**: Deadline för projektrapport och video, GitLab. A-F
 
 Samtliga moment ska vara genomförda innan kursens slut för ett betyg.
@@ -125,8 +127,7 @@ Kursen är tio veckor lång, varav de fyra första veckorna innehåller mer grun
 ### Öppna videos:
 
 - Samtliga föreläsningar kommer annonseras på Slack.
-- Vi kommer att publicera alla öppna inspelningar via [Computer Science Play 5](https://www.youtube.com/channel/UCrIAERCddbByuZ8cP76qJoQ/live), följ gärna den.
-- Videos kommer att läggas in på följande spellista [1dt308-1dt902-introducerande-projekt](https://www.youtube.com/playlist?list=PL70wNv4dBdJzS599hgky6oMcVWWjKcLnW)
+- Vi kommer att publicera alla öppna inspelningar via [Youtube Computer Science](https://www.youtube.com/cslnu), följ gärna den.
 
 ### Ej öppna föreläsningar
 
