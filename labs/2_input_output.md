@@ -14,7 +14,6 @@ During the assignment you may discuss the assignment with students outside the g
 
 ## Knowledge Components
 
-
  * Buzzers (Svenska: Summer) https://en.wikipedia.org/wiki/Buzzer
     * Buzzer circuit https://www.instructables.com/id/How-to-use-a-Buzzer-Arduino-Tutorial/
     * Creating a PWM object https://docs.pycom.io/firmwareapi/pycom/machine/pwm/
@@ -200,7 +199,6 @@ You will have to think about how the voltage that is read using the analog input
 Discuss how accurate the reading is and the range of the temperature span that is presented.
 
 - How many bits do you have for the value, and how does this affect your reading?
-
 
 ## Step 5. Read a digital temperature and humidity sensor
 
