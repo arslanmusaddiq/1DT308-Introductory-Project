@@ -1,7 +1,5 @@
 # Studieguide 1DT308 / 1DT902
 
-[Inspelning av denna kursintroduktion](https://www.youtube.com/watch?v=vHUfvAV33SQ)
-
 ## Viktiga länkar
 
 - [Moodle](https://mymoodle.lnu.se/course/view.php?id=52254)
@@ -37,7 +35,7 @@ Under sista halvan av kursen kommer ni jobba i ert IoT-projekt. Kravet på delta
 
 **Kursen har två spår.**
 
-- Det första spåret presenterar en enkel enchipsdator och hur man kan skriva program som interagerar med externa enheter såsom sensorer och nätverkskopplade enheter. 
+- Det första spåret presenteras en enchipsdator och hur man kan skriva program som interagerar med externa enheter såsom sensorer och nätverkskopplade enheter. 
 - Inom det andra spåret introduceras hur man arbetar i projekt och grupp, samt yrkesrollen ingenjör.
 
 [Kursplan 1DT308](https://kursplan.lnu.se/kursplaner/kursplan-1DT308-1.pdf), [Kursplan 1DT902](https://kursplan.lnu.se/kursplaner/kursplan-1DT902-1.pdf)
