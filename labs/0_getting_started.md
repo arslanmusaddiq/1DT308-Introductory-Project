@@ -11,7 +11,7 @@ https://docs.pycom.io/gettingstarted/
 
 This assignment is all about getting to know the Atom development environment and to be able to run code on the pycom LoPy4 boards.
 
- * Install Atom and PyMakr plugin
+ * Install VSCode and PyMakr plugin
  * Connect LoPy4 to a computer
  * Connect to board in Atom and run code in console (on the hardware)
  * Upload files and run code on the microcontroller
@@ -29,11 +29,11 @@ This task is going to be conducted individually.
  * One computer
 
 ### Software
- * **Atom.io** programming environment, https://atom.io/
+ * **VSCode** programming environment, https://code.visualstudio.com/
  * **NodeJS** (current 15+), https://nodejs.org
  * **PyMakr** plugin is found via the extension tab in either IDE
 
-(Note: The PyMakr plug-in exists also for Visual Studio Code https://code.visualstudio.com/. Atom.io is recommended due to better functionality.)
+(Note: The PyMakr plug-in exists also for Atom.io https://atom.io, if you get problems with VSCode this might be an option.)
 
 ### Knowledge components
 
@@ -61,11 +61,11 @@ Complete each step before progressing to the next.
 WARNING! "**Be gentle on hardware** when plugging and unplugging from the USB connector. Whilst the USB connector is soldered and is relatively strong, if it breaks  it can be very difficult to fix."
 
 ### Step 2. Software setup
- * Download and install Atom.io
- * Install PyMakr plugin in Atom.io (using the package manager, settings Packages)
+ * Download and install VSCode
+ * Install PyMakr plugin in VScode (using the Extensions manager)
 
 ### Step 3.
-Make sure the LoPy board is connected to a computer with Atom and PyMkr installed.
+Make sure the LoPy board is connected to a computer with your IDE and PyMkr installed.
 
 When the board is properly setup you can run micropython code directly on it using the pymakr-console. The output from the commands are sent to the computer so that you can interact with the board.
 
@@ -82,10 +82,10 @@ HINT! To reset the device
 
 
 #### Expected output. Run help() on board
-![Goal state 1](/images/1_goal_state_1.png)
+![Goal state 1](/images/vscode-help.png)
 
 ### Step 4. Run custom code on the board
-Create project folder in Atom, with a main.py file and run it.
+Create project folder in your IDE, with a main.py file and run it.
 
 Using Atom, create a new file (main.py) with the following content but replace "Name 1" and "Name 2" with group members usernames
 
@@ -93,15 +93,15 @@ Using Atom, create a new file (main.py) with the following content but replace "
 print("Hello, Name 1, Name 2!")
 ```
 
-Press upload ![PyMkr Upload Button](/images/upload.png)
+Press upload ![Upload Button](/images/vscode-upload.png)
 
 When the upload has completed the code willrun on the board and should produce the same output as in Expected output 2
 
 #### Expected output 2.
-![Goal state 2](/images/1_goal_state_2.png)
+![Goal state 2](/images/vscode-hello-world.png)
 
 When you have completed this assignment you are expected to know:
- * How to setup a pycom-development environment with Atom and the PyMakr plugin.
+ * How to setup a pycom-development environment with your IDE and the PyMakr plugin.
  * How to run python commands using the REPL console.
  * How to upload and run code in files using PyMakr
 
