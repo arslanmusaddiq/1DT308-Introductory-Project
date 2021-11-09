@@ -6,7 +6,7 @@ Läs studieguiden:
 
 ## Övriga viktiga länkar
 
-- [Slack kanal](coursepress.lnu.se) **#1dt308-1dt902-introducerande-projekt**
+- [Slack kanal](https://coursepress.slack.com/signup) **#1dt308-1dt902-introducerande-projekt**
 - [Moodle](https://mymoodle.lnu.se/course/view.php?id=52254)
 - [Project template](project-template.md)
 - [Inlämningsuppgift om yrkesrollen ingenjör](ingenjor.md)

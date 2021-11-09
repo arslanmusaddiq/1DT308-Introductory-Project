@@ -89,10 +89,10 @@ Kursen börjar **måndagen den 8:e november 2021** och slutar **fredagen den 13:
 
 Deadlines för laborationer. Observera att datumen nedan är sista deadline för varje redovisning, er labgrupp kommer sannolikt att ha ett tidigare tillfälle under veckan som deadline för att redovisa labbarna.
 
-- **V2 Fredag 19:e november**: Lab 1 presenteras, U/G.
-- **V3 Fredag 26: november**: Lab 2 presenteras, U/G.
-- **V4 Fredag 3: december**: Lab 3 presenteras, U/G.
-- **V5 Fredag 10: december**: Lab 4 presenteras, U/G.
+- **V46**: Lab 1 presenteras, U/G.
+- **V47**: Lab 2 presenteras, U/G.
+- **V48**: Lab 3 presenteras, U/G.
+- **V49**: Lab 4 presenteras, U/G.
 
 Deadlines för projekt.
 
