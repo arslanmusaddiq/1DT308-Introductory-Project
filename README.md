@@ -19,7 +19,7 @@ This course consists of several labs. The labs are designed to start as tutorial
 
 Labs that needs to be checked by teacher/TA.
 
-* [1. Blink External LEDs](labs/1_blink_lights.md)
-* [2. Input and Sound](labs/2_input_output.md)
-* [3. Traffic Light](labs/3_iot_traffic_light.md) 
-* [4. IOT Traffic Light](labs/4_iot_device_lora.md)
+* [Lab 1](labs/1_blink_lights.md)
+* [Lab 2](labs/2_input_output.md)
+* [Lab 3](labs/3_iot_traffic_light.md) 
+* [Lab 4](labs/4_iot_device_lora.md)
