@@ -8,8 +8,6 @@ In this assignment we are going to work with user-input through a button circuit
 
 ## Rules
 
-This task is going to be conducted in a group of two students. Both students must be active during all steps of the assignment.
-
 During the assignment you may discuss the assignment with students outside the group. You may help other groups but you may NOT do all steps for them, or share any code. Note that these rules change between assignments.
 
 ## Knowledge Components
@@ -233,8 +231,6 @@ When completed you should ask a teacher/TA to check your setup and verify the qu
  * Code should be divided into methods
  * The song should not be played in the eventhandler function but started in a separate loop (or thread).
  
-### Check knowledge: 
- * Ask the group members individually two questions each of the above questions.
 
 
   
