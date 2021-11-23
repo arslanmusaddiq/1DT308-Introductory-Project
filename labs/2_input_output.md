@@ -211,6 +211,8 @@ Connect a temperature and/or humidity (DHT11 / 22 or a DS18B20) sensor to the de
 
 This assignment should be examined by a teacher/TA. 
 
+**You should in this examination show that you have managed to do all the tasks described. That is both analog and digital sensor readings, as well as buzzers and buttons.**
+
 Prepare for that by checking yourself so that you know the answers to the following questions:
 
  * What is the difference between a pull-up and a pull-down button circuit?
