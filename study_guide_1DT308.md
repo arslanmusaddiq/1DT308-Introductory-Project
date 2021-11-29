@@ -85,14 +85,14 @@ C.3 reflektera över och värdera sin egen kontra gruppens insats vid laboration
 
 ## Deadlines
 
-Kursen börjar **måndagen den 8:e november 2021** och slutar **fredagen den 13:e januari 2021**.
+Kursen börjar **måndagen den 8:e november 2021** och slutar **fredagen den 14:e januari 2022**.
 
-Deadlines för laborationer. Observera att datumen nedan är sista deadline för varje redovisning, er labgrupp kommer sannolikt att ha ett tidigare tillfälle under veckan som deadline för att redovisa labbarna.
+Varje lab presenteras senast kommande labtillfälle veckan efter genomgången lab.
 
-- **V46**: Lab 1 presenteras, U/G.
-- **V47**: Lab 2 presenteras, U/G.
-- **V48**: Lab 3 presenteras, U/G.
-- **V49**: Lab 4 presenteras, U/G.
+- **V46**: Lab 1, U/G.
+- **V47**: Lab 2, U/G.
+- **V48**: Lab 3, U/G.
+- **V49**: Lab 4, U/G.
 
 Deadlines för projekt.
 
@@ -120,7 +120,7 @@ Samtliga moment ska vara genomförda innan kursens slut för ett betyg.
 
 ## Planering
 
-Kursen är tio veckor lång, varav de fyra första veckorna innehåller mer grundläggande föreläsningar och laborationer för att komma igång med hårvara. 
+Kursen är tio veckor lång, varav de fyra första veckorna innehåller mer grundläggande föreläsningar och laborationer för att komma igång med hårdvara. 
 
 ### Öppna videos:
 
