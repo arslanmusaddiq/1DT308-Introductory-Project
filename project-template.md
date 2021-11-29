@@ -13,6 +13,9 @@ The project plan must contain:
 Inspiration from summer course in IoT:
 https://hackmd.io/@lnu-iot/good-examples
 
+Inspiration from previous courses at LNU:
+https://hackmd.io/@lnu-iot/lnu_iot_projects
+
 
 ## Rules
 
@@ -53,7 +56,7 @@ Project documentation on git in a `/doc` folder. Written in markdown.
 Project images on GitLab in a `/img` folder.
 Project source on GitLab in a `/src` folder.
 
-## Presentation video
+## Presentation video for A/B
 
 The video should demo your project. Make it fun and interesting.
 
