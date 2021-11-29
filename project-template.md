@@ -16,11 +16,11 @@ https://hackmd.io/@lnu-iot/good-examples
 
 ## Rules
 
-For the project students work in groups consisting of two to three students. All students must be active during the project. While not all students must participate in all meetings, no student may participate in less than half of the sessions. Have a planning meeting in the beginning to set dates and times for group gatherings. We suggest planning several group meetings per week and with enough time on each gathering to do work. 
+For the project students work in groups consisting of three to four students. All students must be active during the project. While not all students must participate in all meetings, no student may participate in less than half of the sessions. Have a planning meeting in the beginning to set dates and times for group gatherings. We suggest planning several group meetings per week and with enough time on each gathering to do work. 
 
 During the planning meeting discuss the ambition-level of the group. Read the examination criteria and come up with a plan. 
 
-**All groups are required to have a weekly meeting with the project supervisor.** Time slots will be planned [here](https://docs.google.com/spreadsheets/d/1Qu5aW9imXaxWTpthV_sjVzB7169cBDxHYlATHi5hwbw)
+**All groups are required to have a weekly meeting with the project supervisor.** Time slots will be planned according to booking schedule found on MyMoodle.
 
 ## Requirements
 
