@@ -84,6 +84,8 @@ This means that your two lights should communicate over the network, if one ligh
 
 You may use the MQTT server in our own LNU CSCloud, [mqtt://iot-edu-lab.lnu.se:1883](iot-edu-lab.lnu.se). Note, port 1883 and no encryption (TLS) is needed, username: `king`, password `arthur`.
 
+* Use the MQTT Explorer to visualise and connect to the MQTT-server. [MQTT Explorer](http://mqtt-explorer.com/)
+
 ## Ingredients
 
 ### Hardware
@@ -114,6 +116,9 @@ Use the LNU MQTT server (iot-edu-lab.lnu.se:1883). Optional is to use your own h
 We are running a development setup Mosquitto MQTT server on LNU CSCloud. Note, the information will be accessible by all your peers that are using the same server.
 
 - mqtt://iot-edu-lab.lnu.se, user=king,pass=arthur, port=1883
+
+Use the MQTT Explorer to visualise and connect to the MQTT-server. [MQTT Explorer](http://mqtt-explorer.com/)
+
 
 #### Optional. Run your own MQTT server with Docker
 
