@@ -98,7 +98,7 @@ Deadlines för projekt.
 
 - **Fredag 10:e december**: Inlämning av projektplan och gruppindelning.
 - **Torsdag 23:e december**: Inlämning rapport på MyMoodle, ingenjörens roll, U/G.
-- **Fredag 15: januari**: Deadline för projektrapport och video, GitLab. A-F
+- **Lördag 15: januari**: Deadline för projektrapport och video, GitLab. A-F
 
 Samtliga moment ska vara genomförda innan kursens slut för ett betyg.
 
