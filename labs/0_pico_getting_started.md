@@ -4,12 +4,15 @@ In this course, we are going to use microcontrollers programmed with MicroPython
 
 In the labs for this course, we are first going to get started with the hardware, and then later on controlling some lights and reading digital inputs. Later on, you will also read a sensor value and transmit that to an online service. In the basic lab setup we are only going to use USB and WiFi as our interfaces. We are in the basic labs using the Raspberry Pi Pico Wireless, and it has WiFi, Bluetooth and is based on the RP2040 chipset. Later on in the course, or in your project we also are able to use the Pycom LoPy4 which is based on the Espressif ESP32-chipset and has both LoRaWAN and SigFox connectivity. The main advantage of using MicroPython compared to C++ and Arduino IDE is that we can quickly test and run our code without compiling and flashing. It makes the development much faster and easier.
 
-
-
-
-Reference:
+### Reference:
 
 Getting started with RPI Pico W: https://projects.raspberrypi.org/en/projects/get-started-pico-w
+
+You will need to flash the Pico W with MicroPython firmware. You can find the firmware here: https://micropython.org/download/rp2-pico/
+
+The firmware is easily flashed to the microcontroller by holding the BOOTSEL button, the microcontroller will then show up as a USB drive. Copy the firmware to the drive and the microcontroller will reboot and start running MicroPython. There is also a possibility to flash firmware using the Thonny IDE, but that is not recommended as you will end up with the Pico firmware (not the Wireless).
+
+If you're running a Mac and have problems with copying the UF2 file to the Pico W (*Error 100093*), you can use the following command in the terminal: `rsync /path/to/firmware.uf2 /Volumes/RPI-RP2/`
 
 ## Introduction
 
@@ -65,18 +68,18 @@ The help command prints some useful short-cuts you can use to for example interr
 ### Step 4. Run custom code on the board
 Create project folder in your IDE, with a main.py file and run it.
 
-Using Atom, create a new file (main.py) with the following content but replace "Name 1" and "Name 2" with group members usernames
+Using the IDE, create a new file (main.py) with the following content but replace "Name 1" and "Name 2" with group members usernames
 
 ```python
 print("Hello, Name 1, Name 2!")
 ```
 
-Press upload ![Upload Button](/images/vscode-upload.png)
+Press the ![Run Button](/images/thonny-run.png)
 
 When the upload has completed the code willrun on the board and should produce the same output as in Expected output 2
 
 #### Expected output 2.
-![Goal state 2](/images/vscode-hello-world.png)
+![Goal state 2](/images/hello-fredrik.png)
 
 When you have completed this assignment you are expected to know:
  * How to setup a pycom-development environment with your IDE and the PyMakr plugin.
