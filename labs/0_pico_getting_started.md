@@ -1,4 +1,4 @@
-# Getting started
+# Getting started and Hello World with LED
 
 In this course, we are going to use microcontrollers programmed with MicroPython. The controllers are considered as an IoT device or 'IoT thing'.
 
@@ -39,7 +39,6 @@ This task is going to be conducted individually.
  * print() strings to console https://www.w3schools.com/python/ref_func_print.asp
  * import statements http://wiki.micropython.org/Importing-Modules
  * for-loops with `range()` https://www.w3schools.com/python/python_for_loops.asp
- * `pycom.rgbled()` https://docs.pycom.io/tutorials/basic/rgbled/
  * `time.sleep()` https://docs.pycom.io/firmwareapi/micropython/utime/
 
 ## Steps
@@ -74,16 +73,160 @@ Using the IDE, create a new file (main.py) with the following content but replac
 print("Hello, Name 1, Name 2!")
 ```
 
-Press the ![Run Button](/images/thonny-run.png)
+Press the green run button
 
-When the upload has completed the code willrun on the board and should produce the same output as in Expected output 2
+![Run Button](/images/thonny-run.png)
+
+When pressing the Run button you are executing the code in the text editor on the microcontroller. It's essentially the same as you would have written everything line by line in the REPL console. Make sure that you either edit the code on your computer and then upload the files to the device, or if you are working with editing files directly on the device.
+
+When the microcontroller starts it first executes the file `boot.py` and then `main.py`. If you want to run other files you can do so by importing them in `main.py` or by running them directly in the REPL console.
+
+When the has completed the code willrun on the board and should produce the same output as in Expected output 2.
 
 #### Expected output 2.
 ![Goal state 2](/images/hello-fredrik.png)
 
 When you have completed this assignment you are expected to know:
- * How to setup a pycom-development environment with your IDE and the PyMakr plugin.
+ * How to flash firmware on your microcontroller.
+ * How to setup your IDE.
  * How to run python commands using the REPL console.
- * How to upload and run code in files using PyMakr
+ * How to upload and run code
 
 This task is examined using self-examination. Make sure you understand every step before you proceed.
+
+
+# Lab 1. Blink Lights
+
+### Follow a tutorial and modify code, blink a light.
+Use the built in RGB-LED-light to blink in different colors.
+
+Read and complete this tutorial [https://docs.pycom.io/tutorials/basic/rgbled/](https://docs.pycom.io/tutorials/basic/rgbled/)
+
+Then rewrite the code so that the RGB-LED flashes in two second interval but also prints the name of the color(red, green, yellow) to the console.
+
+### Expected output:
+
+ * The color of the built-in LED on the LoPy4 board switches between red, green, yellow every second.
+ * The color-name is also written on the console at the same time.
+
+Read in the Pycom documentation on how to accomplish this task.
+
+```
+Red
+Green
+Yellow
+Red
+Green
+Yellow
+Red
+```
+
+# Blink External LEDs
+
+## Introduction
+In this assignment, we connect basic circuits with LED's on a breadbord and write python code that turns these on and off.
+
+ * Get LED-lights to blink.
+ * Work with GPIO ports.
+ * Python loops
+ 
+## Rules
+
+This task is going to be conducted individually.
+
+## Ingredients
+
+### Hardware
+ * 1 breadboard
+ * 1 Red LED
+ * 1 Yellow LED
+ * 1 Green LED
+ * 3 Resistors \~400 Ohm (Green, Blue, Brown, Gold) or higher
+ 
+### Software 
+ * Atom with pymakr plugin
+
+### Knowledge components
+ * Breadboards (kopplingsdäck) https://learn.sparkfun.com/tutorials/how-to-use-a-breadboard/all
+ * Basic LED circuit https://en.wikipedia.org/wiki/LED_circuit
+  * Light Emitting Diodes (LEDs) https://en.wikipedia.org/wiki/Light-emitting_diode
+  * Resistors (motstånd) https://en.wikipedia.org/wiki/Resistor
+ * Microcontroller GPIO https://en.wikipedia.org/wiki/General-purpose_input/output
+  * LoPy4 Datasheet https://docs.pycom.io/gitbook/assets/specsheets/Pycom_002_Specsheets_LoPy4_v2.pdf 
+  * Make a GPIO port an output https://docs.pycom.io/firmwareapi/pycom/machine/pin/
+  * Turn GPIO output on and off. ```python pin.value([value]) ```
+ * Make the thread sleep for a second  ```python  time.sleep(seconds) ```
+ * Loops. ```python  while Condition: ``` and/or ```python  for element in array: ```
+
+ 
+## Steps
+
+### Step. Connect Three LED circuits
+We are going to connect three LED circuits on the breadboard and power these from the GND(-) and 3V3(+) connections on the LoPy4 board. See breadboard tutorial if needed.
+**WARNING! When changing components on the breadboard, always have the USB disconnected!**
+
+ * Disconnect the USB cable. 
+ * Connect the GND on LOPY4 to the black/blue power rail(BPR) on the breadboard. Also connect 3V3 to the red power rail(RPR). 
+ * Connect the three LED circuits as in this video https://www.youtube.com/watch?v=yQ2-yVXFMeE but use the power rails as + and - of the battery and use a 560 Ohm resistor. 
+ * Make sure each LED lights up when you connect the USB-cable. 
+ 
+#### Connections 
+Summary of connections. "<-->" means a cable or connection
+ * LOPY4 GND <--> Black/Blue Power Rail (BPR)
+ * LOPY4 3V3 <--> Red Power Rail (RPR)
+ * RPR(3V3) <--> [ Anode - LED - Cathode ] <--> [ resistor ] <--> BPR(GND)
+ 
+ ![LED Circuit, Wikipedia](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/LED_circuit.svg/1200px-LED_circuit.svg.png)
+
+
+### Step. Driving LED with GPIO  
+IMPORTANT: We are going to connect external LED's to the microcontroller. The LoPy4 microcontroller provides "General Purpose Input Output"-ports also called GPIO-ports that can be used to communicate with external components. The ports are a bit sensitive and should not be used to directly drive heavy loads (like a motor). The Datasheet for LOPY4 says "Absolute MAX per pin 12mA, recommended 6mA" which means we must reduce current by using resistors. If more current is needed, additional components (eg. transistors, or drivers) can be used. Thankfully this assignment does not require high current and we can reduce the current flow by having a resistor in series with each LED we connect.
+
+ * Disconnect the USB cable again
+ * For each of the LEDs, remove the wire going from the red power rail to the anode (but keep the GND cable and resistor).
+ * Introduce new cables going from the P8-10 port on the LoPy4 to the LED anodes as in connections below.
+ 
+ #### Connections 
+ * LoPy4 GND <--> Black Power Rail (BPR)
+ * LoPy4 P8 <--> [ Anode - Red LED - Cathode ] <--> [ 560 Ohm resistor ] <--> BPR(GND)
+ * LoPy4 P9 <--> [ Anode - Yellow LED - Cathode ] <--> [ 560 Ohm resistor ] <--> BPR(GND)
+ * LoPy4 P10 <--> [ Anode - Green LED - Cathode ] <--> [ 560 Ohm resistor ] <--> BPR(GND)
+ 
+ When done! connect USB again and upload the following code in the main.py file.
+
+```python
+import time
+from machine import Pin
+redLED = Pin("P8", mode=Pin.OUT) #Make GPIO P8 an output
+redLED.value(1) # Send a 1 to GPIO to turn the LED on
+time.sleep(1) # Sleep for a second
+redLED.value(0) # Send a 0 to the GPIO to turn the LED off
+```
+
+#### Expected output
+
+The Red LED should be ON after the LOPY4 has booted, should stay ON one second, and turn off. The behaviour is repeated if the board is reset by pressing the reset button on the LoPy4 board (next to the RGB-LED on the side of the micro-USB.
+
+### Driving multiple LED's with GPIO
+
+Now adjust the code so that all three LED's blink like this:
+ * RED lights up for 1 second. Other LEDs are unlit.
+ * GREEN lights up for 1 second. Other LEDs are unlit.
+ * YELLOW lights up for 1 second. Other LEDs are unlit.
+ * Repeat forever with RED again
+
+#### Expected output
+[![](http://img.youtube.com/vi/Wtd8pp-DW3w/0.jpg)](http://www.youtube.com/watch?v=Wtd8pp-DW3w "")
+
+## Examination
+
+This assignment should be examined by a teacher/TA. 
+
+Prepare for that by checking yourself so that you know the answers to the following questions:
+
+ * Which leg (pin) of the LED is longer, the cathode or the anode?
+ * How to blink the built-in LED?
+ * Why do we need a resistor in series with each LED?
+ * How can we make the LEDs blink faster?
+ * Where can you find information about the different hardware limits in the LoPy4 board?
+ * What are the components of a basic LED-circuit and how do we connect them in order for the LED to be ON?

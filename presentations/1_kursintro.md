@@ -1,5 +1,4 @@
-# Kursintro 201102
-
+# Kursintro 2022
 
 ## 
 
@@ -12,13 +11,15 @@
 	- Insyn i yrket
 	- Tänk på: Ta hand om varandra - och hårdvaran
 	- Det ingår i kursplanen att söka information, dvs - mycket är ej givet i laborationer med avsikt.
+
 - Vilka är med?
-	- Fredrik Ahlgren (kursansvarig 1DT308)
-	- Morgan Ericsson (kursansvarig 1DT902)
-	- Jonas Lundberg (lab i Växjö)
-	- Francis Palma (lab i Kalmar)
-	- Daniel Toll, Tobias Ohlson
-	- m.fl.
+	- Fredrik Ahlgren (kursansvarig)
+	- Tomas Nilsson (lärare)
+	- Daniel Toll (lärare)
+	- Tobias Ohlsson (lärare)
+	- Christoffer Eid (amanuens Kalmar)
+	- Khaled Matar (amanuens Växjö)
+	- William Abrahamsson (amanuens Växjö)
 
 - Kom igång med lab 1-2
 	- Material i mån

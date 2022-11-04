@@ -6,7 +6,7 @@ In this assignment we aim to work with more code and components. We apply the th
 
 The first task is to create a traffic light with buttons, that is not connected to the internet. This task is done individually.
 
-The second task is to create a connected traffic light. This task task is done in groups of TWO students. Both students must be active during all steps of the assignment.
+The second task is to create a connected traffic light. This task task is done in groups of TWO students. Both students must be active during all steps of the assignment. You will need to collaborate with one other student and show that your IoT traffic light is communicating over the internet.
 
 ALERT! DURING THIS ASSIGNMENT NONE OF THE ARTIFACTS FROM THIS ASSIGNMENT MAY BE SHARED WITH OTHER STUDENT GROUPS. YOU MAY NOT ASK FOR HELP FROM OTHER STUDENT GROUPS, THINK OF THIS AS AN EXAM. 
 YOU MAY GET HELP FROM A TEACHING ASSISTANT OR THE TEACHER.
@@ -86,41 +86,40 @@ You may use the MQTT server in our own LNU server hosted at Digital Ocean, or `m
 
 * Use the MQTT Explorer to visualise and connect to the MQTT-server. [MQTT Explorer](http://mqtt-explorer.com/)
 
+A good introduction to the MQTT protocol and usage is found here: https://youtu.be/3VXDPiDmSog
+
 ## Ingredients
 
 ### Hardware
 
-- One LoPy4 + Pycom Expansion board
+- Microcontroller
 - LEDs, resistors etc.
  
 ## Steps
 
 ### Step 1. Simple communication from Pycom over WiFi
 
-To be able to communicate to the internet we need a WiFi connection. The amount of data sent is very little. You will need to use a network without a certificate, that means you cannot use EDUROAM. Use the `iot-lab` LNU network or share your own from your phone.
+To be able to communicate to the internet we need a WiFi connection. The amount of data sent is very little. You will need to use a network without a certificate, that means you cannot use EDUROAM. Use the `iot-lab` LNU network or share your own from your phone. Note that the `iot-lab` network is capped at 50 kb/s, so you will need to be patient and not send too much data.
 
 #### Script
 
 Replace `WIFI_NETWORK_ID` with the sid of your network and `YOUR_WIFI_PASSWORD` with the passkey in the  code and make sure you can connect to your WIFI before continuing. 
 
-Read the documentation on how to connect to WiFi.
-
-https://docs.pycom.io/firmwareapi/pycom/network/wlan/
+Read the documentation on how to connect to WiFi. There are also some good guides on the [internet](https://www.cnx-software.com/2022/07/03/getting-started-with-wifi-on-raspberry-pi-pico-w-board/)
 
 The script should eventually connect to WiFi and show "Connected to WiFi".
 
 ### Step 2. Connect to a MQTT server.
 
-Use the LNU MQTT server (iot-edu-lab.lnu.se:1883). Optional is to use your own hosted local instance or a service online (example eclipse.org or Adafruit, etc.). 
-
-We are running a development setup Mosquitto MQTT server on LNU CSCloud. Note, the information will be accessible by all your peers that are using the same server.
+Use the LNU MQTT server (mqtt.iotlab.dev:1883). Optional is to use your own hosted local instance or a service online (example HiveMQ, eclipse.org or Adafruit, etc.). You can use any public MQTT server. Preferable you can use our own hosted MQTT server that we are running a VM at Digitalocean, that is running a Mosquitto MQTT. Note, the information will be accessible by all your peers that are using the same server (that applies to all public servers as well).
 
 - `mqtt.iotlab.dev the DNS should point to 64.225.110.253, user=king, pass=arthur, port=1883`
 
 Use the MQTT Explorer to visualise and connect to the MQTT-server. [MQTT Explorer](http://mqtt-explorer.com/)
 
-
 #### Optional. Run your own MQTT server with Docker
+
+*This setup is optional and considered as an advanced option.* You will need to install Docker.
 
 https://hub.docker.com/_/eclipse-mosquitto
 
@@ -156,7 +155,9 @@ Now its time to communicate using a mqtt-library through the WiFi network. First
 
 Name your device and topic. `YOUR_GROUP/YOUR_DEVICE_NAME`
 
-* Import the mqtt library. Download [mqtt.py](https://github.com/pycom/pycom-libraries/blob/master/examples/mqtt/mqtt.py) and upload it to the LoPy4 device. 
+* Import the mqtt library.
+
+![Thonny install MQTT](images/thonny-mqtt.png)
 
 Then combine the following code with the WLAN code. Dont forget to change the needed string constants so that it uses your own account on your mqqt server.
 

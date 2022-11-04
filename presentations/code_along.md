@@ -22,9 +22,7 @@ while True:
 
 ```
 
-
 ## Connecting
-
 
 https://docs.pycom.io/firmwareapi/pycom/network/wlan/
 

@@ -1,7 +1,10 @@
 # Bill of Material
 
-You will need.
+For the first labs, 0-2:
 
+* [Raspbery Pi Pico Wireless](https://www.electrokit.com/en/product/raspberry-pi-pico-w/)
+
+For the last lab 3 you will need:
 * [Pycom LoPy4-device](https://pycom.io/product/lopy4/)
 * [Pycom Expansion board](https://pycom.io/product/expansion-board-3-0/)
 * [Antenna (if using LoRa)](https://pycom.io/product/lora-868mhz-915mhz-sigfox-antenna-kit/)
@@ -20,6 +23,8 @@ In the lab, you should have access to:
     * Pressure
     * Light
     * etc ...
+
+For your projects you will need to have access to more sensors. Recommended is that you buy a startkit with sensors for IoT. Generally all sensors are compatible with either the Raspberry Pi Pico or the Pycom LoPy4.
 
 Recommended kit for LED's and resistors, breadboard: [Kjell](https://www.kjell.com/se/produkter/el-verktyg/arduino/arduino-kit/luxorparts-basic-start-kit-for-arduino-p90632)
 

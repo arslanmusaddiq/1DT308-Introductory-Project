@@ -1,4 +1,4 @@
-# Lab 2 - external
+# Lab 2 - external input and outputs
 
 In this assignment we are going to work with user-input through a button circuit and also introduce a new form of output (sound). 
 
@@ -14,36 +14,35 @@ During the assignment you may discuss the assignment with students outside the g
 
  * Buzzers (Svenska: Summer) https://en.wikipedia.org/wiki/Buzzer
     * Buzzer circuit https://www.instructables.com/id/How-to-use-a-Buzzer-Arduino-Tutorial/
-    * Creating a PWM object https://docs.pycom.io/firmwareapi/pycom/machine/pwm/
-    * Setting the duty cycle of the channel https://docs.pycom.io/firmwareapi/pycom/machine/pwm/
+    * Creating a PWM object https://docs.micropython.org/en/latest/library/machine.PWM.html
+    * Setting the duty cycle of the channel https://docs.micropython.org/en/latest/library/machine.PWM.html
  * Button https://learn.sparkfun.com/tutorials/switch-basics/all
     * Button circuit with pull-down resistor https://learn.sparkfun.com/tutorials/pull-up-resistors
-    * Defining callback function on events https://docs.pycom.io/firmwareapi/pycom/machine/pin/
+    * Defining callback function on events https://electrocredible.com/raspberry-pi-pico-external-interrupts-button-micropython/
     * Interrupts https://en.wikipedia.org/wiki/Interrupt
-    * Taking a utime.ticks_ms() https://docs.pycom.io/firmwareapi/micropython/utime/
+    * Taking a utime.ticks_ms() https://docs.micropython.org/en/v1.15/library/utime.html
     * Contact Bounce https://www.allaboutcircuits.com/textbook/digital/chpt-4/contact-bounce/
  
 * Temperature sensors
     * Analog input
         * Thermistor https://learn.adafruit.com/thermistor
         * NTC Thermistor https://en.wikipedia.org/wiki/Thermistor
-        * Read an analog value Pycom. https://docs.pycom.io/firmwareapi/pycom/machine/adc/
+        * Read an analog value. https://docs.micropython.org/en/latest/rp2/quickref.html#adc-analog-to-digital-conversion
 
     * Digitial input
         * DHT sensors https://learn.adafruit.com/dht
         * 1-Wire. https://en.wikipedia.org/wiki/1-Wire
-        * Pycom Onewire driver: https://docs.pycom.io/tutorials/hardware/owd/
+        *  Onewire driver: https://docs.micropython.org/en/latest/rp2/quickref.html?highlight=onewire#onewire-driver
 
  * Code
     * API: Reading time in ms. utime.ticks_ms()
-    * event callback functions https://docs.pycom.io/firmwareapi/pycom/machine/pin/
+    * event callback functions
     * global variables. https://www.programiz.com/python-programming/global-local-nonlocal-variables
     * API: Create PWM timer PWM(0, frequency=i)
     * timer duty cycle: duty_cycle(0.5) https://en.wikipedia.org/wiki/Duty_cycle
     * API: Make the microcontroller sleep. `time.sleep()`
     * declare function
   
-
 ## Ingredients
 
 ### Hardware
@@ -62,44 +61,44 @@ During the assignment you may discuss the assignment with students outside the g
 ## Steps
 
 ### Breadboard circuit
+
 Connect the breadboard power-rails to GND and 3V3.
 
- * LoPy4 GND <--> Black/Blue Power Rail (BPR)
- * LoPy4 3V3 <--> Red Power Rail (RPR)
+ * GND <--> Black/Blue Power Rail (BPR)
+ * 3V3 <--> Red Power Rail (RPR)
  
 ### The buzzer circuit
-The buzzer is driven directly from the LoPy4 port but using a current reducing resistor. For higher volume it is adviceable to use a driver circuit.
+The buzzer is driven directly from the microcontroller's port but using a current reducing resistor. For higher volume it is adviceable to use a driver circuit.
 
 Place the buzzer with one leg on each side of the breadboard ravine. Connect one side to the microcontroller port and the other through a resistor to GND. 
 
- * LoPy4 P6 <--> Buzzer <--> 1k Ohm resistor <--> BPR(GND)
+ * PIN <--> Buzzer <--> 1k Ohm resistor <--> BPR(GND)
  
 ### The button circuit
 The button has two sides with two legs each (We call them A and B) that are connected when the button is pressed. The button is placed over the breadboard ravine. We connect the A-side to the input port of the microcontroller. We also connect the A side through a 1k Ohm resistor to GND, this pulls the input port voltage down to GND. GND counts as a LOW (or 0) when we read the input of the port through our code. The resistor is called a "pull-down resistor". We connect the B side of the button to 3v3. 
 
 When the button is pressed the A and B-sides become connected the input becomes a HIGH (or 1) since we measure on the side now directly connected to 3v3. Please note that a current now runs through the 1k Ohm connector. 
 
-  * LoPy4 P11 <--> Button side A <--> 1k Ohm resistor <--> BPR(GND)
+  * PIN <--> Button side A <--> 1k Ohm resistor <--> BPR(GND)
   * Button side B <--> RPR(3v3)
   
 ![Pull down button circuit](/images/pull-down-button.jpg)
 
 ### Step 1. Button
 
-Run the following code with a button circuit on P11:
+Run the following code with a button circuit on any PIN:
+
 ```python
 from machine import Pin
 
 count = 0
-
 
 def buttonEventCallback(argument):
     global count
     print("button was pressed: " + str(count))
     count += 1
 
-
-buttonPin = Pin('P11', mode=Pin.IN, pull=None)
+buttonPin = Pin('PXX', mode=Pin.IN, pull=None)
 buttonPin.callback(Pin.IRQ_FALLING, buttonEventCallback)
 ```
 
@@ -162,7 +161,7 @@ A7 = 3520
 D7 = 2349
 
 # set up pin PWM timer for output to buzzer or speaker
-p2 = Pin("P7")  # Pin Y2 with timer 8 Channel 2
+p2 = Pin("PXX")  # Pin Y2 with timer 8 Channel 2
 tim = PWM(0, frequency=300)
 ch = tim.channel(2, duty_cycle=0.5, pin=p2)https://forum.pycom.io/topic/802/example-pwm-mariobros
 
@@ -192,7 +191,6 @@ You will have to think about how the voltage that is read using the analog input
 **NOTE** The NTC thermistor mounted on a PCB that is distributed from the lab is incorrectly marked. The correct setup is shown in the Figure below. [Analog temperature sensor NTC Electrokit](https://www.electrokit.com/uploads/productfile/41015/41015732_-_Analog_Temperature_Sensor.pdf) Note. The schematics are wrong on this one.
 
 ![NTC Thermistor](../images/ntc-sensor-electrokit.jpg)
-
 
 Discuss how accurate the reading is and the range of the temperature span that is presented.
 
