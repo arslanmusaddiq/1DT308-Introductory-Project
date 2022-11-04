@@ -2,7 +2,7 @@
 
 ## Viktiga länkar
 
-- [Moodle](https://mymoodle.lnu.se/course/view.php?id=52254)
+- [Moodle](https://mymoodle.lnu.se/course/view.php?id=54832)
 - [Kursplan 1DT308](https://kursplan.lnu.se/kursplaner/kursplan-1DT308-1.pdf)
 - [Kursplan 1DT902](https://kursplan.lnu.se/kursplaner/kursplan-1DT902-1.pdf)
 - [Gitlab](https://gitlab.lnu.se/1dt308/content)
@@ -19,15 +19,16 @@
 
 ## Föreläsningar och laborationer
 
-- De flesta föreläsningarna kommer att hållas på plats i Växjö och Kalmar campus. Vid viss tillfällen kommer vi att ge dubbla föreläsningstillfällen för respektive grupp, dessa kommer ej att spelas in eller streamas. Vid några tillfällen kommer det att erbjudas en liveström.
+- Hälften av föreläsningarna kommer att hållas på plats i både Växjö och Kalmar campus. Vid viss tillfällen kommer vi att ge dubbla föreläsningstillfällen för respektive grupp, dessa kommer ej att spelas in eller streamas. Vid hälften av tillfällena kommer det att erbjudas en förinspelad länk eller live-ström.
 	- Ställ gärna frågor via **Slack**.
 - Föreläsningarna kommer att uppdateras via TimeEdit.
 - Laborationer kommer vara lärarledda och på campus, se schema.
-- Laborationer har ej obligatoriskt närvarokrav, däremot är redovisningen laborationerna obligatorisk. Det vill säga, det är i stort sett ett krav att vara på plats om ni ska genomföra kursen.
+- Laborationer har EJ obligatoriskt närvarokrav, däremot är redovisningen laborationerna obligatorisk. Det vill säga, det är i stort sett ett krav att vara på plats om ni ska genomföra kursen.
+- För att ni ska kunna ha en chans att genomföra alla laborationer inom tid så krävs det att ni är på plats på campus. Laborationerna är en stegrande skala och blir snabbt mer komplexa inför ert kommande projekt.
 
 ## Deltagande
 
-Under de inledande veckorna skall laboration 1-4 redovisas för en lärare eller amanuens. De flesta laborationerna görs individuellt, men det förväntas att ni trots det samarbetar och hjälper varandra. I en av laborationerna krävs att ni samarbetar tillsammans med en annan.
+Under de inledande veckorna skall laboration 0-3 redovisas för en lärare eller amanuens. Laborationerna görs individuellt, men det förväntas att ni trots det samarbetar och hjälper varandra. I en av laborationerna krävs att ni samarbetar tillsammans med en annan.
 
 Under sista halvan av kursen kommer ni jobba i ert IoT-projekt. Kravet på deltagande från er är att ni **måste boka ett avstämningsmöte varje vecka** med lärare/labassistent.
 
@@ -85,20 +86,24 @@ C.3 reflektera över och värdera sin egen kontra gruppens insats vid laboration
 
 ## Deadlines
 
-Kursen börjar **måndagen den 8:e november 2021** och slutar **fredagen den 14:e januari 2022**.
+Kursen börjar **måndagen den 7:e november 2022** och slutar **fredagen den 13:e januari 2023**.
 
-Varje lab presenteras senast kommande labtillfälle veckan efter genomgången lab.
+Varje lab presenteras senast kommande labtillfälle veckan efter genomgången lab. Det går att genomföra laborationerna i snabbare tak
 
-- **V46**: Lab 1, U/G.
-- **V47**: Lab 2, U/G.
-- **V48**: Lab 3, U/G.
-- **V49**: Lab 4, U/G.
+- **V46**: Lab 0, U/G.
+- **V47**: Lab 1, U/G.
+- **V48**: Lab 2, U/G.
+- **V49**: Lab 3, U/G.
+
+
+![Tidsplan](images/tidsplan-2022.png)
 
 Deadlines för projekt.
 
-- **Fredag 10:e december**: Inlämning av projektplan och gruppindelning.
-- **Torsdag 23:e december**: Inlämning rapport på MyMoodle, ingenjörens roll, U/G.
-- **Lördag 15: januari**: Deadline för projektrapport och video, GitLab. A-F
+- **Fredag 25:e Nov**: Inlämning av projektplan och gruppindelning.
+- **Tisdag-Onsdag 21-211 december**: Projektredovisningar
+- **Tisdag 10: januari**: Deadline för projektrapport och video, GitLab. A-F
+- **Lördag 10: januari**: Inlämning rapport på MyMoodle, ingenjörens roll, U/G.
 
 Samtliga moment ska vara genomförda innan kursens slut för ett betyg.
 
@@ -126,7 +131,6 @@ Kursen är tio veckor lång, varav de fyra första veckorna innehåller mer grun
 
 - Samtliga föreläsningar kommer annonseras på Slack.
 - Vi kommer att publicera alla öppna inspelningar via [Youtube Computer Science](https://www.youtube.com/cslnu), följ gärna den.
-
 
 Docker and TIG-stack: https://youtu.be/unSuncsrPLA
 Let's go far with LoRa: https://youtu.be/Wbas04ouRdk

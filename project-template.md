@@ -1,14 +1,20 @@
 # The project
 
-
-The project plan must contain:
+The project plan **must contain:**
 
 - Group members
+- Project manager
+  - The members different tasks in the group
 - Description and background of idea
 - Bill of Material (utrustningslista)
 - General requirements (kravspecifikation, övergripande)
 - Time schedule, weekly
 - Grade ambition A/B
+
+The project manager is chosen by the group. The project manager is the main responsible for the project plan and the project report. The project manager is also responsible for the group's weekly meetings. The project manager of the group is automatically given two (2) points for the responsibility, and is given five (5) points to distribute to the group members including themselves. That means the group has a total of seven (7) points to distribute to the group members where two (2) is automatically given to the project manager. **It is the responsibility of the project manager to distribute the points.**
+
+If the group does not have a project manager, the group will be given a project manager by the teacher. The points are to be reported in the project report.
+
 
 Inspiration from summer course in IoT:
 https://hackmd.io/@lnu-iot/good-examples
@@ -47,7 +53,7 @@ The project should be delived in a GitLab repository. You are to deliver everyth
 
 Project documentation on git in a `/doc` folder. Written in markdown.
   * timelog.md --- A log of group-gatherings, date, record of which students attended, time spent, and a short note on the focus of the gatherings. End the timelog with an total time per student diagram. 
-    * Ex. 2020-10-10, Daniel and Morgan, 2 hours, set up breadboard and tested components.
+    * Ex. 2020-10-10, Tobias and Fredrik, 2 hours, set up breadboard and tested components.
   * requirements.md --- Project requirements (feature-lists, or user-stories (https://www.mountaingoatsoftware.com/agile/user-stories) with enough detail so that one can read this and understand what the project is and does.
   * hardware.md --- A description of all hardware components and how to connect them. Take a couple of images.
   * setup.md --- A description of the software components and how to set them up. Dont forget external resources such as Adafruit IO and how to setup and adopt your project to this. 
