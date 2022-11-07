@@ -3,18 +3,12 @@
 The project plan **must contain:**
 
 - Group members
-- Project manager
-  - The members different tasks in the group
+- The members different tasks in the group
 - Description and background of idea
 - Bill of Material (utrustningslista)
 - General requirements (kravspecifikation, övergripande)
 - Time schedule, weekly
 - Grade ambition A/B
-
-The project manager is chosen by the group. The project manager is the main responsible for the project plan and the project report. The project manager is also responsible for the group's weekly meetings. The project manager of the group is automatically given two (2) points for the responsibility, and is given five (5) points to distribute to the group members including themselves. That means the group has a total of seven (7) points to distribute to the group members where two (2) is automatically given to the project manager. **It is the responsibility of the project manager to distribute the points.**
-
-If the group does not have a project manager, the group will be given a project manager by the teacher. The points are to be reported in the project report.
-
 
 Inspiration from summer course in IoT:
 https://hackmd.io/@lnu-iot/good-examples

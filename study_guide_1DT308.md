@@ -132,13 +132,10 @@ Kursen är tio veckor lång, varav de fyra första veckorna innehåller mer grun
 - Samtliga föreläsningar kommer annonseras på Slack.
 - Vi kommer att publicera alla öppna inspelningar via [Youtube Computer Science](https://www.youtube.com/cslnu), följ gärna den.
 
-Docker and TIG-stack: https://youtu.be/unSuncsrPLA
-Let's go far with LoRa: https://youtu.be/Wbas04ouRdk
-IoT and connectivity: https://youtu.be/uUVKWt4NKUo
-MQTT: https://youtu.be/3VXDPiDmSog
-
-
-
+- Docker and TIG-stack: https://youtu.be/unSuncsrPLA
+- Let's go far with LoRa: https://youtu.be/Wbas04ouRdk
+- IoT and connectivity: https://youtu.be/uUVKWt4NKUo
+- MQTT: https://youtu.be/3VXDPiDmSog
 
 ### Ej öppna föreläsningar
 

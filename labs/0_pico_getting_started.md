@@ -6,7 +6,7 @@ In the labs for this course, we are first going to get started with the hardware
 
 ### Reference:
 
-Getting started with RPI Pico W: https://projects.raspberrypi.org/en/projects/get-started-pico-w
+**A really good guide on getting started with RPI Pico W: https://projects.raspberrypi.org/en/projects/get-started-pico-w**
 
 You will need to flash the Pico W with MicroPython firmware. You can find the firmware here: https://micropython.org/download/rp2-pico/
 
