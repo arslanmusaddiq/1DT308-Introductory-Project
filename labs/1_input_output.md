@@ -1,4 +1,4 @@
-# Lab 2 - external input and outputs
+# Lab 1 - external input and outputs
 
 In this assignment we are going to work with user-input through a button circuit and also introduce a new form of output (sound). 
 
@@ -179,7 +179,7 @@ for i in mario:
 
 ## Step 3. Blink lights to tune
 
-Assign one LED for each tone (multiple tones can be attached to the same LED ) turn on LED's in tune with the music.
+Assign one LED for each tone (multiple tones can be attached to the same LED) turn on LED's in tune with the music.
 
 ## Step 4. Read an analog temperature sensor
 
@@ -203,7 +203,6 @@ Connect a temperature and/or humidity (DHT11 / 22 or a DS18B20) sensor to the de
 [Digital temp sensor DHT11 bought from Electrokit](https://www.electrokit.com/uploads/productfile/41016/DHT11.pdf)
 
 ![](../images/dht11_wiring.jpeg)
-
 
 ## Examination
 
@@ -230,7 +229,3 @@ When completed you should ask a teacher/TA to check your setup and verify the qu
  * Code should be DRY (no unnecessary repeated statements)
  * Code should be divided into methods
  * The song should not be played in the eventhandler function but started in a separate loop (or thread).
- 
-
-
-  

@@ -1,4 +1,4 @@
-# The IoT Traffic Light
+# Lab 2 - The IoT Traffic Light
 
 In this assignment we aim to work with more code and components. We apply the things we have learned so far, more of the same but with less instructions and guidance.
 
@@ -67,10 +67,10 @@ You can now write a main loop that normally runs the TRAFFIC GO state-function i
 
 # Part 2 - connection to the internet
 
-The previous tasks has been a single LoPy4 device (on its own) without any communication. In this final part, we connect our LoPy4 to the Internet over the WiFi and push information to an online server.
+The previous tasks has been a single MCU device (on its own) without any communication. In this final part, we connect our MCU to the Internet over the WiFi and push information to an online server.
 
  * Simple Internet Of Things (IoT) scenario
- * Connect LoPy4 on WiFi https://docs.pycom.io/firmwareapi/pycom/network/wlan/
+ * Connect MCU to WiFi
  * Synchronize with the Cloud using MQTT
 
 **Requirement**: The IoT traffic light should be connected to another light, and they should communicate.
@@ -80,7 +80,7 @@ This means that your two lights should communicate over the network, if one ligh
 ## Knowledge Components
 
  * MQTT wikipedia https://en.wikipedia.org/wiki/MQTT
- * MQTT pycom https://docs.pycom.io/tutorials/networkprotocols/mqtt/
+ * MQTT lib (there are others also) https://github.com/peterhinch/micropython-mqtt
 
 You may use the MQTT server in our own LNU server hosted at Digital Ocean, or `mqtt.iotlab.dev`, the DNS should point to `64.225.110.253`. Note, port 1883 and no encryption (TLS) is needed, username: `king`, password `arthur`.
 
@@ -97,7 +97,7 @@ A good introduction to the MQTT protocol and usage is found here: https://youtu.
  
 ## Steps
 
-### Step 1. Simple communication from Pycom over WiFi
+### Step 1. Simple communication from the MCU over WiFi
 
 To be able to communicate to the internet we need a WiFi connection. The amount of data sent is very little. You will need to use a network without a certificate, that means you cannot use EDUROAM. Use the `iot-lab` LNU network or share your own from your phone. Note that the `iot-lab` network is capped at 50 kb/s, so you will need to be patient and not send too much data.
 
@@ -161,8 +161,9 @@ Name your device and topic. `YOUR_GROUP/YOUR_DEVICE_NAME`
 
 Then combine the following code with the WLAN code. Dont forget to change the needed string constants so that it uses your own account on your mqqt server.
 
-Read the documentation on how to connect to a MQTT server on the Pycom website. https://docs.pycom.io/tutorials/networkprotocols/mqtt/
+Read the documentation on how to connect to a MQTT. https://github.com/peterhinch/micropython-mqtt/blob/master/mqtt_as/README.md#18-rp2-pico-w
 
+*Note: There are other MQTT libraries available, but this one is popular and well documented. For instance, you can also find a micropython-mqtt lib when searching in the Thonny IDE for packages.*
 
 ### Step 4. Resilient connections
 
@@ -212,7 +213,7 @@ Prepare for that by checking yourself so that you know the answers to the follow
  * How is the event-callback handled?
  * The time for key-presses should be printed as the example.
 
-#### Part 2, group.
+#### Part 2, group (with one or more persons)
 
 * Explain how the traffic lights function, and how they communicate.
 * How do you utilise the MQTT interrupt?
@@ -227,10 +228,3 @@ Prepare for that by checking yourself so that you know the answers to the follow
  * Ask the group members individually two questions each of the above questions.
 
 When completed you should ask a teacher/TA to check your setup and verify the questions above yourself.
-
-
- 
-
-
-
- 
