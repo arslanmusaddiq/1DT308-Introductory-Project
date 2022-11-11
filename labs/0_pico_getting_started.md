@@ -8,7 +8,9 @@ In the labs for this course, we are first going to get started with the hardware
 
 **A really good guide on getting started with RPI Pico W: https://projects.raspberrypi.org/en/projects/get-started-pico-w**
 
-You will need to flash the Pico W with MicroPython firmware. You can find the firmware here: https://micropython.org/download/rp2-pico/
+You will need to flash the Pico W with MicroPython firmware. You can find the firmware here: https://micropython.org/download/rp2-pico-w/
+
+* Note: There are daily nightly builds on the website. If you stumble on problems try another version.
 
 The firmware is easily flashed to the microcontroller by holding the BOOTSEL button, the microcontroller will then show up as a USB drive. Copy the firmware to the drive and the microcontroller will reboot and start running MicroPython. There is also a possibility to flash firmware using the Thonny IDE, but that is not recommended as you will end up with the Pico firmware (not the Wireless).
 
