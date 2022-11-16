@@ -55,7 +55,7 @@ WARNING! "**Be gentle on hardware** when plugging and unplugging from the USB co
 ### Step 3.
 Make sure the board is connected to a computer with your IDE. When the board is properly setup you can run micropython code directly on it using the IDE. The output from the commands are sent to the computer so that you can interact with the board.
 
-Write help() in the pycmkr console and press enter, this should give you output like in "Expected output 1"
+Write help() in the console and press enter, this should give you output like in "Expected output 1"
 ```python
 >>>help()
 ```
