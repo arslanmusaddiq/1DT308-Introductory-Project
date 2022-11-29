@@ -99,7 +99,7 @@ A good introduction to the MQTT protocol and usage is found here: https://youtu.
 
 ### Step 1. Simple communication from the MCU over WiFi
 
-To be able to communicate to the internet we need a WiFi connection. The amount of data sent is very little. You will need to use a network without a certificate, that means you cannot use EDUROAM. Use the `iot-lab` LNU network or share your own from your phone. Note that the `iot-lab` network is capped at 50 kb/s, so you will need to be patient and not send too much data.
+To be able to communicate to the internet we need a WiFi connection. The amount of data sent is very little. You will need to use a network without a certificate, that means you cannot use EDUROAM. Use the `LNU-iot` LNU network or share your own from your phone. Note that the `LNU-iot` network is capped at 50 kb/s, so you will need to be patient and not send too much data. The password is `modermodemet`.
 
 #### Script
 

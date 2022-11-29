@@ -28,3 +28,4 @@ https://www.loom.com/share/b519cd2bf0b149e5ab88f2f8124bafe8
 
 Inspelning:
 https://www.loom.com/share/fc7df9b4f27a4ad2b890e8cac65f96df
+
