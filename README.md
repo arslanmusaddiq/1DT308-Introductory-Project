@@ -20,4 +20,4 @@ Labs that needs to be checked by teacher/TA:
 * [Lab 0](labs/0_pico_getting_started.md)
 * [Lab 1](labs/1_input_output.md)
 * [Lab 2](labs/2_iot_traffic_light.md) 
-* [Lab 3](labs/4_iot_device_lora.md)
+* [Lab 3](labs/3_iot_device_lora.md)

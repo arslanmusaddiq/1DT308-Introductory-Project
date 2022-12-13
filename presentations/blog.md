@@ -87,8 +87,6 @@ Projektet ställer höga krav på att ni kan planera och hantera tiden.
 
 Inspelning kan ses här: https://www.loom.com/share/8a55191af45f437081d7f054ed1e1c2a
 
-
-
 Verktyg: Använd er av de verktyg som finns tillgängliga. Exempelvis, nu så har världen förändrats radikalt med OpenAI GPTChat. Det är inte fusk att använda denna, jag nästan förutsätter att ni gör så - men projekten kommer bedömas därefter.
 
 Se vår video på temat (från igår): https://youtu.be/Wi5wkT3LrLs
@@ -105,3 +103,24 @@ Q: Write some bullet points emphasising that the students should put effort in t
 - Remember that the time you spend on the project is an investment in your future.
 - The skills and experience you gain from working on the project will be valuable in your future career.
 - Don't be afraid to ask for help if you need it. Your classmates, teachers, and mentors are there to support you and provide guidance.
+
+## Thursday 8th of December Q&A. Växjö.
+
+- Erfarenheter från handledning.
+    - Hade ett samtal med Tomas i förmiddags. Samsyn viktigt.
+    - Hur ska vi se på missade projektmöten?
+    - Hur ska vi kunna examinera ett projektarbete?
+    - Ta ansvar - det här handlar om era studier. Ja - det låter som en klyscha - men ändå sant.
+    - Trovärdig historia, gällande dokumentation.
+
+- Hur ska ni tänka med krav?
+    - 
+
+- Labbar, status nu.
+    - Endast 2 från DT klara med Lab 3 (Växjö)
+    - Inga från CivMT eller MT.
+    - Labbar är en central grund för projektet. Ni behöver genomföra dessa.
+
+
+- Fokus testning
+- Vad är testbart?
