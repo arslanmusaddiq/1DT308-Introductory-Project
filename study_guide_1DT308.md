@@ -100,9 +100,9 @@ Varje lab presenteras senast kommande labtillfälle veckan efter genomgången la
 
 Deadlines för projekt.
 
-- **Fredag 25:e Nov**: Inlämning av projektplan och gruppindelning.
-- **Tisdag-Onsdag 21-211 december**: Projektredovisningar
-- **Tisdag 10: januari**: Deadline för projektrapport och video, GitLab. A-F
+- **Fredag 25:e nov**: Inlämning av projektplan och gruppindelning.
+- **Tisdag-Onsdag 21-22 december**: Projektredovisningar
+- **Lördag 14: januari**: Deadline för projektrapport och video, GitLab. A-F
 - **Lördag 14: januari**: Inlämning rapport på MyMoodle, ingenjörens roll, U/G.
 
 Samtliga moment ska vara genomförda innan kursens slut för ett betyg.
