@@ -51,10 +51,9 @@ Project documentation on git in a `/doc` folder. Written in markdown.
   * requirements.md --- Project requirements (feature-lists, or user-stories (https://www.mountaingoatsoftware.com/agile/user-stories) with enough detail so that one can read this and understand what the project is and does.
   * hardware.md --- A description of all hardware components and how to connect them. Take a couple of images.
   * setup.md --- A description of the software components and how to set them up. Dont forget external resources such as Adafruit IO and how to setup and adopt your project to this. 
-  * test.md --- A description on how to test the project. Write a short descriptive text on how to run each of the features and
-  
-Project images on GitLab in a `/img` folder.
-Project source on GitLab in a `/src` folder.
+  * test.md --- A description on how to test the project. Write a short descriptive text on how to run each of the features and what to expect.
+  * Project images on GitLab in a `/img` folder.
+  * Project source on GitLab in a `/src` folder.
 
 ## Presentation video for A/B
 

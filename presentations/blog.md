@@ -121,6 +121,14 @@ Q: Write some bullet points emphasising that the students should put effort in t
     - Inga från CivMT eller MT.
     - Labbar är en central grund för projektet. Ni behöver genomföra dessa.
 
-
 - Fokus testning
 - Vad är testbart?
+
+## Week 02: Tuesday 10th January. Online Kalmar.
+
+- Hoppas ni haft en bra julledighet.
+- Denna veckan, se till att få ihop allt ert sista med projektet.
+    - Ni behöver få all dokumentation på plats.
+    - Läs `project-template.md`, där står det vad som krävs.
+    - Ni "lämnar" in projektet genom att ge access till Gitlab-projektet samt uppdatera dokument med gruppindelning.
+    - Lämna gärna in länk redan tidigare.
