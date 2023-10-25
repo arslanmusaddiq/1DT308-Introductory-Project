@@ -58,7 +58,7 @@ During the assignment you may discuss the assignment with students outside the g
 ### Software 
  * Everything from Task 2.
  
-## Steps
+## Circuits
 
 ### Breadboard circuit
 
@@ -83,6 +83,7 @@ When the button is pressed the A and B-sides become connected the input becomes 
   * Button side B <--> RPR(3v3)
   
 ![Pull down button circuit](/images/pull-down-button.jpg)
+## Steps
 
 ### Step 1. Button
 
