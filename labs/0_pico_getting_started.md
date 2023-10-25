@@ -147,7 +147,7 @@ This task is going to be conducted individually.
 
 ## Steps
 
-### Step. Connect Three LED circuits
+### Step 1. Connect Three LED circuits
 
 We are going to connect three LED circuits on the breadboard and power these from the GND(-) and 3V3(+) connections on the MCU. See breadboard tutorial if needed.
 **WARNING! When changing components on the breadboard, always have the USB disconnected!**
@@ -167,7 +167,7 @@ Summary of connections. "<-->" means a cable or connection
  ![LED Circuit, Wikipedia](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/LED_circuit.svg/1200px-LED_circuit.svg.png)
 
 
-### Step. Driving LED with GPIO  
+### Step 2. Driving LED with GPIO  
 
 IMPORTANT: We are going to connect external LED's to the microcontroller. The MCU microcontroller provides "General Purpose Input Output"-ports also called GPIO-ports that can be used to communicate with external components. The ports are a bit sensitive and should not be used to directly drive heavy loads (like a motor). The Datasheet for MCU says "Absolute MAX per pin 16 mA" which means we must reduce current by using resistors. If more current is needed, additional components (eg. transistors, or drivers) can be used. Thankfully this assignment does not require high current and we can reduce the current flow by having a resistor in series with each LED we connect.
 
