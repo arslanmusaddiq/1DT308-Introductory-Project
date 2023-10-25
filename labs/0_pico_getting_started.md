@@ -99,11 +99,11 @@ This task is examined using self-examination. Make sure you understand every ste
 
 ### Follow a tutorial and modify code, blink a light.
 
-Blink the on board LED.
+Find a tutortiol that shows how to blink the on board LED.
 
 ### Expected output:
 
-Read the documentation: https://projects.raspberrypi.org/en/projects/get-started-pico-w
+The on board LED is on for two seconds, and off for three second repeatedly.
 
 # Blink External LEDs
 
