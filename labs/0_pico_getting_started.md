@@ -68,7 +68,7 @@ The help command prints some useful short-cuts you can use to for example interr
 ### Step 4. Run custom code on the board
 Create project folder in your IDE, with a main.py file and run it.
 
-Using the IDE, create a new file (main.py) with the following content but replace "Name 1" and "Name 2" with your username.
+Using the IDE, create a new file (main.py) with the following content but replace "Name" with your username.
 
 ```python
 print("Hello, Name!")
