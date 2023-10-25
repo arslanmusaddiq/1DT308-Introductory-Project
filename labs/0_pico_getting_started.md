@@ -103,7 +103,7 @@ Find a tutortiol that shows how to blink the on board LED.
 
 ### Expected output:
 
-The on board LED is on for two seconds, and off for three second repeatedly.
+The on board LED is on for two seconds, and off for three seconds repeatedly.
 
 # Blink External LEDs
 
