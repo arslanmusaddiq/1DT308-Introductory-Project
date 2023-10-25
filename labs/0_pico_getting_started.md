@@ -99,7 +99,6 @@ This task is examined using self-examination. Make sure you understand every ste
 
 ### Knowledge components
 * Make the thread sleep for a second  python  time.sleep(seconds) 
-
 * Loops. python  while Condition:  and/or python  for element in array: 
 
 ### Follow a tutorial and modify code, blink a light.
