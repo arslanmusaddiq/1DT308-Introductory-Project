@@ -1,4 +1,4 @@
-# Lab 1 - external input and outputs
+# Lab 2 - external input and outputs
 
 In this assignment we are going to work with user-input through a button circuit and also introduce a new form of output (sound). 
 

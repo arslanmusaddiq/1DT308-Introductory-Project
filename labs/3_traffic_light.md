@@ -1,4 +1,4 @@
-# Lab 2 - The IoT Traffic Light
+# Lab 3 - The IoT Traffic Light
 
 In this assignment we aim to work with more code and components. We apply the things we have learned so far, more of the same but with less instructions and guidance.
 

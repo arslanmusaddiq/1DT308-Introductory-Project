@@ -1,4 +1,4 @@
-# Getting started and Hello World with LED
+# Lab 1 - Getting started and Hello World with LED
 
 In this course, we are going to use microcontrollers programmed with MicroPython. The controllers are considered as an IoT device or 'IoT thing'.
 
