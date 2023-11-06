@@ -1,4 +1,4 @@
-# Connect traffic light to the internet
+# Lab 4 - Connect traffic light to the internet
 This assignment is a direct continuation of lab 2
 
 ## Rules
