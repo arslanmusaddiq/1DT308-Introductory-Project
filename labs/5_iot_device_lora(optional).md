@@ -1,4 +1,4 @@
-# Getting started with the Pycom LoPy4
+# Optional - Getting started with the Pycom LoPy4
 
 Note: This lab requires more allocated time than previous labs. You're using new hardware and there are many new integrations that is complex. Make sure you start as early as possible with this lab. **It might require an good amount of time.**
 
