@@ -1,5 +1,15 @@
 # Lab 2 - external input and outputs
 
+---
+
+## Use of this AI bot in this lab:
+
+[AI bot lab 2](https://udify.app/chat/GAlMmwVESEyb1mlg)
+
+---
+
+
+
 In this assignment we are going to work with user-input through a button circuit and also introduce a new form of output (sound). 
 
  * Work with input
