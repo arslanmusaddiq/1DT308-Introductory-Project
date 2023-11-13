@@ -1,6 +1,17 @@
 # Lab 4 - Connect traffic light to the internet
 This assignment is a direct continuation of lab 2
 
+
+---
+
+## The use of AI in this lab:
+
+[Hybrid learning bot](https://udify.app/chat/OCbFbncOAUXXherd)
+
+---
+
+
+
 ## Rules
 The task is to create a connected traffic light. This task task is done in groups of TWO students. Both students must be active during all steps of the assignment. You will need to collaborate with one other student and show that your IoT traffic light is communicating over the internet.
 

@@ -1,5 +1,14 @@
 # Lab 3 - The IoT Traffic Light
 
+---
+
+## The use of AI in this lab:
+
+[Hybrid learning bot](https://udify.app/chat/OCbFbncOAUXXherd)
+
+---
+
+
 In this assignment we aim to work with more code and components. We apply the things we have learned so far, more of the same but with less instructions and guidance.
 
 ## Rules
