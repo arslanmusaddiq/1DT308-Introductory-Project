@@ -1,5 +1,17 @@
 # Lab 1 - Getting started and Hello World with LED
 
+
+---
+
+
+## Assist of AI should be used for this lab:
+
+[Lab 1 bot](https://udify.app/chat/No4Ww2mLkJ5hICnO)
+
+----
+
+
+
 In this course, we are going to use microcontrollers programmed with MicroPython. The controllers are considered as an IoT device or 'IoT thing'.
 
 In the labs for this course, we are first going to get started with the hardware, and then later on controlling some lights and reading digital inputs. Later on, you will also read a sensor value and transmit that to an online service. In the basic lab setup we are only going to use USB and WiFi as our interfaces. We are in the basic labs using the Raspberry Pi Pico Wireless, and it has WiFi, Bluetooth and is based on the RP2040 chipset. Later on in the course, or in your project we also are able to use the  MCU which is based on the Espressif ESP32-chipset and has both LoRaWAN and SigFox connectivity. The main advantage of using MicroPython compared to C++ and Arduino IDE is that we can quickly test and run our code without compiling and flashing. It makes the development much faster and easier.
