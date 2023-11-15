@@ -199,7 +199,7 @@ Read the analog value from the NTC-sensor and present it in time intervals to th
 You will have to think about how the voltage that is read using the analog input is translated to a temperature. There are both [equations](https://eepower.com/resistor-guide/resistor-types/ntc-thermistor/#) and [lookup tables](https://cdn-shop.adafruit.com/datasheets/103_3950_lookuptable.pdf) that can be used to write a function.
 
 
-**NOTE** The NTC thermistor mounted on a PCB that is distributed from the lab is incorrectly marked. The correct setup is shown in the Figure below. [Analog temperature sensor NTC Electrokit](https://www.electrokit.com/uploads/productfile/41015/41015732_-_Analog_Temperature_Sensor.pdf) Note. The schematics are wrong on this one.
+**NOTE** The NTC thermistor mounted on a PCB that is distributed from the lab can be incorrectly marked. The correct setup is shown in the Figure below. If that does not give you expected values, try to switch the wires around, some students have found units that are incorrectly marked in different ways. [Analog temperature sensor NTC Electrokit](https://www.electrokit.com/uploads/productfile/41015/41015732_-_Analog_Temperature_Sensor.pdf) Note. The schematics are wrong on this one.
 
 ![NTC Thermistor](../images/ntc-sensor-electrokit.jpg)
 
