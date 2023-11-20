@@ -82,7 +82,6 @@ Prepare for that by checking yourself so that you know the answers to the follow
  * What happens if you press the button repeatedly?
  * Why should we keep the code in event-callbacks to a minimum?
  * How is the event-callback handled?
- * The time for key-presses should be printed as the example.
  
 ### Check knowledge: 
  * Ask the student two of the above questions.
