@@ -167,7 +167,6 @@ Prepare for that by checking yourself so that you know the answers to the follow
 * What is synchronised between the MQTT server and the device?
 * Code should be DRY (no unnecessary repeated statements)
 * Code should be divided into methods
-* The song should not be played in the eventhandler function but started in a separate loop (or thread).
  
 ### Check knowledge: 
  * Ask the group members individually two questions each of the above questions.
