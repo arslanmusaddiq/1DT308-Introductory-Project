@@ -36,6 +36,7 @@ This means that your two lights should communicate over the network, if one ligh
 
  * MQTT wikipedia https://en.wikipedia.org/wiki/MQTT
  * MQTT lib (there are others also) https://github.com/peterhinch/micropython-mqtt
+ * alternative way of getting started with MQTT in micropython: https://randomnerdtutorials.com/micropython-mqtt-esp32-esp8266/
 
 You may use the MQTT server in our own LNU server hosted at Digital Ocean, or `mqtt.iotlab.dev`, the DNS should point to `64.225.110.253`. Note, port 1883 and no encryption (TLS) is needed, username: `king`, password `arthur`.
 
