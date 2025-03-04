@@ -25,7 +25,7 @@
 - All lectures will be held online, with either a pre-recorded link or a live stream provided.
 	- Feel free to ask questions via **Slack**.
 - The lectures will be updated via TimeEdit.
-- LLaboratory sessions will be led by teacher and TAs on campus. See schedule.
+- Laboratory sessions will be led by teacher and TAs on campus. See schedule.
 - Laboratory sessions do NOT have a mandatory attendance requirement, however, you are required to demonstrate that you have completed each session. That is, it is largely a requirement to be on site if you are going to complete the course.
 - In order for you to have a chance to complete all laboratory sessions on time, you must be on site on campus. The laboratory sessions are of increasing scale and quickly become more complex.
 
@@ -93,7 +93,7 @@ Present and discuss your project with a teacher or Teaching Assistant no later t
 
 **The course has two tracks.**
 
-- The first track presents a single-chip computer and how to write programs that interact with external devices such as sensors and networked devices.
+- The first track presents a single-chip computer and how to write programs that interact with external devices such as sensors and networked devices. In addition, develop skills in creating dashboards and visualizing sensor data.
 - The second track introduces how to work in projects and groups, as well as the professional role of engineer.
 
 
