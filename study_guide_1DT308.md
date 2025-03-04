@@ -16,8 +16,6 @@
 - **Interact with students and teachers on Slack**. Ask, and don't be afraid to answer questions from other students. Remember - be nice and respectful. The success of the course is based on your participation.
 - Above all - try to adopt a positive attitude and **have fun.**
 
-
-
 ## Lectures and labs
 
 - All lectures will be held online, with either a pre-recorded link or a live stream provided.
@@ -31,6 +29,22 @@
 
 - During the initial weeks, laboratory exercises 0-4 must be reported to a teacher or amanuensis. The laboratory exercises are done individually, but it is expected that you will nevertheless cooperate and help each other. To pass the course, you must complete all required lab sessions (0–4). 
 - If you complete all required lab sessions (0–4) and pass the oral exam, you will receive a maximum of C grade.
+
+
+## Oral exam
+
+**Exam format.**
+
+- The exam will be an oral exam of approximately 10-15 minutes (extended time can be provided if needed).
+- It will be conducted online via Slack.
+- The exam will consist of 5 questions based on the course material.
+- To pass, you need to answer at least 3 questions correctly.
+- If you feel unsure about a question, you may ask to skip to the next one to maximize your time.
+- You must bring your ID card, and your eyes must remain focused on the camera.
+- The exam will take place during week 22, and there will be two separate sessions for the oral exam. 
+- You can register fot eh 
+
+
 
 ## Higher Grades (B or A)
 
@@ -47,6 +61,25 @@ To aim for a higher grade (B or A), you must build upon the knowledge gained fro
 To aim for  a grade higher than C:
 
 Present and discuss your project with a teacher or Teaching Assistant no later than three weeks after the course starts. Discussions take place during lab sessions. 
+
+
+## Grades distributions: 
+
+**Grade F.**
+
+A Grade F requires a retaking of the course and could look like this:
+
+- Incomplete lab sessions 0-4: Significant portions of the labs 0-4 are incomplete or missing. 
+- Fail to Pass oral exam. 
+
+**Grade E.**
+
+- Complete the labs 0-4: Finish most parts of these labs, though some minor aspects may be incomplete.
+- Pass oral exam. 
+
+**Grade C.**
+- Complete the labs 0-4: Finish all parts of these labs. 
+- Pass oral exam. 
 
 
 
