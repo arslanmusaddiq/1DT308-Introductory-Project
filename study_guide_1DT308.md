@@ -8,28 +8,48 @@
 - [Slack kanal](https://coursepress.slack.com/signup) **#1dt308-introducerande-projekt**
 - [Project template](project-template.md)
 
-## Förväntningar
+## Expectations
 
-- Läs detta dokumentet **noggrant**. Återkoppla med kommentarer direkt om det är något som är oklart.
-- Planera dina studier. Lägg in tid i din kalender att jobba med uppgifter utanför schemalagd tid, närvaro krävs för att klara uppgifter.
-- Fråga gärna dina frågor tidigt om något är oklart, vänta inte. Påbörja uppgifter i god tid, annars finns mycket litet utrymme för att hinna hjälpa.
-- **Interagera med studenter och lärare på Slack**. Fråga, och var inte rädd att svara på frågor från andra studenter. Kom ihåg - var trevlig och respektfull. Kursens framgång bygger på er medverkan.
-- Framförallt - försök anamma en positiv inställning och **ha kul.**
+- Read this document **carefully**. Feedback with comments directly if there is anything that is unclear.
+- Plan your studies. Add time in your calendar to work on assignments outside of scheduled time, attendance is required to complete assignments.
+- Feel free to ask your questions early if something is unclear, don't wait. Start assignments well in advance, otherwise there is very little time to help.
+- **Interact with students and teachers on Slack**. Ask, and don't be afraid to answer questions from other students. Remember - be nice and respectful. The success of the course is based on your participation.
+- Above all - try to adopt a positive attitude and **have fun.**
 
-## Föreläsningar och laborationer
 
-- Hälften av föreläsningarna kommer att hållas på plats i både Växjö och Kalmar campus. Vid viss tillfällen kommer vi att ge dubbla föreläsningstillfällen för respektive grupp, dessa kommer ej att spelas in eller streamas. Vid hälften av tillfällena kommer det att erbjudas en förinspelad länk eller live-ström.
-	- Ställ gärna frågor via **Slack**.
-- Föreläsningarna kommer att uppdateras via TimeEdit.
-- Laborationer kommer vara lärarledda och på campus, se schema.
-- Laborationer har EJ obligatoriskt närvarokrav, däremot är redovisningen laborationerna obligatorisk. Det vill säga, det är i stort sett ett krav att vara på plats om ni ska genomföra kursen.
-- För att ni ska kunna ha en chans att genomföra alla laborationer inom tid så krävs det att ni är på plats på campus. Laborationerna är en stegrande skala och blir snabbt mer komplexa inför ert kommande projekt.
 
-## Deltagande
+## Lectures and labs
 
-Under de inledande veckorna skall laboration 0-3 redovisas för en lärare eller amanuens. Laborationerna görs individuellt, men det förväntas att ni trots det samarbetar och hjälper varandra. I en av laborationerna krävs att ni samarbetar tillsammans med en annan.
+- All lectures will be held online, with either a pre-recorded link or a live stream provided.
+	- Feel free to ask questions via **Slack**.
+- The lectures will be updated via TimeEdit.
+- LLaboratory sessions will be led by teachers and TAs on campus. See schedule.
+- Laboratory sessions do NOT have a mandatory attendance requirement, however, the presentation of the laboratory sessions is mandatory. That is, it is largely a requirement to be on site if you are going to complete the course.
+- In order for you to have a chance to complete all laboratory sessions on time, you must be on site on campus. The laboratory sessions are of increasing scale and quickly become more complex.
 
-Under sista halvan av kursen kommer ni jobba i ert IoT-projekt. Kravet på deltagande från er är att ni **måste boka ett avstämningsmöte varje vecka** med lärare/labassistent.
+## Participation
+
+- During the initial weeks, laboratory exercises 0-4 must be reported to a teacher or amanuensis. The laboratory exercises are done individually, but it is expected that you will nevertheless cooperate and help each other. To pass the course, you must complete all required lab sessions (0–4). 
+- If you complete all required lab sessions (0–4) and pass the oral exam, you will receive a maximum of C grade.
+
+## Higher Grades (B or A)
+
+To aim for a higher grade (B or A), you must build upon the knowledge gained from lab sessions 0–4 and develop your own project. This is an open-ended task, but some guidelines are provided below.
+
+## Project Guidelines
+- You may work alone or in pairs. If working in a pair, the expectations for the project will be higher.
+- You may use any embedded board or microcontroller of your choice.
+- You may use any programming language.
+- You may incorporate code/libraries found online, provided the licensing allows it and you properly document their use. However, your project must include original code developed by your group; simply combining existing code is not sufficient.
+- Your project may complement work done in another course, but it must be a new implementation. You cannot submit previously completed work.
+
+
+To aim for  a grade higher than C:
+
+Present and discuss your project with a teacher or Teaching Assistant no later than three weeks after the course starts. Discussions take place during lab sessions. 
+
+
+
 
 ## Kursmål
 
