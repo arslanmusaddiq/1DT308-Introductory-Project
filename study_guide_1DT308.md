@@ -1,4 +1,4 @@
-# Studieguide 1DT308 / 1DT902
+# Study guide 1DT308
 
 ## Viktiga länkar
 
