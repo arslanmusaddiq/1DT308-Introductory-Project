@@ -76,13 +76,14 @@ A Grade F requires a retaking of the course and could look like this:
 
 **Grade D.**
 
-Complete the labs 0-4: Finish all parts of these labs.
-Pass oral exam.
+-Complete the labs 0-4: Finish all parts of these labs.
+-Pass oral exam.
 
 **Grade C.**
 
-Complete the labs 0-4: Finish all parts of these labs and use one or more sensor other than DHT11.
-Pass oral exam. Implement at least 1-2 additional sensors beyond DHT11.
+-Complete the labs 0-4: Finish all parts of these labs.
+-Implement at least 1-2 additional sensors beyond DHT11.
+- Pass oral exam. 
 
 
 ## Kursmål
