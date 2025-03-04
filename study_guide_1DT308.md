@@ -76,8 +76,8 @@ A Grade F requires a retaking of the course and could look like this:
 
 **Grade D.**
 
--Complete the labs 0-4: Finish all parts of these labs.
--Pass oral exam.
+- Complete the labs 0-4: Finish all parts of these labs.
+- Pass oral exam.
 
 **Grade C.**
 
