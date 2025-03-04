@@ -44,22 +44,6 @@
 - The exam will take place during week 22, and there will be two separate sessions for the oral exam. 
 - You can register for the exam during week 20-21.
 
-
-
-## Higher Grades (B or A)
-
-To aim for a higher grade (B or A), you must build upon the knowledge gained from lab sessions 0–4 and develop your own project. This is an open-ended task, but some guidelines are provided below.
-
-## Project Guidelines
-- You may work alone or in pairs. If working in a pair, the expectations for the project will be higher.
-- You may use any embedded board or microcontroller of your choice.
-- You may use any programming language.
-- You may incorporate code/libraries found online, provided the licensing allows it and you properly document their use. However, your project must include original code developed by your group; simply combining existing code is not sufficient.
-- Your project may complement work done in another course, but it must be a new implementation. You cannot submit previously completed work.
-
-Present and discuss your project with a teacher or Teaching Assistant no later than three weeks after the course starts. Discussions take place during lab sessions. 
-
-
 ## Grades distributions
 
 **Grade F.**
@@ -85,6 +69,19 @@ A Grade F requires a retaking of the course and could look like this:
 - Implement at least 1-2 additional sensors beyond DHT11.
 - Pass oral exam. 
 
+
+## Higher Grades (B or A)
+
+To aim for a higher grade (B or A), you must build upon the knowledge gained from lab sessions 0–4 and develop your own project. This is an open-ended task, but some guidelines are provided below.
+
+## Project Guidelines
+- You may work alone or in pairs. If working in a pair, the expectations for the project will be higher.
+- You may use any embedded board or microcontroller of your choice.
+- You may use any programming language.
+- You may incorporate code/libraries found online, provided the licensing allows it and you properly document their use. However, your project must include original code developed by your group; simply combining existing code is not sufficient.
+- Your project may complement work done in another course, but it must be a new implementation. You cannot submit previously completed work.
+
+Present and discuss your project with a teacher or Teaching Assistant no later than three weeks after the course starts. Discussions take place during lab sessions. 
 
 
 ## Course objectives
