@@ -60,7 +60,7 @@ To aim for a higher grade (B or A), you must build upon the knowledge gained fro
 Present and discuss your project with a teacher or Teaching Assistant no later than three weeks after the course starts. Discussions take place during lab sessions. 
 
 
-## Grades distributions: 
+## Grades distributions
 
 **Grade F.**
 
@@ -87,12 +87,14 @@ A Grade F requires a retaking of the course and could look like this:
 
 
 
-## Kursmål
+## Course objectives
 
-**Kursen har två spår.**
 
-- Det första spåret presenteras en enchipsdator och hur man kan skriva program som interagerar med externa enheter såsom sensorer och nätverkskopplade enheter. 
-- Inom det andra spåret introduceras hur man arbetar i projekt och grupp, samt yrkesrollen ingenjör.
+**The course has two tracks.**
+
+- The first track presents a single-chip computer and how to write programs that interact with external devices such as sensors and networked devices.
+- The second track introduces how to work in projects and groups, as well as the professional role of engineer.
+
 
 [Kursplan 1DT308](https://kursplan.lnu.se/kursplaner/kursplan-1DT308-1.pdf), [Kursplan 1DT902](https://kursplan.lnu.se/kursplaner/kursplan-1DT902-1.pdf)
 
