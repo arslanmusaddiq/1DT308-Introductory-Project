@@ -7,6 +7,10 @@
 - [Gitlab](https://gitlab.lnu.se/1dt308/content)
 - [Slack kanal](https://coursepress.slack.com/signup) **#1dt308-introducerande-projekt**
 - [Project template](project-template.md)
+- [Timetable (preliminary)](https://cloud.timeedit.net/lnu/web/staff1/ri1Y1X1QQYwZ16QfQ5077425y1Y95Z7.html)
+
+
+
 
 ## Expectations
 
