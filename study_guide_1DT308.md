@@ -1,12 +1,11 @@
 # Study guide 1DT308
 
-## Viktiga länkar
+## important links
 
-- [Moodle](https://mymoodle.lnu.se/course/view.php?id=54832)
+- [Moodle](https://moodle.lnu.se/course/view.php?id=68072)
 - [Kursplan 1DT308](https://kursplan.lnu.se/kursplaner/kursplan-1DT308-1.pdf)
-- [Kursplan 1DT902](https://kursplan.lnu.se/kursplaner/kursplan-1DT902-1.pdf)
 - [Gitlab](https://gitlab.lnu.se/1dt308/content)
-- [Slack kanal](https://coursepress.slack.com/signup) **#1dt308-1dt902-introducerande-projekt**
+- [Slack kanal](https://coursepress.slack.com/signup) **#1dt308-introducerande-projekt**
 - [Project template](project-template.md)
 
 ## Förväntningar
