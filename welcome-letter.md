@@ -2,7 +2,7 @@
 
 Hello everyone,
 
-Welcome to the course Introductory Projects. My name is Arslan Musaddiq, and I am the course manager for this course. I am based in Kalmar, so you in Växjö probably haven't met me yet. You will also meet another teacher, Lars Karlsson, and TAs during the course.
+Welcome to the course Introductory Projects. My name is Arslan Musaddiq, and I am the manager for this course. I am based in Kalmar, so you in Växjö probably haven't met me yet. You will also meet another teacher, Lars Karlsson, and TAs during the course.
 
 It will be fun to meet you all, and I look forward to hearing about your upcoming project results. The course has been revised somewhat based on previous years' experiences, and this year, we have chosen to work with Raspberry Pi Pico W. We will start with a Raspberry Pi Pico W (the wireless variant) in the first four labs. After that, if you want to do your own project for a higher grade, you are free to choose any microcontroller.
 
