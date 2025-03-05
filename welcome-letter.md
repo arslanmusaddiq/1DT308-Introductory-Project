@@ -4,7 +4,7 @@ Hello everyone,
 
 Welcome to the course Introductory Projects. My name is Arslan Musaddiq, and I am the manager for this course. I am based in Kalmar, so you in Växjö probably haven't met me yet. You will also meet another teacher, Lars Karlsson, and TAs during the course.
 
-It will be fun to meet you all, and I look forward to hearing about your upcoming project results. The course has been revised somewhat based on previous years' experiences, and this year, we have chosen to work with Raspberry Pi Pico W. We will start with a Raspberry Pi Pico W (the wireless variant) in the first four labs. After that, if you want to do your own project for a higher grade, you are free to choose any microcontroller.
+It will be fun to meet you all, and I look forward to hearing about your upcoming project results. The course has been revised somewhat based on previous years' experiences, and this year, we have chosen to work with Raspberry Pi Pico W. We will start with a Raspberry Pi Pico W (the wireless variant) in the first four labs. If you want to do your own project for a higher grade, you are free to choose any microcontroller.
 
 The course briefly involves carrying out lab sessions with a microcontroller during the first weeks to familiarize you with the hardware and teach the basics. After the first week, for the next four weeks, you will have laboratory sessions where you will connect sensors to the Raspberry Pi Pico W and visualize the sensor data. If you aim for a higher grade, you will build upon the knowledge gained from lectures and lab sessions 0–4 and develop your own project. 
 
