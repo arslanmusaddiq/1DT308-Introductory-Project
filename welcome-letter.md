@@ -1,15 +1,17 @@
-## Välkommen till Introducerande projekt, 1DT308 och 1DT902
+## Welcome to Introductory Project, 1DT308
 
-Hej alla,
+Hello everyone,
 
-Välkommen till kursen introducerande projekt. Jag som skriver detta heter Fredrik Ahlgren och är kursansvarig för denna kurs, jag utgår från Kalmar så ni i Växjö har sannolikt ännu ej träffat mig. Ni kommer också att få träffa flera andra lärare och labhandledare under kursens gång.
+Welcome to the course Introductory Projects. My name is Arslan Musaddiq, and I am the course manager for this course. I am based in Kalmar, so you in Växjö probably haven't met me yet. You will also meet another teacher, Lars Karlsson, and TAs during the course.
 
-Det ska bli kul att få träffa er alla och jag ser fram emot att få ta del av era kommande projektresultat. Kursen är omarbetad en del utifrån tidigare års erfarenheter och vi har i år valt att arbeta med två olika mikrokontrollers. Vi kommer att börja med en Raspberry Pi Pico W (trådlösa varianten) i de första laborationerna för att sedan stegra till nästa steg med en Pycom LoPy4 och använda oss av andra trådlösa nätverk än WiFi.
+It will be fun to meet you all, and I look forward to hearing about your upcoming project results. The course has been revised somewhat based on previous years' experiences, and this year, we have chosen to work with Raspberry Pi Pico W. We will start with a Raspberry Pi Pico W (the wireless variant) in the first four labs. After that, if you want to do your own project for a higher grade, you are free to choose any microcontroller.
 
-Kursen i sin korthet handlar om att de första veckorna genomföra laborationer med en mikrokontroller för att ni ska lära känna hårdvaran och lära er grunderna. Efter ett par veckor kommer ni att gruppera in i er grupper om 3 och sedan genomföra ett utvecklingsprojekt där ni ska ta fram en IoT-applikation (både hårdvara och någon form av visualisering). Kursen kräver att ni tar ett stort ansvar för era egna studier och förbered er redan nu på att ni kommer att behöva samarbeta med era kamrater. Kursen genomförs över två campus (Kalmar och Växjö) och det kommer således att vara både lärare och amanuenser från både Kalmar och Växjö. Föreläsningarna på tisdagarna kommer i första hand att genomföras online och torsdagens pass kommer vara på plats. Se till att vara på plats på alla laborationstillfällen som är planerade – det kommer ni att behöva.
+The course briefly involves carrying out lab sessions with a microcontroller during the first weeks to familiarize you with the hardware and teach the basics. After the first week, for the next four weeks, you will have laboratory sessions where you will connect sensors to the Raspberry Pi Pico W and visualize the sensor data. If you aim for a higher grade, you will build upon the knowledge gained from lectures and lab sessions 0–4 and develop your own project. 
 
-Mer information om alla detaljer kommer på tisdagens kursintroduktion. Det ni behöver göra nu är att gå med i vår gemensamma Slack-kanal #1dt308-1dt902-introducerande-projekt, det är där all information i _första_ hand kommer att publiceras. Exempelvis kommer jag att publicera information om kursintroduktionen där. Vi kommer inte använda Moodle i någon större omfattning annat än för en utav inlämningsuppgifter utan all information kommer att finnas på Gitlab (där även projektet ska lämnas in). Länkar hittar ni på Moodle (som är en bra utgångspunkt).
+For the higher grade, you will carry out a development project where you will develop an IoT application (both hardware and some form of visualization). The course requires that you take great responsibility for your own studies and prepare yourself now for the fact that you will need to collaborate with your peers. The course is conducted mainly in Kalmar, but lectures will be held online. However, all the lab sessions will take place on-site. Make sure to be on-site for all planned lab sessions - you will need to.
 
-Åter igen, välkomna till årets kurs i introducerande projekt.
+More details about the course will be provided during the course introduction. What you need to do now is join our joint Slack channel #1dt308-introducing-project, where all information will be published _first_ of all. For example, I will publish information about the course introduction there. We will not use Moodle to any great extent, but all information will be available on Gitlab (where the project will also be submitted). Links can be found on Moodle (which is a good starting point).
 
-/Fredrik Ahlgren
+Once again, welcome to this year's introductory projects course.
+
+/Arslan Musaddiq
