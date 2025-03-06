@@ -1,6 +1,6 @@
 ## Welcome to Introductory Project, 1DT308
 
-Hello everyone,
+Hello everyone
 
 Welcome to the course Introductory Projects. My name is Arslan Musaddiq, and I am the manager for this course. I am based in Kalmar, so you in Växjö probably haven't met me yet. You will also meet another teacher, Lars Karlsson, and TAs during the course.
 
