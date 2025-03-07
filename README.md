@@ -1,15 +1,15 @@
-# 1DT309 / 1DT902, Introducerande projekt 7.5p
+# 1DT308, Introductory Project 7.5p
 
-Läs studieguiden:
+Read the study guide:
 
-- [**Studieguide**](study_guide_1DT308.md)
+- [**Study Guide**](study_guide_1DT308.md)
 
-## Övriga viktiga länkar
+## Other important links
 
-- [Slack kanal](https://coursepress.slack.com/signup) **#1dt308-1dt902-introducerande-projekt**
+- [Slack Channel](https://coursepress.slack.com/signup) **#1dt308-introducerande-projekt**
 - [Moodle](https://mymoodle.lnu.se/course/view.php?id=54832)
 - [Project template](project-template.md)
-- [Inlämningsuppgift om yrkesrollen ingenjör](ingenjor.md)
+- [Assignment on the professional role of engineer](ingenjor.md)
 
 ## Labs
 
