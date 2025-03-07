@@ -12,4 +12,4 @@ The course is conducted mainly in Kalmar, but lectures will be held online. Howe
 
 Once again, welcome to this year's introductory projects course.
 
-/Arslan Musaddiq
+/Arslan Musaddiq,
