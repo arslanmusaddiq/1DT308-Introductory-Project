@@ -1,6 +1,6 @@
 # 1DT308, Introductory Project 7.5p
 
-Read the study guide:
+Read the study guide. Important!
 
 - [**Study Guide**](study_guide_1DT308.md)
 
