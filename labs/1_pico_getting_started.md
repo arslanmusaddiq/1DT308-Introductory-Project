@@ -6,12 +6,12 @@ In this course, we are going to use microcontrollers programmed with MicroPython
 
 In the labs for this course, we are first going to get started with the hardware, and then later on controlling some lights and reading digital inputs. Later on, you will also read a sensor value and transmit that to an online service. In the basic lab setup we are only going to use USB and WiFi as our interfaces. We are in the basic labs using the Raspberry Pi Pico Wireless, and it has WiFi, Bluetooth and is based on the RP2040 chipset. The main advantage of using MicroPython compared to C++ and Arduino IDE is that we can quickly test and run our code without compiling and flashing. It makes the development much faster and easier.
 
-
-Later on in the course, or in your project we also are able to use the  MCU which is based on the Espressif ESP32-chipset and has both LoRaWAN and SigFox connectivity. 
-
 ### Reference:
 
 **A really good guide on getting started with RPI Pico W: https://projects.raspberrypi.org/en/projects/get-started-pico-w**
+
+**Raspberry Pi Pico W Pinout: https://datasheets.raspberrypi.com/picow/PicoW-A4-Pinout.pdf**
+
 
 You will need to flash the Pico W with MicroPython firmware. You can find the firmware here: https://micropython.org/download/rp2-pico-w/
 
