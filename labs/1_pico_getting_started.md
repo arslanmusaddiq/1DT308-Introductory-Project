@@ -12,6 +12,19 @@ In the labs for this course, we are first going to get started with the hardware
 
 **Raspberry Pi Pico W Pinout: https://datasheets.raspberrypi.com/picow/PicoW-A4-Pinout.pdf**
 
+![Raspberry Pi Pico W Pinout](/images/pico-pinout.png)
+
+
+### Analog to Digital
+In the schematic, you might first look at the Analog Pins called ADC#. ADC stands for Analog to Digital Converter - and it takes an input signal from your sensor and converts it to a digital representation - something the computer can work with.
+
+The difference between analog and digital is that analog signals vary, they go anywhere between 0 and some other voltage, for example, 3.3V (or 5V); while digital signals are either 0 or that voltage - which means they are binary, low or high voltage - or in computer language, 0 or 1 (false or true).
+
+Your computer works in binary, that's why we need an analog-to-digital converter to work with the signals. We will show how to use them in this tutorial.
+
+### General Purpose Pins
+As you might note all PINs that start with GP# are General Purpose Input/Output (GPIO) Pins and they can be connected to the sensors and be used by the Pin() method in MicroPython code.
+
 
 You will need to flash the Pico W with MicroPython firmware. You can find the firmware here: https://micropython.org/download/rp2-pico-w/
 
