@@ -14,7 +14,10 @@
 
 In this course, we are going to use microcontrollers programmed with MicroPython. The controllers are considered as an IoT device or 'IoT thing'.
 
-In the labs for this course, we are first going to get started with the hardware, and then later on controlling some lights and reading digital inputs. Later on, you will also read a sensor value and transmit that to an online service. In the basic lab setup we are only going to use USB and WiFi as our interfaces. We are in the basic labs using the Raspberry Pi Pico Wireless, and it has WiFi, Bluetooth and is based on the RP2040 chipset. Later on in the course, or in your project we also are able to use the  MCU which is based on the Espressif ESP32-chipset and has both LoRaWAN and SigFox connectivity. The main advantage of using MicroPython compared to C++ and Arduino IDE is that we can quickly test and run our code without compiling and flashing. It makes the development much faster and easier.
+In the labs for this course, we are first going to get started with the hardware, and then later on controlling some lights and reading digital inputs. Later on, you will also read a sensor value and transmit that to an online service. In the basic lab setup we are only going to use USB and WiFi as our interfaces. We are in the basic labs using the Raspberry Pi Pico Wireless, and it has WiFi, Bluetooth and is based on the RP2040 chipset. The main advantage of using MicroPython compared to C++ and Arduino IDE is that we can quickly test and run our code without compiling and flashing. It makes the development much faster and easier.
+
+
+Later on in the course, or in your project we also are able to use the  MCU which is based on the Espressif ESP32-chipset and has both LoRaWAN and SigFox connectivity. 
 
 ### Reference:
 
@@ -107,7 +110,9 @@ When you have completed this assignment you are expected to know:
 
 This task is examined using self-examination. Make sure you understand every step before you proceed.
 
-# Lab 0. Blink Lights. Hello World of IoT
+# Lab 0. Hello World of IoT
+
+### Blink Lights
 
 ### Knowledge components
 * Make the thread sleep for a second  python  time.sleep(seconds) 
@@ -207,6 +212,47 @@ Now adjust the code so that all three LED's blink like this:
 
 #### Expected output
 [![](http://img.youtube.com/vi/Wtd8pp-DW3w/0.jpg)](http://www.youtube.com/watch?v=Wtd8pp-DW3w "")
+
+
+
+# DHT11 Temperature and Humidity Sensor
+
+In this part, we are going to work with temperature and humidity sensor DHT11.
+
+The DHT11 is a digital sensor measuring temprature and humidity. Raspberry Pi Pico W MicroPython has a builtin library for this sensor so you do not need to import an extra library when you write code to read its values. As you can see it the following image there are different pin settings for DHT11 based on the manufacturer. If you have one like in the left part you can recongized the pin by the sign beside each. GND presented usually by (-), VCC by (+), and Data Pin by (S). So please double check before connecting your sensor to the Raspberry Pi.
+
+![](../images/dht11_wiring.jpeg)
+
+
+You can find DHT example in [LNU GitHub](https://github.com/iot-lnu/applied-iot/tree/master/Raspberry%20Pi%20Pico%20(W)%20Micropython/sensor-examples/P5_DHT_11_DHT_22). 
+
+The connection looks like the following figure but always check your sensor pin setting first to make sure they match.
+
+![](../images/dht11_pico.png)
+
+
+## Example Code
+
+You find a sample code below which can be copied to your main.py and test your dht11.
+
+
+```python
+import dht                 # import the builtin library
+from machine import Pin    # library for pin access      
+import time                # library for making delays between reading
+
+tempSensor = dht.DHT11(Pin(27))     # DHT11 Constructor 
+
+while True:
+    try:
+        tempSensor.measure()
+        temperature = tempSensor.temperature()
+        humidity = tempSensor.humidity()
+        print("Temperature is {} degrees Celsius and Humidity is {}%".format(temperature, humidity))
+    except:
+        print("Error in reading sensor values")
+    time.sleep(2)
+```
 
 ## Examination
 
