@@ -1,16 +1,6 @@
 # Lab 1 - Getting started and Hello World with LED
 
 
----
-
-
-## Assist of AI should be used for this lab:
-
-[Lab 1 bot](https://udify.app/chat/No4Ww2mLkJ5hICnO)
-
-----
-
-
 
 In this course, we are going to use microcontrollers programmed with MicroPython. The controllers are considered as an IoT device or 'IoT thing'.
 
