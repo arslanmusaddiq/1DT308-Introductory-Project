@@ -276,9 +276,19 @@ This assignment should be examined by a teacher/TA.
 
 Prepare for that by checking yourself so that you know the answers to the following questions:
 
+LED Part
+
  * Which leg (pin) of the LED is longer, the cathode or the anode?
  * How to blink the built-in LED?
  * Why do we need a resistor in series with each LED?
  * How can we make the LEDs blink faster?
  * Where can you find information about the different hardware limits in the MCU board?
  * What are the components of a basic LED-circuit and how do we connect them in order for the LED to be ON?
+
+
+DHT11 Part
+
+
+* What is the purpose of the VCC pin on the DHT11 sensor?
+* Which pin of the Raspberry Pi Pico W is used to read the data from the DHT11 sensor?
+* Why is it important to use a resistor in series with the DHT11 sensor?
