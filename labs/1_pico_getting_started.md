@@ -239,12 +239,12 @@ The connection looks like the following figure but always check your sensor pin 
 
 <span style="color:red;">⚠️IMPORTANT⚠️</span>
 
-- Disconnect the power/USB cable from the Development/Expansion board before connecting sensors or changing a sensor pin. This allows us to check that everything is correct before powering the board.
-- Always check if the sensor works on 5V or 3.3V before connecting your sensor to the board. If you are unsure, check the sensor datasheet or consult it with a TA.
-- We recommend using colored wires to make it easier to distinguish which wires are which.
-- We recommend using a breadboard if you have several sensors; it makes the connection more visible.
-
-
+<ul style="color:red;">
+  <li>Disconnect the power/USB cable from the Development/Expansion board before connecting sensors or changing a sensor pin. This allows us to check that everything is correct before powering the board.</li>
+  <li>Always check if the sensor works on 5V or 3.3V before connecting your sensor to the board. If you are unsure, check the sensor datasheet or consult it with a TA.</li>
+  <li>We recommend using colored wires to make it easier to distinguish which wires are which.</li>
+  <li>We recommend using a breadboard if you have several sensors; it makes the connection more visible.</li>
+</ul>
 
 
 ## Example Code
