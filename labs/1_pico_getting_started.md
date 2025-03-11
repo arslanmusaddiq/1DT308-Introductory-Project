@@ -222,16 +222,6 @@ Now adjust the code so that all three LED's blink like this:
 
 # DHT11 Temperature and Humidity Sensor
 
-<span style="color:red;">⚠️IMPORTANT⚠️</span>
-
-- Disconnect the power/USB cable from the Development/Expansion board before connecting sensors or changing a sensor pin. This allows us to check that everything is correct before powering the board.
-- Always check if the sensor works on 5V or 3.3V before connecting your sensor to the board. If you are unsure, check the sensor datasheet or consult it with a TA.
-- We recommend using colored wires to make it easier to distinguish which wires are which.
-- We recommend using a breadboard if you have several sensors; it makes the connection more visible.
-
-
-
-
 
 In this part, we are going to work with temperature and humidity sensor DHT11.
 
@@ -244,7 +234,17 @@ You can find DHT example in [LNU GitHub](https://github.com/iot-lnu/applied-iot/
 
 The connection looks like the following figure but always check your sensor pin setting first to make sure they match.
 
-![](../images/dht11_pico.png)
+![](../images/DHT11_pico.png)
+
+
+<span style="color:red;">⚠️IMPORTANT⚠️</span>
+
+- Disconnect the power/USB cable from the Development/Expansion board before connecting sensors or changing a sensor pin. This allows us to check that everything is correct before powering the board.
+- Always check if the sensor works on 5V or 3.3V before connecting your sensor to the board. If you are unsure, check the sensor datasheet or consult it with a TA.
+- We recommend using colored wires to make it easier to distinguish which wires are which.
+- We recommend using a breadboard if you have several sensors; it makes the connection more visible.
+
+
 
 
 ## Example Code
