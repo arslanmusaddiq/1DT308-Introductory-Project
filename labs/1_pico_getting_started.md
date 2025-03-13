@@ -105,7 +105,7 @@ When the microcontroller starts it first executes the file `boot.py` and then `m
 When the has completed the code will run on the board and should produce the same output as in Expected output 2.
 
 #### Expected output 2.
-![Goal state 2](/images/hello-Arslan.png)
+![Goal state 2](/images/Hello-Arslan.png)
 
 When you have completed this assignment you are expected to know:
  * How to flash firmware on your microcontroller.
