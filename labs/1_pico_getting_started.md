@@ -4,11 +4,11 @@
 
 In this course, we are going to use microcontrollers programmed with MicroPython. The controllers are considered as an IoT device or 'IoT thing'.
 
-In the labs for this course, we are first going to get started with the hardware, and then later on controlling some lights and reading digital inputs. Later on, you will also read a sensor value and transmit that to an online service. In the basic lab setup we are only going to use USB and WiFi as our interfaces. We are in the basic labs using the Raspberry Pi Pico Wireless, and it has WiFi, Bluetooth and is based on the RP2040 chipset. The main advantage of using MicroPython compared to C++ and Arduino IDE is that we can quickly test and run our code without compiling and flashing. It makes the development much faster and easier.
+In the labs for this course, we are first going to get started with the hardware, and later on, you will also read a sensor value and transmit that to an online service. In the basic lab setup we are only going to use USB and WiFi as our interfaces. We are in the basic labs using the Raspberry Pi Pico Wireless, and it has WiFi, Bluetooth and is based on the RP2040 chipset. The main advantage of using MicroPython compared to C++ and Arduino IDE is that we can quickly test and run our code without compiling and flashing. It makes the development much faster and easier.
 
 ### Reference:
 
-**A really good guide on getting started with RPI Pico W: https://projects.raspberrypi.org/en/projects/get-started-pico-w**
+**A really good guide on getting started with RPI Pico W: https://projects.raspberrypi.org/en/projects/get-started-pico-w and https://core-electronics.com.au/guides/how-to-setup-a-raspberry-pi-pico-and-code-with-thonny/** 
 
 **Raspberry Pi Pico W Pinout: https://datasheets.raspberrypi.com/picow/PicoW-A4-Pinout.pdf**
 

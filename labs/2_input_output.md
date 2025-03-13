@@ -1,28 +1,61 @@
-# Lab 2 - external input and outputs
-
----
-
-## Use of this AI bot in this lab:
-
-[AI bot lab 2](https://udify.app/chat/GAlMmwVESEyb1mlg)
-
----
+# Lab 2 - Using MQTT for IoT Communication
 
 
+In this lab, we will learn how to implement MQTT (Message Queuing Telemetry Transport) for communication between IoT devices. MQTT is a lightweight messaging protocol designed for constrained environments like IoT. We will build a simple system where an MQTT broker facilitates communication between clients. Using a Raspberry Pi Pico W connected to a DHT11 temperature and humidity sensor, we will read sensor values and transmit them to the MQTT broker. By the end of this lab, you will have a fundamental understanding of how to use MQTT to send sensor data over a network.
 
-In this assignment we are going to work with user-input through a button circuit and also introduce a new form of output (sound). 
 
- * Work with input
- * Work with sound
- * Work with temperature sensors
+In this lab, we will use Adafruit IO, a cloud-based MQTT broker, to send and receive messages between IoT devices
+
 
 ## Rules
 
-During the assignment you may discuss the assignment with students outside the group. You may help other groups but you may NOT do all steps for them, or share any code. Note that these rules change between assignments.
+During this lab you, may discuss with students. You may help other students but you may NOT do all steps for them, or share any code. 
+
+## Materials Needed:
+
+A computer with access to a code editor (e.g., VS Code)
+Internet connection for accessing MQTT resources
+Python (for MQTT client-side implementation)
+MQTT Broker (either public or locally installed broker like Mosquitto)
+MQTT Client libraries for Python (e.g., paho-mqtt)
+
+You can find a very good guide on how to work with Adafruit IO from IoT summer course here.
+ [How to work with Adafruit](https://hackmd.io/@lnu-iot/r1yEtcs55). 
+
+
+
+# Pre-Lab Setup  
+
+## Create an Adafruit IO Account  
+
+- Go to Adafruit IO and sign up for an account:  
+  https://io.adafruit.com/  
+- After signing up, you’ll have access to the dashboard where you can create "feeds" and "dashboards".  
+
+## Create a Feed in Adafruit IO  
+
+- In your Adafruit IO dashboard, create a feed (for example, "weight") where data will be published.  
+- This feed will be used as the topic for MQTT communication.  
+
+## Generate an Adafruit IO Key  
+
+- In your account settings, generate an **Adafruit IO Key**.  
+- This key is necessary for authenticating the MQTT client to interact with Adafruit IO.  
+
+## Install MQTT Python Library (paho-mqtt)  
+
+- You will need the **paho-mqtt** Python library to interact with the MQTT broker.  
+- Install it using pip:  
+
+```bash
+pip install paho-mqtt
 
 ## Knowledge Components
 
- * Buzzers (Svenska: Summer) https://en.wikipedia.org/wiki/Buzzer
+* 
+
+
+Buzzers (Svenska: Summer) https://en.wikipedia.org/wiki/Buzzer
     * Buzzer circuit https://www.instructables.com/id/How-to-use-a-Buzzer-Arduino-Tutorial/
     * Creating a PWM object https://docs.micropython.org/en/latest/library/machine.PWM.html
     * Setting the duty cycle of the channel https://docs.micropython.org/en/latest/library/machine.PWM.html
