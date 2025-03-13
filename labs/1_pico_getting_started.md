@@ -83,7 +83,7 @@ Write help() in the console and press enter, this should give you output like in
 The help command prints some useful short-cuts you can use to for example interrupt a board that is stuck in a loop so that you can upload new code.
 
 #### Expected output. Run help() on board
-![Goal state 1](/images/pico-help.png)
+![Goal state 1](/images/Pico-help.png)
 
 ### Step 4. Run custom code on the board
 Create project folder in your IDE, with a main.py file and run it.
@@ -105,7 +105,7 @@ When the microcontroller starts it first executes the file `boot.py` and then `m
 When the has completed the code will run on the board and should produce the same output as in Expected output 2.
 
 #### Expected output 2.
-![Goal state 2](/images/hello-fredrik.png)
+![Goal state 2](/images/hello-Arslan.png)
 
 When you have completed this assignment you are expected to know:
  * How to flash firmware on your microcontroller.
