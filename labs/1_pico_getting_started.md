@@ -215,6 +215,9 @@ Now adjust the code so that all three LED's blink like this:
  * YELLOW lights up for 1 second. Other LEDs are unlit.
  * Repeat forever with RED again
 
+#### Expected output
+[![](http://img.youtube.com/vi/Wtd8pp-DW3w/0.jpg)](http://www.youtube.com/watch?v=Wtd8pp-DW3w "")
+
 
 
 # DHT11 Temperature and Humidity Sensor
