@@ -217,7 +217,7 @@ Now adjust the code so that all three LED's blink like this:
 
 #### Expected output
 
-[![](https://img.youtube.com/vi/iMCZt8YVJv4/0.jpg)](https://youtu.be/iMCZt8YVJv4 "")
+[![](https://img.youtube.com/vi/6_ypQYiIJHI/0.jpg)](https://youtu.be/6_ypQYiIJHI "")
 
 
 
