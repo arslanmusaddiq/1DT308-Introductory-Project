@@ -216,7 +216,7 @@ Now adjust the code so that all three LED's blink like this:
  * Repeat forever with RED again
 
 #### Expected output
-[![](http://img.youtube.com/vi/Wtd8pp-DW3w/0.jpg)](http://www.youtube.com/watch?v=Wtd8pp-DW3w "")
+[](/images/leds-pico.png)
 
 
 
