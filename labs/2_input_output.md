@@ -100,101 +100,24 @@ You Adafruit dashboard should look like this:
 https://i3.ytimg.com/vi/65yiLbLtZzU/maxresdefault.jpg
 https://youtu.be/65yiLbLtZzU
 
-### Step 2. Press play for music
-
-The following code is from https://forum.pycom.io/topic/802/example-pwm-mariobros
-
-Rewrite the code so that the music is started when the button is pressed. Merge with code from step 1 so that button can still be pressed.
- * The playing of the tune should not be run in the event handler. The event handler interrupts the currently running code on the microcontroller and thus locks up the execution until its done. To many interrupts may cause the microcontroller to be unresponsive. 
- * Keypresses that happen during the playing of the tune should not result in cued up plays. 
- * You may reduce the length of the Tune, but it must be longer than the time for contact bounce. 
-
-
-```python
-
-from machine import Pin
-from machine import PWM
-import time
-
-# define frequency for each tone
-E7 = 2637
-F7 = 2794
-C7 = 2093
-G7 = 3136
-G6 = 1568
-E6 = 1319
-A6 = 1760
-B6 = 1976
-AS6 = 1865
-A7 = 3520
-D7 = 2349
-
-# set up pin PWM timer for output to buzzer or speaker
-p2 = Pin("PXX")  # Pin Y2 with timer 8 Channel 2
-tim = PWM(0, frequency=300)
-ch = tim.channel(2, duty_cycle=0.5, pin=p2)https://forum.pycom.io/topic/802/example-pwm-mariobros
-
-mario = [E7, E7, 0, E7, 0, C7, E7, 0, G7, 0, 0, 0, G6, 0, 0, 0, C7, 0, 0, G6, 0, 0, E6, 0, 0, A6, 0, B6, 0, AS6, A6, 0, G6, E7, 0, G7, A7, 0, F7, G7, 0, E7, 0,C7, D7, B6, 0, 0, C7, 0, 0, G6, 0, 0, E6, 0, 0, A6, 0, B6, 0, AS6, A6, 0, G6, E7, 0, G7, A7, 0, F7, G7, 0, E7, 0,C7, D7, B6, 0, 0]
-
-for i in mario:
-    if i == 0:
-        ch.duty_cycle(0)
-    else:
-        tim = PWM(0, frequency=i)
-        ch.duty_cycle(0.5)
-
-    time.sleep(0.15)
-```
-
-## Step 3. Blink lights to tune
-
-Assign one LED for each tone (multiple tones can be attached to the same LED) turn on LED's in tune with the music.
-
-## Step 4. Read an analog temperature sensor
-
-Read the analog value from the NTC-sensor and present it in time intervals to the console with a `print()`-function. Note, depending on your sensor you might need to do a voltage divider. Read more about NTC thermistors and how to connect a voltage divider here: https://www.electronics-tutorials.ws/io/thermistors.html
-
-You will have to think about how the voltage that is read using the analog input is translated to a temperature. There are both [equations](https://eepower.com/resistor-guide/resistor-types/ntc-thermistor/#) and [lookup tables](https://cdn-shop.adafruit.com/datasheets/103_3950_lookuptable.pdf) that can be used to write a function.
-
-
-**NOTE** The NTC thermistor mounted on a PCB that is distributed from the lab can be incorrectly marked. The correct setup is shown in the Figure below. If that does not give you expected values, try to switch the wires around, some students have found units that are incorrectly marked in different ways. [Analog temperature sensor NTC Electrokit](https://www.electrokit.com/uploads/productfile/41015/41015732_-_Analog_Temperature_Sensor.pdf) Note. The schematics are wrong on this one.
-
-![NTC Thermistor](../images/ntc-sensor-electrokit.jpg)
-
-Discuss how accurate the reading is and the range of the temperature span that is presented.
-
-- How many bits do you have for the value, and how does this affect your reading?
-
-## Step 5. Read a digital temperature and humidity sensor
-
-Connect a temperature and/or humidity (DHT11 / 22 or a DS18B20) sensor to the device. The sensor communicates using the 1-Wire protocol, you will need to use a library.
-
-[Digital temp sensor DHT11 bought from Electrokit](https://www.electrokit.com/uploads/productfile/41016/DHT11.pdf)
-
-![](../images/dht11_wiring.jpeg)
-
 ## Examination
 
 This assignment should be examined by a teacher/TA. 
 
-You should in this assignment make sure you have fulfilled all the described tasks above. That is, you must be able to demonstrate reading both analog and digital sensors as well as interacting with buzzers and buttons.
-
 Prepare for that by checking yourself so that you know the answers to the following questions:
 
- * What is the difference between a pull-up and a pull-down button circuit?
- * What is contact bouncing and why would we be bothered?
- * What is a microcontroller interrupt?
- * Why should we keep the code in event-callbacks to a minimum?
- * How can the song continue while the event-callback prints out key-presses?
+### LED Control and Dashboard Interaction:
+* How does the dashboard control the LED on the Raspberry Pi Pico W?
+* What happens when the LED is turned on via the dashboard?
+* How does turning on the LED trigger the sending of sensor data?
+* What is the purpose of blinking the LED after sending data from the DHT11 sensor?
 
-When completed you should ask a teacher/TA to check your setup and verify the questions above yourself.
+### DHT11 Sensor Data Transmission:
+* How does the DHT11 sensor transmit temperature and humidity data?
+* How is the sensor data sent to the MQTT broker?
 
-### Test setup:
- * The time for key-presses should be printed as the example.
- * Test by "spamming" the button with lots of short presses. The song should start on the first press and continue without interruption until it ends. The buttonclicks do not stack and after the song is over id does not restart unless a new click is introduced afterwards. The printouts of times should continue while the song is played.
- * If lights blink in tune with music, make extra credit note. 
- 
-### Check Code:
- * Code should be DRY (no unnecessary repeated statements)
- * Code should be divided into methods
- * The song should not be played in the eventhandler function but started in a separate loop (or thread).
+### MQTT Communication:
+* What is the role of the MQTT broker in this setup?
+* How does MQTT facilitate communication between the Raspberry Pi Pico W and the dashboard?
+* What MQTT topics are used to send and receive data in this lab setup?
+* Why is it important to use a delay when handling sensor readings and LED controls?
