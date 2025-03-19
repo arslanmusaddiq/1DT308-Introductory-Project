@@ -83,6 +83,7 @@ Connect the breadboard power-rails to GND and 3V3.
  * GND <--> Black/Blue Power Rail (BPR)
  * 3V3 <--> Red Power Rail (RPR)
  
+## Expected output
 
 The program output should look like the following:
 
@@ -92,8 +93,12 @@ You Adafruit dashboard should look like this:
 
 ![Program output](../images/lab2-adafruit.png)
 
+#### Expected output
 
+[![](https://i3.ytimg.com/vi/65yiLbLtZzU/maxresdefault.jpg)](https://youtu.be/65yiLbLtZzU "")
 
+https://i3.ytimg.com/vi/65yiLbLtZzU/maxresdefault.jpg
+https://youtu.be/65yiLbLtZzU
 
 ### Step 2. Press play for music
 
