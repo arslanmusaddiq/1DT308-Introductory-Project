@@ -97,9 +97,6 @@ You Adafruit dashboard should look like this:
 
 [![](https://i3.ytimg.com/vi/65yiLbLtZzU/maxresdefault.jpg)](https://youtu.be/65yiLbLtZzU "")
 
-https://i3.ytimg.com/vi/65yiLbLtZzU/maxresdefault.jpg
-https://youtu.be/65yiLbLtZzU
-
 ## Examination
 
 This assignment should be examined by a teacher/TA. 
