@@ -17,7 +17,5 @@ This course consists of several labs. The labs are designed to start as tutorial
 
 Labs that needs to be checked by teacher/TA:
 
-* [Lab 0](labs/0_pico_getting_started.md)
-* [Lab 1](labs/1_input_output.md)
-* [Lab 2](labs/2_iot_traffic_light.md) 
-* [Lab 3](labs/3_iot_device_lora.md)
+* [labs/1_pico_getting_started](https://gitlab.lnu.se/1dt308/content/-/blob/master/labs/1_pico_getting_started.md?ref_type=heads)
+* [labs/2_input_output](https://gitlab.lnu.se/1dt308/content/-/blob/master/labs/2_input_output.md?ref_type=heads)
