@@ -12,7 +12,7 @@ For the first labs, 1-4:
 * Internet connection (You might need to use your phone Internet to connect Pico to WiFi).
 
 
-In the lab, you should have access to:
+In the IoT lab Kalmar, you should have access to:
 
 * [Breadboard](https://www.electrokit.com/produkt/kopplingsdack-270-anslutningar/)
 * Wires
