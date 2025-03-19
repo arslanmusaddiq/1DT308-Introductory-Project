@@ -1,28 +1,37 @@
 # Lab 2 - Using MQTT for IoT Communication
 
 
-In this lab, we will learn how to implement MQTT (Message Queuing Telemetry Transport) for communication between IoT devices. MQTT is a lightweight messaging protocol designed for constrained environments like IoT. We will build a simple system where an MQTT broker facilitates communication between clients. Using a Raspberry Pi Pico W connected to a DHT11 temperature and humidity sensor, we will read sensor values and transmit them to the MQTT broker. By the end of this lab, you will have a fundamental understanding of how to use MQTT to send sensor data over a network.
+In this lab, we will learn how to implement MQTT (Message Queuing Telemetry Transport) for communication between IoT devices. MQTT is a lightweight messaging protocol designed for constrained environments like IoT. We will build a simple system where an MQTT broker facilitates communication between clients. Using a Raspberry Pi Pico W connected to a DHT11 temperature and humidity sensor and leds, we will read sensor values and transmit them to the MQTT broker. By the end of this lab, you will have a fundamental understanding of how to use MQTT to send sensor data over a network.
 
 
-In this lab, we will use Adafruit IO, a cloud-based MQTT broker, to send and receive messages between IoT devices
+In this lab, we will use Adafruit IO, a cloud-based MQTT broker, to send and receive messages between IoT devices. 
 
+
+## Objectives
+
+
+- LED Control via Adafruit IO Dashboard: You will create a "Switch" block on your Adafruit IO dashboard, which will allow you to control the first LED. When the switch is turned on (via the dashboard), the Raspberry Pi Pico W will start sending temperature and humidity data from the DHT11 sensor to the MQTT broker.
+
+- Sensor Data Transmission: When the LED is on, the Raspberry Pi Pico W will send the sensor data to the MQTT broker.
+
+- LED Blinking on Data Transmission: With each time the sensor data is successfully sent, the second LED will blink briefly, indicating that the data transmission has occurred.
+
+- Threshold-based LED Control: The system will monitor the sensor readings and check if they exceed a predefined threshold. If the temperature or humidity goes beyond this threshold, a third LED will turn on. If the values fall below the threshold, this LED will turn off.
 
 ## Rules
 
-During this lab you, may discuss with students. You may help other students but you may NOT do all steps for them, or share any code. 
+During this lab, you may discuss with students. You may help other students but you may NOT do all steps for them, or share any code. 
 
 ## Materials Needed:
 
-A computer with access to a code editor (e.g., VS Code)
-Internet connection for accessing MQTT resources
-Python (for MQTT client-side implementation)
-MQTT Broker (either public or locally installed broker like Mosquitto)
-MQTT Client libraries for Python (e.g., paho-mqtt)
-
-You can find a very good guide on how to work with Adafruit IO from IoT summer course here.
- [How to work with Adafruit](https://hackmd.io/@lnu-iot/r1yEtcs55). 
-
-
+- A computer with access to a code editor (e.g., Thonny).
+- Internet connection for accessing MQTT resources. (You might need to use your phone Internet to connect Pico to WiFi)
+- Python (for MQTT client-side implementation).
+- MQTT Broker (Adafruit IO).
+- MQTT Client libraries for Python (e.g., umqtt.simple).
+- 3 LEDs.
+- DHT11 temperature and humidity sensor.
+- Jumper wires and resistors.
 
 # Pre-Lab Setup  
 
@@ -30,11 +39,11 @@ You can find a very good guide on how to work with Adafruit IO from IoT summer c
 
 - Go to Adafruit IO and sign up for an account:  
   https://io.adafruit.com/  
-- After signing up, you’ll have access to the dashboard where you can create "feeds" and "dashboards".  
+- After signing up, you will have access to the dashboard where you can create "feeds" and "dashboards".  
 
 ## Create a Feed in Adafruit IO  
 
-- In your Adafruit IO dashboard, create a feed (for example, "weight") where data will be published.  
+- In your Adafruit IO dashboard, create a feed (for example, "temperature") where data will be published.  
 - This feed will be used as the topic for MQTT communication.  
 
 ## Generate an Adafruit IO Key  
@@ -42,137 +51,48 @@ You can find a very good guide on how to work with Adafruit IO from IoT summer c
 - In your account settings, generate an **Adafruit IO Key**.  
 - This key is necessary for authenticating the MQTT client to interact with Adafruit IO.  
 
-## Install MQTT Python Library (paho-mqtt)  
+## Install MQTT Python Library (umqtt.simple)  
 
-- You will need the **paho-mqtt** Python library to interact with the MQTT broker.  
-- Install it using pip:  
+You will need the umqtt.simple Python library to interact with the MQTT broker.
 
-```bash
-pip install paho-mqtt
+Install the library via the terminal or command prompt with the following command:
 
-## Knowledge Components
+bash
 
-* 
+pip install umqtt.simple
 
 
-Buzzers (Svenska: Summer) https://en.wikipedia.org/wiki/Buzzer
-    * Buzzer circuit https://www.instructables.com/id/How-to-use-a-Buzzer-Arduino-Tutorial/
-    * Creating a PWM object https://docs.micropython.org/en/latest/library/machine.PWM.html
-    * Setting the duty cycle of the channel https://docs.micropython.org/en/latest/library/machine.PWM.html
- * Button https://learn.sparkfun.com/tutorials/switch-basics/all
-    * Button circuit with pull-down resistor https://learn.sparkfun.com/tutorials/pull-up-resistors
-    * Defining callback function on events https://electrocredible.com/raspberry-pi-pico-external-interrupts-button-micropython/
-    * Interrupts https://en.wikipedia.org/wiki/Interrupt
-    * Taking a utime.ticks_ms() https://docs.micropython.org/en/v1.15/library/utime.html
-    * Contact Bounce https://www.allaboutcircuits.com/textbook/digital/chpt-4/contact-bounce/
- 
-* Temperature sensors
-    * Analog input
-        * Thermistor https://learn.adafruit.com/thermistor
-        * NTC Thermistor https://en.wikipedia.org/wiki/Thermistor
-        * Read an analog value. https://docs.micropython.org/en/latest/rp2/quickref.html#adc-analog-to-digital-conversion
+##  Connect the Hardware
 
-    * Digitial input
-        * DHT sensors https://learn.adafruit.com/dht
-        * 1-Wire. https://en.wikipedia.org/wiki/1-Wire
-        *  Onewire driver: https://docs.micropython.org/en/latest/rp2/quickref.html?highlight=onewire#onewire-driver
+- Connect the DHT11 sensor to your Raspberry Pi Pico W.
+- Connect the three LEDs to the microcontroller: one for control, one for sending data, and one for alerting based on thresholds.
+- Refer to your microcontroller’s pinout diagram to connect the components.
 
- * Code
-    * API: Reading time in ms. utime.ticks_ms()
-    * event callback functions
-    * global variables. https://www.programiz.com/python-programming/global-local-nonlocal-variables
-    * API: Create PWM timer PWM(0, frequency=i)
-    * timer duty cycle: duty_cycle(0.5) https://en.wikipedia.org/wiki/Duty_cycle
-    * API: Make the microcontroller sleep. `time.sleep()`
-    * declare function
-  
-## Ingredients
 
-### Hardware
- * Everything from Task 2. (3 LED with resistors)
- * Button 
- * pull-down resistor 1k Ohm (Brown, Black, Red, Gold)
- * Buzzer 
- * Buzzer-resistor 1k Ohm (Brown, Black, Red, Gold) 
- * Temperature sensor
-    - analog NTC
-    - digital DHT-11 / 22
- 
-### Software 
- * Everything from Task 2.
- 
-## Circuits
+## Code Components
+- Event callback functions for handling asynchronous events.
+- Use global variables to manage state.
+- Publish and Subscribe mechanisms in MQTT.
+- Use timers for scheduling tasks.
 
-### Breadboard circuit
+
+ ### Breadboard circuit
 
 Connect the breadboard power-rails to GND and 3V3.
 
  * GND <--> Black/Blue Power Rail (BPR)
  * 3V3 <--> Red Power Rail (RPR)
  
-### The buzzer circuit
-The buzzer is driven directly from the microcontroller's port but using a current reducing resistor. For higher volume it is adviceable to use a driver circuit.
 
-Place the buzzer with one leg on each side of the breadboard ravine. Connect one side to the microcontroller port and the other through a resistor to GND. 
+The program output should look like the following:
 
- * PIN <--> Buzzer <--> 1k Ohm resistor <--> BPR(GND)
- 
-### The button circuit
-The button has two sides with two legs each (We call them A and B) that are connected when the button is pressed. The button is placed over the breadboard ravine. We connect the A-side to the input port of the microcontroller. We also connect the A side through a 1k Ohm resistor to GND, this pulls the input port voltage down to GND. GND counts as a LOW (or 0) when we read the input of the port through our code. The resistor is called a "pull-down resistor". We connect the B side of the button to 3v3. 
+![Program output](../images/lab2-output.png)
 
-When the button is pressed the A and B-sides become connected the input becomes a HIGH (or 1) since we measure on the side now directly connected to 3v3. Please note that a current now runs through the 1k Ohm connector. 
+You Adafruit dashboard should look like this: 
 
-  * PIN <--> Button side A <--> 1k Ohm resistor <--> BPR(GND)
-  * Button side B <--> RPR(3v3)
-  
-![Pull down button circuit](/images/pull-down-button.jpg)
-## Steps
+![Program output](../images/lab2-adafruit.png)
 
-### Step 1. Button
 
-Run the following code with a button circuit on any PIN:
-
-```python
-from machine import Pin
-
-count = 0
-
-def buttonEventCallback(argument):
-    global count
-    print("button was pressed: " + str(count))
-    count += 1
-
-buttonPin = Pin('PXX', mode=Pin.IN, pull=None)
-buttonPin.callback(Pin.IRQ_FALLING, buttonEventCallback)
-```
-
-Press the button a couple of times. Note that not all presses results in a single event being launched. Due to *contact bounces* we might end up with multiple button-presses even if the button was only pressed once.
-
-Contact bounces are explained here: https://www.allaboutcircuits.com/textbook/digital/chpt-4/contact-bounce/
-
-Rewrite the code so that at most one button press can happen each second. 
- * Use a variable to store the last time the button was pressed using utime.ticks_ms(). 
- * Ignore key-presses if the time since last press was less than a second.
-
-The program output should look like the following when quickly pressing the button:
-```
-...
-Button was pressed: 3 time(s). Time since last 1462ms
-Button was pressed: 4 time(s). Time since last 1795ms
-Button was pressed: 5 time(s). Time since last 1021ms
-Ignored button press: Time left for next press is 809ms
-Ignored button press: Time left for next press is 431ms
-Button was pressed: 6 time(s). Time since last 1164ms
-Ignored button press: Time left for next press is 789ms
-Ignored button press: Time left for next press is 480ms
-Ignored button press: Time left for next press is 475ms
-Ignored button press: Time left for next press is 320ms
-Ignored button press: Time left for next press is 261ms
-Ignored button press: Time left for next press is 256ms
-Ignored button press: Time left for next press is 184ms
-Ignored button press: Time left for next press is 127ms
-Button was pressed: 7 time(s). Time since last 2711ms
-```
 
 
 ### Step 2. Press play for music
