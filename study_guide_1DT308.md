@@ -10,8 +10,6 @@
 - [Timetable (preliminary)](https://cloud.timeedit.net/lnu/web/staff1/ri1Y1X1QQYwZ16QfQ5077425y1Y95Z7.html)
 
 
-
-
 ## Expectations
 
 - Read this document **carefully**. Feedback with comments directly if there is anything that is unclear.
