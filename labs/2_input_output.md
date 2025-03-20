@@ -135,7 +135,7 @@ Lets send **temperature** and **humidity** data from Adafruit IO to a **Discord 
 {
   "content": "🌡 Temperature: {temperature}°C, 💧 Humidity: {humidity}%"
 }
-
+```
 The output looks like this: 
 
 
