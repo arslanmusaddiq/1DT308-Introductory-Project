@@ -143,6 +143,11 @@ Lets send **temperature** and **humidity** data from Adafruit IO to a **Discord 
 }
 ```
 
+The output looks like this: 
+
+![Discord webhook](../images/discord-webhook.png)
+
+
 ## Examination
 
 This assignment should be examined by a teacher/TA. 
