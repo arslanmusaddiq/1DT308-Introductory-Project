@@ -133,12 +133,15 @@ Lets send **temperature** and **humidity** data from Adafruit IO to a **Discord 
 
 ```json
 {
-  "content": "🌡 Temperature: {{temperature}}°C, 💧 Humidity: {{humidity}}%"
+  "content": "🌡 Temperature: {{value}}°C (Recorded at: {{created_at}})"
 }
 ```
 
-
-
+```json
+{
+  "content": "💧 Humidity: {{value}}% (Recorded at: {{created_at}})"
+}
+```
 
 ## Examination
 
