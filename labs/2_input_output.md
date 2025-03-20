@@ -129,7 +129,7 @@ Lets send **temperature** and **humidity** data from Adafruit IO to a **Discord 
     - Copy the **Webhook URL**.
 
 ### 4. Set the Webhook Message Format (JSON)
-- You can use the following JSON format to send temperature and humidity data:
+- You can use the following JSON format to send temperature and humidity data. In the dashboard the minimum value possible to set is every 15 minutes.
 
 ```json
 {
