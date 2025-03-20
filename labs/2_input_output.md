@@ -35,23 +35,23 @@ During this lab, you may discuss with students. You may help other students but 
 
 # Pre-Lab Setup  
 
-## Create an Adafruit IO Account  
+### Create an Adafruit IO Account  
 
 - Go to Adafruit IO and sign up for an account:  
   https://io.adafruit.com/  
 - After signing up, you will have access to the dashboard where you can create "feeds" and "dashboards".  
 
-## Create a Feed in Adafruit IO  
+### Create a Feed in Adafruit IO  
 
 - In your Adafruit IO dashboard, create a feed (for example, "temperature") where data will be published.  
 - This feed will be used as the topic for MQTT communication.  
 
-## Generate an Adafruit IO Key  
+### Generate an Adafruit IO Key  
 
 - In your account settings, generate an **Adafruit IO Key**.  
 - This key is necessary for authenticating the MQTT client to interact with Adafruit IO.  
 
-## Install MQTT Python Library (umqtt.simple)  
+### Install MQTT Python Library (umqtt.simple)  
 
 You will need the umqtt.simple Python library to interact with the MQTT broker.
 
@@ -62,14 +62,14 @@ bash
 pip install umqtt.simple
 
 
-##  Connect the Hardware
+###  Connect the Hardware
 
 - Connect the DHT11 sensor to your Raspberry Pi Pico W.
 - Connect the three LEDs to the microcontroller: one for control, one for sending data, and one for alerting based on thresholds.
 - Refer to your microcontroller’s pinout diagram to connect the components.
 
 
-## Code Components
+### Code Components
 - Event callback functions for handling asynchronous events.
 - Use global variables to manage state.
 - Publish and Subscribe mechanisms in MQTT.
