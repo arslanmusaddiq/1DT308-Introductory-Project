@@ -97,6 +97,51 @@ You Adafruit dashboard should look like this:
 
 [![](https://i3.ytimg.com/vi/65yiLbLtZzU/maxresdefault.jpg)](https://youtu.be/65yiLbLtZzU "")
 
+
+
+#### Webhook Integration (Optional)
+You can use webhooks to send your data in this case *temperature** and **humidity** real time data from Adafruit IO to other applications over the internet
+
+
+For example, we can send to **Discord channel**. 
+
+## Steps:
+
+Lets send **temperature** and **humidity** data from Adafruit IO to a **Discord channel** using webhooks.
+
+### 1. Create a New Action on Adafruit IO
+- **Go to Adafruit IO** → **Feeds**.
+- Select your **Temperature Feed** (or any feed you want to track).
+- Click on **Actions** → **Create New Action**.
+- Choose **"Reactive"** as the action type.
+
+### 2. Set the Trigger
+- Select **"When a feed changes"** to trigger the action anytime the temperature or humidity feed is updated.
+
+### 3. Choose Webhook as the Action Type
+- In the **Action Type** dropdown, select **"Webhook"**.
+- In the **Webhook URL** field, paste your **Discord Webhook URL**. 
+  - To get your **Discord Webhook URL**:
+    - Go to your **Discord server**.
+    - Click on the channel settings where you want to send the data.
+    - Under **Integrations**, click **Webhooks**.
+    - Click **Create Webhook**.
+    - Copy the **Webhook URL**.
+
+### 4. Set the Webhook Message Format (JSON)
+- In the **Content** field, enter the following JSON format to send both temperature and humidity data:
+
+```json
+{
+  "content": "🌡 Temperature: {temperature}°C, 💧 Humidity: {humidity}%"
+}
+
+The output looks like this: 
+
+
+
+
+
 ## Examination
 
 This assignment should be examined by a teacher/TA. 
