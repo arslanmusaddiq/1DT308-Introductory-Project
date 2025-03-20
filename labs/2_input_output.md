@@ -100,6 +100,7 @@ You Adafruit dashboard should look like this:
 
 
 #### Webhook Integration (Optional)
+
 You can use webhooks to send your data in this case *temperature** and **humidity** real time data from Adafruit IO to other applications over the internet
 
 
@@ -133,11 +134,9 @@ Lets send **temperature** and **humidity** data from Adafruit IO to a **Discord 
 
 ```json
 {
-  "content": "🌡 Temperature: {temperature}°C, 💧 Humidity: {humidity}%"
+  "content": "🌡 Temperature: {{temperature}}°C, 💧 Humidity: {{humidity}}%"
 }
 ```
-The output looks like this: 
-
 
 
 
