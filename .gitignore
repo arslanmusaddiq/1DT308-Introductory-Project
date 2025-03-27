@@ -168,4 +168,8 @@ dmypy.json
 # profiling data
 .prof
 
+ingenjor.md
+
+
+
 # End of https://www.toptal.com/developers/gitignore/api/osx,python
