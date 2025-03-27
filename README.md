@@ -7,7 +7,7 @@ Read the study guide. Important!
 ## Other important links
 
 - [Slack Channel](https://coursepress.slack.com/signup) **#1dt308-introducerande-projekt**
-- [Moodle](https://mymoodle.lnu.se/course/view.php?id=54832)
+- [Moodle](https://moodle.lnu.se/course/view.php?id=68072)
 - [Project template](project-template.md)
 - [Assignment on the professional role of engineer](ingenjor.md)
 
