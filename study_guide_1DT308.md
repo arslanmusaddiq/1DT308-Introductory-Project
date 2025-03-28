@@ -94,48 +94,49 @@ Present and discuss your project with a teacher or TAs no later than three weeks
 - The first track presents a single-chip computer and how to write programs that interact with external devices such as sensors and networked devices. In addition, develop skills in creating dashboards and visualizing sensor data.
 - The second track introduces how to work in projects and groups, as well as the professional role of engineer.
 
+[Kursplan 1DT308](https://kursplan.lnu.se/kursplaner/syllabus-1DT308-1.pdf)
 
-[Kursplan 1DT308](https://kursplan.lnu.se/kursplaner/kursplan-1DT308-1.pdf), [Kursplan 1DT902](https://kursplan.lnu.se/kursplaner/kursplan-1DT902-1.pdf)
 
-**Kunskap och förståelse**:
-A.1 förklara hur systemkrav tas fram, specificeras och testas,
-A.2 översiktligt redogöra för vad projektledning och kvalitetsarbete innebär i praktiken, samt
-A.3 redogöra för mjukvaruindustrins olika sektorer och olika arbetsuppgifter.
+**Knowledge and understanding**
+A.1 Explain how system requirements are developed, specified, and tested•
+A.2 Give an overview of project management methods•
+A.3 Describe the different sectors of the software industry and related work tasks•
 
-**Färdighet och förmåga**:
-B.1 utveckla program för en enchipsdator (microcontroller) med externa enheter, såsom sensorer, och nätverkskoppling,
-B.2 analysera ett problem, skapa en kravspecifikation, designa och implementera lösningar, och verifiera att lösningen uppfyller alla krav,
-B.3 använda vanliga tekniska projektverktyg (såsom versionshantering med Git), l B.4 självständigt söka efter och värdera information om hårdvara och hur man löser programmeringsproblem,
-B.5 strukturera och genomföra en skriftlig och muntlig presentation av genomfört projekt, samt
-B.6 genomföra ett projekt i grupp under begränsad tid och där tillämpa en arbetsform som presenterats i kursen.
+**Competence and skills**:
+B.1 Develop software for an embedded computer (microcontroller) with external sensors and network connection
+B.2 Analyze a problem and create a requirements specification; from this, be able to implement a solution and verify that it fulfills the requirements
+B.3 Be able to use standard engineering tools, such as version control with Git
+B.4 Independently search and evaluate information about hardware and programming problem
+B.5 B.5 Be able to structure a written report as well as an oral presentation of a completed project
+B.6 Carry out a project in a group within a limited time frame during the course
 
-**Värderingsförmåga och förhållningssätt**:
-C.1 reflektera över och värdera en given ansats att lösa ett problem,
-C.2 reflektera över relationen mellan ämneskunskap, ingenjörsfärdigheter och yrkesrollen ingenjör, samt
-C.3 reflektera över och värdera sin egen kontra gruppens insats vid laborations­ och projektarbete.
+**Judgement and approach**:
+C.1 Reflect and evaluate a given approach to solve a problem•
+C.2 Reflect on the relationship between engineering knowledge, engineering skills, and the professional role of an engineer
+C.3 Reflect on and evaluate their role versus the group effort in projects and assignments
 
-**Innehåll:**
+**Content:**
 
-- Introduktion till en enchipsdator (hårdvara och mjukvara).
-- Implementera och exekvera program i Python på en enchipsdator.
-- Interagera med externa enheter (såsom sensorer och nätverkskopplade enheter).
-- Fördjupning av labbmiljön.
-- Introduktion till kravhantering, mjukvarudesign och testning.
-- Introduktion av verktyg och metoder som används inom ett projekt såsom versionshantering, kravhantering, och kommunikation.
-- Introduktion till projektmetodik och projektdynamik.
-- Hur man arbetar i grupp, vilka roller som finns, vilket ansvar individen har, osv.
-- Hur man söker efter information om mjukvaruutvecklings problem, såsom APIer, hårdvaruspecifikationer och lösningar till problem som uppstår. l Hur man skriver enklare projektdokumentation.
-- Muntlig och skriftlig presentation av tekniskt material.
-- Ingenjörens yrkesroll, arbetsuppgifter och förhållningssätt.
-- Ingenjörens ansvar och arbetsmiljö.
+- Introduction to a microcontroller (hardware and software)•
+- Implement and execute programs in Python on a microcontroller•
+- Interact with external devices, such as sensors, buttons, and networked devices•
+- Introduction to project requirements, software design, and testing•
+- Introduction to engineering tools and methods, such as version control, requirements management, and communication
+- Introduction to project management•
+- How to work in a group, the different roles with responsibilities•
+- How to search for information about software related issues, such as API, hardware specifications, and solutions
+- How to write a fundamental project documentation•
+- Oral and written presentation of technical material•
+- An engineer’s professional role in the work-life, typical tasks, and responsibilities
 
-## Kommunikationsstrategi
 
-- *Personliga* frågor gällande formella medverkan på kursen, frånvaro, betyg skickas via email till ansvarig lärare. OBS, undvik gärna direktkommunikation till lärare gällande frågor som rör kursens innehåll, sannolikt är det någon annan som har samma fråga och det ställs då i ett öppet forum i kursens Slack-kanal.
-- Frågor kring kursen, uppgifter, examination, schema, ställs i Slack **#1dt308-1dt902-introducerande-projekt**.
-- Information gällande kursen kommer postas på Slack. Det är _viktigt_ att du läser allt som är '*Pinned*'.
-- Reagera till **alla** '*Pinned posts*' på Slack.
-- Ni kan filtrera alla '*Pinned posts*' enligt figur nedan.
+## Type of Instruction
+
+- *Personal* questions regarding formal participation in the course, absences, grades are sent via email to the responsible teacher. NOTE, please avoid direct communication with teachers regarding questions regarding the course content, it is likely that someone else has the same question and it is then asked in an open forum in the course's Slack channel.
+- Questions about the course, assignments, examination, schedule, are asked in Slack **#1dt308-introductory-project**.
+- Information regarding the course will be posted on Slack. It is _important_ that you read everything that is '*Pinned*'.
+- React to **all** '*Pinned posts*' on Slack.
+- You can filter all '*Pinned posts*' according to the figure below.
 
 ![pinned-posts](images/pinned_slack.png)
 ![reactions](images/react_slack.png)
