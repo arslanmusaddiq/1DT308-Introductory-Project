@@ -26,7 +26,7 @@ Labs that needs to be checked by teacher/TA:
 
 ## Lectures
 
-1. Course Introduction: 
+- **Course Introduction**:
 
 * An online introduction lecture on Monday (31st March) starting at 13:15. We will meet via Zoom: 
 [Course Introduction via Zoom](https://lnu-se.zoom.us/j/65796584997?pwd=Bg7XQ8T9WUB8QKb5IPkuHDvJJj9iop.1)
