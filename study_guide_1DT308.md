@@ -29,8 +29,8 @@
 
 ## Participation
 
-- During the initial weeks, laboratory exercises 0-4 must be reported to a teacher or amanuensis. The laboratory exercises are done individually, but it is expected that you will nevertheless cooperate and help each other. To pass the course, you must complete all required lab sessions (0–4). 
-- If you complete all required lab sessions (0–4) and pass the oral exam, you will receive a maximum of C grade.
+- During the initial weeks, laboratory exercises 0-4 must be reported to a teacher or TAs. The laboratory exercises are done individually, but it is expected that you will nevertheless cooperate and help each other. To pass the course, you must complete all required lab sessions (1–4). 
+- If you complete all required lab sessions (1–4) and pass the oral exam, you will receive a maximum of C grade.
 
 
 ## Oral exam
@@ -38,13 +38,15 @@
 **Exam format.**
 
 - The exam will be an oral exam of approximately 10-15 minutes (extended time can be provided if needed).
-- It will be conducted online via Slack.
-- The exam will consist of 5 questions based on the course material.
+- It will be conducted online via Slack or onsite in Kalmar campus.
+- The exam will consist of 5 questions based on the 1-4 labs and course material. 
 - To pass, you need to answer at least 3 questions correctly.
 - If you feel unsure about a question, you may ask to skip to the next one to maximize your time.
-- You must bring your ID card, and your eyes must remain focused on the camera.
 - The exam will take place during week 22, and there will be two separate sessions for the oral exam. 
 - You can register for the exam during week 20-21.
+
+The oral exam will be similar to an informal presentation, where I want you to explain what you have learned from the labs and the course materials. 
+
 
 ## Grades distributions
 
@@ -52,7 +54,7 @@
 
 A Grade F requires a retaking of the course and could look like this:
 
-- Incomplete lab sessions 1-4: Significant portions of the labs 0-4 are incomplete or missing. 
+- Incomplete lab sessions 1-4: Significant portions of the labs 1-4 are incomplete or missing. 
 - Fail to Pass oral exam. 
 
 **Grade E.**
@@ -85,6 +87,7 @@ To aim for a higher grade (B or A), you must build upon the knowledge gained fro
 
 Present and discuss your project with a teacher or TAs no later than three weeks after the course starts. Discussions take place during lab sessions. 
 
+At the end of the project, you are expected to present or demonstrate it either online or on-site in Kalmar and submit a report that details your project’s design, implementation, challenges faced, and results. 
 
 ## Course objectives
 
