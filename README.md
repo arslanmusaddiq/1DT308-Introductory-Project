@@ -6,7 +6,7 @@ Read the study guide. Important!
 
 ## Other important links
 
-- [Slack Channel](https://coursepress.slack.com/signup) **#1dt308-introducerande-projekt**
+- [Slack Channel](https://coursepress.slack.com/signup) **#1dt308-1dt902-introducerande-projekt**
 - [Moodle](https://moodle.lnu.se/course/view.php?id=68072)
 - [Project template](project-template.md)
 
