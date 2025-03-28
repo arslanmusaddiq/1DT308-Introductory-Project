@@ -70,7 +70,7 @@ A Grade F requires a retaking of the course and could look like this:
 **Grade C.**
 
 - Complete the labs 1-4: Finish all parts of these labs.
-- Implement at least 1-2 additional sensors beyond DHT11.
+- Increase your project complexity little bit by adding additional components (an other sensor or module) or features. 
 - Pass oral exam. 
 
 
@@ -90,7 +90,6 @@ Present and discuss your project with a teacher or TAs no later than three weeks
 At the end of the project, you are expected to present or demonstrate it either online or on-site in Kalmar (record a video as a backup) and submit a report that details your project’s design, implementation, challenges faced, and results. 
 
 ## Course objectives
-
 
 **The course has two tracks.**
 
@@ -175,14 +174,13 @@ All elements must be completed before the end of the course for a grade.
 
 <!-- [Uppgifter om yrkesrollen ingenjör](ingenjor.md)-->
 
-- [Projektarbetet](project-template.md) görs i rapportform, och läggs upp i en `README.md` i ert GitLab repository.
+- [The project work](project-template.md) is done in report form, and is posted in a `README.md` in your GitLab repository.
 
+**NOTE! If you wish to receive a grade higher than C**, you must present and discuss your project with your teacher, and register your interest in a higher grade.
 
-**OBS! Om ni önskar ett högre betyg än C** måste ni presentera och diskutera ert projekt med lärare, samt anmäla intresse för högre betyg.
+## Planning
 
-## Planering
-
-Kursen är tio veckor lång, varav de fyra första veckorna innehåller mer grundläggande föreläsningar och laborationer för att komma igång med hårdvara. 
+The course is ten weeks long, of which the first four weeks contain more basic lectures and labs to get started with hardware.a. 
 
 ### Open videos:
 
