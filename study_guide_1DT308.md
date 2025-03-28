@@ -140,8 +140,7 @@ C.3 Reflect on and evaluate their role versus the group effort in projects and a
 - React to **all** '*Pinned posts*' on Slack.
 - You can filter all '*Pinned posts*' according to the figure below.
 
-![pinned-posts](images/pinned_slack.png)
-![reactions](images/react_slack.png)
+![pinned-posts](images/Slack-pinned.png)
 
 ## Deadlines
 
