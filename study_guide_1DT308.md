@@ -70,9 +70,8 @@ A Grade F requires a retaking of the course and could look like this:
 **Grade C.**
 
 - Complete the labs 1-4: Finish all parts of these labs.
-- Increase your project complexity little bit by adding additional components (an other sensor or module) or features. 
+- Increase your project complexity little bit by adding additional components, e.g., another sensor or features. 
 - Pass oral exam. 
-
 
 ## Higher Grades (B or A)
 
