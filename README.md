@@ -22,3 +22,13 @@ Labs that needs to be checked by teacher/TA:
 * Lab 2: [labs/2_input_output](https://gitlab.lnu.se/1dt308/content/-/blob/master/labs/2_input_output.md?ref_type=heads)
 * Lab 3: TIG Stack
 * Lab 4: Visualization
+
+
+## Lectures
+
+1. Course Introduction: 
+
+* An online introduction lecture on Monday (31st March) starting at 13:15. We will meet via Zoom: 
+[Course Introduction](https://lnu-se.zoom.us/j/65796584997?pwd=Bg7XQ8T9WUB8QKb5IPkuHDvJJj9iop.1)
+(If needed)
+Meeting ID: 657 9658 4997, Passcode: 181234
