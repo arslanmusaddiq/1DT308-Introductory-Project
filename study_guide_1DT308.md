@@ -20,7 +20,7 @@
 
 ## Lectures and labs
 
-- All lectures will be held online, with either a pre-recorded link or a live stream provided.
+- All lectures will be held online, with either a pre-recorded link or a live stream via Zoom or other platforms provided.
 	- Feel free to ask questions via **Slack**.
 - The lectures will be updated via TimeEdit.
 - Laboratory sessions will be led by teacher and TAs on campus. See schedule.
