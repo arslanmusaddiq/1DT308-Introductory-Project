@@ -87,7 +87,7 @@ To aim for a higher grade (B or A), you must build upon the knowledge gained fro
 
 Present and discuss your project with a teacher or TAs no later than three weeks after the course starts. Discussions take place during lab sessions. 
 
-At the end of the project, you are expected to present or demonstrate it either online or on-site in Kalmar and submit a report that details your project’s design, implementation, challenges faced, and results. 
+At the end of the project, you are expected to present or demonstrate it either online or on-site in Kalmar (record a video as a backup) and submit a report that details your project’s design, implementation, challenges faced, and results. 
 
 ## Course objectives
 
@@ -160,7 +160,7 @@ Deadlines for projects.
 
 - **Friday 5th May**: Submission of project plan and group assignment.
 - **Monday-Tuesday 26-27 May**: Project reports
-- **Monday-Tuesday 4-5 June**: Final Deadline for project report and video, GitLab. A-F
+- **Monday-Tuesday 4-5 June**: Final Deadline for project report and video. 
 
 All elements must be completed before the end of the course for a grade.
 
