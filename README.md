@@ -29,6 +29,6 @@ Labs that needs to be checked by teacher/TA:
 1. Course Introduction: 
 
 * An online introduction lecture on Monday (31st March) starting at 13:15. We will meet via Zoom: 
-[Course Introduction](https://lnu-se.zoom.us/j/65796584997?pwd=Bg7XQ8T9WUB8QKb5IPkuHDvJJj9iop.1)
+[Course Introduction via Zoom](https://lnu-se.zoom.us/j/65796584997?pwd=Bg7XQ8T9WUB8QKb5IPkuHDvJJj9iop.1)
 (If needed)
 Meeting ID: 657 9658 4997, Passcode: 181234
