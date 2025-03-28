@@ -143,14 +143,14 @@ C.3 Reflect on and evaluate their role versus the group effort in projects and a
 
 ## Deadlines
 
-Kursen börjar **måndagen den 7:e november 2022** och slutar **fredagen den 13:e januari 2023**.
+The course begins **Monday, March 31, 2025** and ends **Friday, June 06, 2025**.
 
-Varje lab presenteras senast kommande labtillfälle veckan efter genomgången lab. Det går att genomföra laborationerna i snabbare tak
+Each lab is presented at the latest at the next lab opportunity the week after the lab was completed. It is possible to complete the lab exercises more quickly
 
-- **V46**: Lab 0, U/G.
-- **V47**: Lab 1, U/G.
-- **V48**: Lab 2, U/G.
-- **V49**: Lab 3, U/G.
+- **V15**: Lab 1, U/G.
+- **V16**: Lab 2, U/G.
+- **V17**: Lab 3, U/G.
+- **V18**: Lab 4, U/G.
 
 
 ![Tidsplan](images/tidsplan-2022.png)
