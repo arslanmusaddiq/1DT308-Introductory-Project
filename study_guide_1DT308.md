@@ -3,9 +3,9 @@
 ## important links
 
 - [Moodle](https://moodle.lnu.se/course/view.php?id=68072)
-- [Kursplan 1DT308](https://kursplan.lnu.se/kursplaner/kursplan-1DT308-1.pdf)
+- [Kursplan 1DT308](https://kursplan.lnu.se/kursplaner/syllabus-1DT308-1.pdf)
 - [Gitlab](https://gitlab.lnu.se/1dt308/content)
-- [Slack kanal](https://coursepress.slack.com/signup) **#1dt308-introducerande-projekt**
+- [Slack kanal](https://coursepress.slack.com/signup) **#1dt308-1dt902-introducerande-projekt**
 - [Project template](project-template.md)
 - [Timetable (preliminary)](https://cloud.timeedit.net/lnu/web/staff1/ri1Y1X1QQYwZ16QfQ5077425y1Y95Z7.html)
 
