@@ -143,14 +143,14 @@ C.3 Reflect on and evaluate their role versus the group effort in projects and a
 
 ## Deadlines
 
-The course begins **Monday, March 31, 2025** and ends **Friday, June 06, 2025**.
+The course begins **Monday, November 7, 2022** and ends **Friday, January 13, 2023**.
 
-Each lab is presented at the latest at the next lab opportunity the week after the lab was completed. It is possible to complete the lab exercises more quickly
+Varje lab presenteras senast kommande labtillfälle veckan efter genomgången lab. Det går att genomföra laborationerna i snabbare tak
 
-- **V15**: Lab 1, U/G.
-- **V16**: Lab 2, U/G.
-- **V17**: Lab 3, U/G.
-- **V18**: Lab 4, U/G.
+- **V46**: Lab 0, U/G.
+- **V47**: Lab 1, U/G.
+- **V48**: Lab 2, U/G.
+- **V49**: Lab 3, U/G.
 
 
 ![Tidsplan](images/tidsplan-2022.png)
@@ -164,6 +164,24 @@ Deadlines för projekt.
 
 Samtliga moment ska vara genomförda innan kursens slut för ett betyg.
 
+The course begins **Monday, March 31, 2025** and ends **Thursday, June 05, 2025**.
+
+Each lab is presented at the latest at the next lab opportunity the week after the lab was completed. It is possible to complete the lab exercises more quickly
+
+- **V15**: Lab 1, U/G.
+- **V16**: Lab 2, U/G.
+- **V17**: Lab 3, U/G.
+- **V18**: Lab 4, U/G.
+
+
+Deadlines for projects.
+
+- **Friday 5th May**: Submission of project plan and group assignment.
+- **Monday-Tuesday 26-27 May**: Project reports
+- **Monday-Tuesday 4-5 June**: Final Deadline for project report and video, GitLab. A-F
+
+All elements must be completed before the end of the course for a grade.
+
 ## Examination
 
 | Benämning | Betygsskala | Poäng |
@@ -173,7 +191,8 @@ Samtliga moment ska vara genomförda innan kursens slut för ett betyg.
 | Presentation | A-F | 0.5 |
 | Uppgifter om yrkesrollen ingenjör | U/G | 1 |
 
-- [Uppgifter om yrkesrollen ingenjör](ingenjor.md)
+<!-- [Uppgifter om yrkesrollen ingenjör](ingenjor.md)-->
+
 - [Projektarbetet](project-template.md) görs i rapportform, och läggs upp i en `README.md` i ert GitLab repository.
 
 ---
@@ -184,16 +203,19 @@ Samtliga moment ska vara genomförda innan kursens slut för ett betyg.
 
 Kursen är tio veckor lång, varav de fyra första veckorna innehåller mer grundläggande föreläsningar och laborationer för att komma igång med hårdvara. 
 
-### Öppna videos:
+### Open videos:
 
-- Samtliga föreläsningar kommer annonseras på Slack.
-- Vi kommer att publicera alla öppna inspelningar via [Youtube Computer Science](https://www.youtube.com/cslnu), följ gärna den.
+- All lectures will be announced on Slack.
+- If there are vidoes, we will publish all open recordings via [Youtube Computer Science](https://www.youtube.com/cslnu), please follow it.
+
+### Vidoes from previous year:
+
 
 - Docker and TIG-stack: https://youtu.be/unSuncsrPLA
 - Let's go far with LoRa: https://youtu.be/Wbas04ouRdk
 - IoT and connectivity: https://youtu.be/uUVKWt4NKUo
 - MQTT: https://youtu.be/3VXDPiDmSog
 
-### Ej öppna föreläsningar
+### Non-open lectures
 
-- Eventuella föreläsningar som ej kommer spelas in öppet kommer att publiceras i Slack samt på MyMoodle. 
+- Any lectures that will not be recorded openly will be published in Slack and on MyMoodle.
