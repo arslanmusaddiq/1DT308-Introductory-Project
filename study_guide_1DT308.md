@@ -143,27 +143,6 @@ C.3 Reflect on and evaluate their role versus the group effort in projects and a
 
 ## Deadlines
 
-The course begins **Monday, November 7, 2022** and ends **Friday, January 13, 2023**.
-
-Varje lab presenteras senast kommande labtillfälle veckan efter genomgången lab. Det går att genomföra laborationerna i snabbare tak
-
-- **V46**: Lab 0, U/G.
-- **V47**: Lab 1, U/G.
-- **V48**: Lab 2, U/G.
-- **V49**: Lab 3, U/G.
-
-
-![Tidsplan](images/tidsplan-2022.png)
-
-Deadlines för projekt.
-
-- **Fredag 25:e nov**: Inlämning av projektplan och gruppindelning.
-- **Tisdag-Onsdag 21-22 december**: Projektredovisningar
-- **Lördag 14: januari**: Deadline för projektrapport och video, GitLab. A-F
-- **Lördag 14: januari**: Inlämning rapport på MyMoodle, ingenjörens roll, U/G.
-
-Samtliga moment ska vara genomförda innan kursens slut för ett betyg.
-
 The course begins **Monday, March 31, 2025** and ends **Thursday, June 05, 2025**.
 
 Each lab is presented at the latest at the next lab opportunity the week after the lab was completed. It is possible to complete the lab exercises more quickly
@@ -189,13 +168,12 @@ All elements must be completed before the end of the course for a grade.
 |  Programmeringsuppgifter  | U/G | 2 |
 | Projekt (inkl. leverabler) | A-F | 4 |
 | Presentation | A-F | 0.5 |
-| Uppgifter om yrkesrollen ingenjör | U/G | 1 |
+<!-- | Uppgifter om yrkesrollen ingenjör | U/G | 1 |-->
 
 <!-- [Uppgifter om yrkesrollen ingenjör](ingenjor.md)-->
 
 - [Projektarbetet](project-template.md) görs i rapportform, och läggs upp i en `README.md` i ert GitLab repository.
 
----
 
 **OBS! Om ni önskar ett högre betyg än C** måste ni presentera och diskutera ert projekt med lärare, samt anmäla intresse för högre betyg.
 
