@@ -29,7 +29,7 @@
 
 ## Participation
 
-- During the initial weeks, laboratory exercises 0-4 must be reported to a teacher or TAs. The laboratory exercises are done individually, but it is expected that you will nevertheless cooperate and help each other. To pass the course, you must complete all required lab sessions (1–4). 
+- During the initial weeks, laboratory exercises 1-4 must be reported to a teacher or TAs. The laboratory exercises are done individually, but it is expected that you will nevertheless cooperate and help each other. To pass the course, you must complete all required lab sessions (1–4). 
 - If you complete all required lab sessions (1–4) and pass the oral exam, you will receive a maximum of C grade.
 
 
