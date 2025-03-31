@@ -13,7 +13,7 @@
 ## Expectations
 
 - Read this document **carefully**. Feedback with comments directly if there is anything that is unclear.
-- Plan your studies. Add time in your calendar to work on assignments outside of scheduled time, attendance is required to complete assignments.
+- Plan your studies. Add time in your calendar to work on assignments outside of scheduled time.
 - Feel free to ask your questions early if something is unclear, don't wait. Start assignments well in advance, otherwise there is very little time to help.
 - **Interact with students and teachers on Slack**. Ask, and don't be afraid to answer questions from other students. Remember - be nice and respectful. The success of the course is based on your participation.
 - Above all - try to adopt a positive attitude and **have fun.**
