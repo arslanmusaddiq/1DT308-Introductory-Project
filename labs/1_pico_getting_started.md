@@ -1,4 +1,4 @@
-# Lab 1 - Getting started and Hello World with LED
+# Lab 0 - Getting started and Hello World with LED
 
 
 

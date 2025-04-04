@@ -29,8 +29,8 @@
 
 ## Participation
 
-- During the initial weeks, laboratory exercises 1-4 must be reported to a teacher or TAs. The laboratory exercises are done individually, but it is expected that you will nevertheless cooperate and help each other. To pass the course, you must complete all required lab sessions (1–4). 
-- If you complete all required lab sessions (1–4) and pass the oral exam, you will receive a maximum of C grade.
+- During the initial weeks, laboratory exercises 1-4 must be reported to a teacher or TAs. The laboratory exercises are done individually, but it is expected that you will nevertheless cooperate and help each other. To pass the course, you must complete all required lab sessions (0–3). 
+- If you complete all required lab sessions (0–3) and pass the oral exam, you will receive a maximum of C grade.
 
 
 ## Oral exam
@@ -54,22 +54,22 @@ The oral exam will be similar to an informal presentation, where I want you to e
 
 A Grade F requires a retaking of the course and could look like this:
 
-- Incomplete lab sessions 1-4: Significant portions of the labs 1-4 are incomplete or missing. 
+- Incomplete lab sessions 1-4: Significant portions of the labs 0-3 are incomplete or missing. 
 - Fail to Pass oral exam. 
 
 **Grade E.**
 
-- Complete the labs 1-4: Finish most parts of these labs, though some minor aspects may be incomplete.
+- Complete the labs 0-3: Finish most parts of these labs, though some minor aspects may be incomplete.
 - Pass oral exam. 
 
 **Grade D.**
 
-- Complete the labs 1-4: Finish all parts of these labs.
+- Complete the labs 0-3: Finish all parts of these labs.
 - Pass oral exam.
 
 **Grade C.**
 
-- Complete the labs 1-4: Finish all parts of these labs.
+- Complete the labs 0-3: Finish all parts of these labs.
 - Increase your project complexity little bit by adding additional components, e.g., another sensor or features. 
 - Pass oral exam. 
 
