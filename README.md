@@ -28,7 +28,8 @@ Labs that needs to be checked by teacher/TA:
 
 - **Course Introduction**:
 
-* An online introduction lecture on Monday (31st March) starting at 13:15. We will meet via Zoom: 
-[Course Introduction via Zoom](https://lnu-se.zoom.us/j/65796584997?pwd=Bg7XQ8T9WUB8QKb5IPkuHDvJJj9iop.1)
-(If needed)
+Lecture 1: IoT Basics, Raspberry Pi Pico & Sensors. 
+
+* [Presentation](https://gitlab.lnu.se/1dv027/content/coursesite/-/raw/main/content/iot/resurser/Lecture01-IoT.pdf?inline=false) 
+
 Meeting ID: 657 9658 4997, Passcode: 181234
