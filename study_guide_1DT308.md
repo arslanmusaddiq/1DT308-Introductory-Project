@@ -178,7 +178,7 @@ All elements must be completed before the end of the course for a grade.
 
 ## Planning
 
-The course is ten weeks long, of which the first four weeks contain more basic lectures and labs to get started with hardware.a. 
+The course is ten weeks long, of which the first four weeks contain more basic lectures and labs to get started with hardware.
 
 ### Open videos:
 
