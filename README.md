@@ -30,6 +30,5 @@ Labs that needs to be checked by teacher/TA:
 
 Lecture 1: IoT Basics, Raspberry Pi Pico & Sensors. 
 
-* [Presentation](https://gitlab.lnu.se/1dv027/content/coursesite/-/raw/main/content/iot/resurser/Lecture01-IoT.pdf?inline=false) 
+* [Presentation](https://gitlab.lnu.se/1dt308/content/-/blob/master/presentations/Introduction%20to%20IoT.pdf?ref_type=heads)
 
-Meeting ID: 657 9658 4997, Passcode: 181234
