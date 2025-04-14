@@ -36,3 +36,5 @@ Lecture 1: IoT Basics, Raspberry Pi Pico & Sensors.
 
 Lecture 2: IoT Communication & MQTT. 
 
+
+* [Presentation](https://gitlab.lnu.se/1dt308/content/-/blob/master/presentations/MQTT.pdf?ref_type=heads)
