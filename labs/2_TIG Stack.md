@@ -57,15 +57,15 @@ brew install mosquitto
 3. **Start Mosquitto**:
 Once installed, you can start the Mosquitto broker by running:
 
-'''bash
+```bash
 brew services start mosquitto
-'''
+```
 
 This will start Mosquitto as a background service. To ensure it's running, use:
 
-'''bash
+```bash
 brew services list
-'''
+```
 
 This should show that Mosquitto is running.
 
@@ -117,7 +117,6 @@ By default, Mosquitto doesn’t load any config unless specified'
 
 run 
 
-
 ```bash
 nano ~/mosquitto.conf
 ```
@@ -153,6 +152,8 @@ Open a new terminal and run:
 mosquitto_sub -h localhost -t "test/temperature"
 
 ```
+You will see temperature values like this: 
+
 
 ![Program output](../images/mosquitto-temp.png)
 
@@ -162,6 +163,8 @@ In another terminal:
 mosquitto_sub -h localhost -t "test/humidity"
 
 ```
+You will see humidity values like this: 
+
 ![Program output](../images/mosquitto-humidity.png)
 
 Or you can subscribe to all topics with:
@@ -175,7 +178,6 @@ you will see this output
 
 
 ![Program output](../images/mosquitto-all.png)
-
 
 # Step 3: Set up a TIG Stack
 
