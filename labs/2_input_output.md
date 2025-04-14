@@ -57,10 +57,10 @@ You will need the umqtt.simple Python library to interact with the MQTT broker.
 
 Install the library via the terminal or command prompt with the following command:
 
-bash
+'''bash
 
 pip install umqtt.simple
-
+'''
 
 ###  Connect the Hardware
 
