@@ -1,4 +1,4 @@
-# 🧪 Lab 2 - Visualizing IoT Sensor Data using TIG Stack
+# Lab 2 - Visualizing IoT Sensor Data using TIG Stack
 
 In this lab, you will build a local or networked IoT data pipeline using the **TIG stack**:
 
