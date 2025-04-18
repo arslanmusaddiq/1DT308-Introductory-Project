@@ -488,3 +488,31 @@ from(bucket: "DHT11")
 and you will be able to see something like this: 
 
 ![Program output](../images/grafana.png)
+
+
+# Examination
+
+If you have done this lab correcly, you should be able to answer the following questions: 
+This lab should be examined by a teacher/TA.  
+
+
+### Mosquitto Broker Setup:
+- Why did we choose to use Mosquitto as the MQTT broker instead of Adafruit IO for this lab?
+- How do you test if the Mosquitto broker is running correctly on your system?
+- In what scenarios would Adafruit IO be more beneficial than Mosquitto?
+
+
+### Telegraf Configuration:
+- What is the purpose of using Telegraf in the IoT data pipeline?
+- How does Telegraf interact with the MQTT broker to collect sensor data?
+- What specific MQTT topics does Telegraf subscribe to in this setup?
+
+### InfluxDB Data Storage:
+- How does InfluxDB store time-series data?
+- What fields and tags are used to structure the temperature and humidity data in InfluxDB?
+- How can you query and verify if the sensor data is stored correctly in InfluxDB?
+
+### Grafana Visualization:
+- How do you connect InfluxDB to Grafana?
+- What are the steps to create a dashboard in Grafana for visualizing temperature and humidity data?
+- How would you set up a real-time data refresh rate for the dashboard?
