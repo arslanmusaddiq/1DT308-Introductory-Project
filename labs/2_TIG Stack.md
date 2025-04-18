@@ -483,8 +483,8 @@ from(bucket: "DHT11")
   |> filter(fn: (r) => r["_field"] == "value")
   |> filter(fn: (r) => r["topic"] == "test/temperature" or r["topic"] == "test/humidity")
   
-  and you will be able to see something like this: 
 
 ```
+and you will be able to see something like this: 
 
 ![Program output](../images/grafana.png)
