@@ -401,17 +401,17 @@ You should see something like this:
 ## Visualize the Data with Grafana
 
 
-It’s common to visualize time-series data to understand patterns and trends. You can do this in two main ways:
+You can visualize in two main ways:
 
 1. Use InfluxDB’s Data Explorer (Quick Visualizations), you can click on Graph and to review your data. 
+
 or 
 
 2. Use Grafana for Real-Time Dashboards
 
-Grafana is a powerful tool that integrates seamlessly with InfluxDB, allowing you to create live, auto-refreshing dashboards. 
+Grafana is a powerful tool that integrates with InfluxDB, and allow you to create live, auto-refreshing dashboards. 
 
 To set it up, do the following steps. 
-
 
 - Install Grafana on your system.
 
@@ -435,43 +435,47 @@ brew services start grafana
 
 ```
 
-and go to your browser, open the following:
+### Log into Grafana:
 
+Go to your browser, open the following:
 
 http://localhost:3000/login
 
 It will ask for passwaord change. 
 
-After that click on Connections on left hand side. 
+### Add InfluxDB as Data Source:
 
-In the data source section, search for InfluxDB and select it.
+- After that click on Connections on left hand side. 
 
+- In the data source section, search for InfluxDB and select it.
 
 This will open the configuration page for the InfluxDB data source.
 
-Select Flux as query language and paste your 
-
-
+- Select Flux as query language and paste your 
 
 URL: Enter the URL of your InfluxDB instance (e.g., http://localhost:8086 or the IP of the machine running InfluxDB).
 
 and write your InfluxDB Details
 Your organization name, Token, bucket etc. 
 
-Click on save and test and click on building a dashboard. 
+- Click on save and test and click on building a dashboard. 
 
 
-Database: Enter the bucket name you have set in InfluxDB, e.g., DHT11.
+### Create a Dashboard:
 
-HTTP method is GET, 
+- After saving, click on Create New Dashboard
 
-and leave rest of the things as default. 
+### Add Visualization:
 
+- Click Add Panel to add a visualization.
 
+- Choose the type of panel you want (e.g., Graph, Gauge, Table, etc.).
 
-- Add InfluxDB as a Data Source in Grafana:
+- In the query section, select your InfluxDB data source.
 
 now write the flux query, for example: 
+
+```bash
 
 from(bucket: "DHT11")
   |> range(start: -24h)  // Adjust the time range as needed
@@ -480,5 +484,7 @@ from(bucket: "DHT11")
   |> filter(fn: (r) => r["topic"] == "test/temperature" or r["topic"] == "test/humidity")
   
   and you will be able to see something like this: 
+
+```
 
 ![Program output](../images/grafana.png)
