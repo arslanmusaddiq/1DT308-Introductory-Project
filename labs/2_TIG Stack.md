@@ -10,8 +10,8 @@ We will publish data using **Raspberry Pi Pico W** over MQTT, and then collect, 
 
 ## Objectives
 
-- Set up a TIG stack on your local machine or on a server.
-- Connect Telegraf to your MQTT broker and configure it to collect sensor data.
+- Set up a TIG stack on your local machine.
+- Connect Telegraf to your MQTT broker (Mosquitto) and configure it to collect sensor data.
 - Store incoming temperature and humidity readings in InfluxDB.
 - Use Grafana to build a real-time dashboard to display the data.
 
@@ -24,6 +24,8 @@ Grafana will pull the time-series data from InfluxDB and visualize it in a dashb
 # Step 1: Set Up MQTT Broker (Mosquitto)
 
 In this first step, we will set up our own local MQTT broker using **Mosquitto**, which will facilitate communication between the Raspberry Pi Pico W (with the DHT11 sensor) and our local network.
+
+We are not using Adafruit IO in this setup because we prefer to manage the broker locally. 
 
 ## What is Mosquitto?
 **Mosquitto** is an open-source MQTT broker that enables devices to communicate using the MQTT protocol. It allows devices (like your Raspberry Pi Pico W) to publish sensor data, and other applications (like Telegraf) to subscribe to those data streams.
@@ -38,7 +40,7 @@ In this first step, we will set up our own local MQTT broker using **Mosquitto**
 ### Instructions to Install Mosquitto on macOS
 
 ### Option 1: Install Mosquitto Using Homebrew (macOS)
-If you're using **macOS**, you can install Mosquitto using **Homebrew**:
+If you are using **macOS**, you can install Mosquitto using **Homebrew**:
 
 1. **Install Homebrew**:
    If you don't already have Homebrew installed, open the Terminal and run the following command to install it:
@@ -105,11 +107,15 @@ You need to use the Mosquitto broker's address and port (usually localhost and 1
 Update your MQTT credentials:
 
 # Mosquitto broker details
+```bash
+
 MQTT_BROKER = "192.168.x.x"  # Replace with your MacBook IP address
 MQTT_PORT = 1883  # Default MQTT port
 MQTT_CLIENT_ID = "pico_w_sensor"  # Unique ID for the client
 MQTT_TEMP_TOPIC = "test/temperature"  # Topic for temperature data
 MQTT_HUMIDITY_TOPIC = "test/humidity"  # Topic for humidity data
+
+```
 
 You need to edit the Mosquitto configuration to allow remote devices (like Pico W) to connect.
 
