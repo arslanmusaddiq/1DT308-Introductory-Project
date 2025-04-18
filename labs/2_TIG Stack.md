@@ -493,7 +493,8 @@ and you will be able to see something like this:
 # Examination
 
 If you have done this lab correcly, you should be able to answer the following questions: 
-This lab should be examined by a teacher/TA.  
+
+This lab will be examined by a teacher/TA.  
 
 
 ### Mosquitto Broker Setup:
