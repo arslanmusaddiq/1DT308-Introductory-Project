@@ -497,7 +497,7 @@ If you have done this lab correcly, you should be able to answer the following q
 This lab will be examined by a teacher/TA.  
 
 
-### Mosquitto Broker Setup:
+### Mosquitto Broker:
 - Why did we choose to use Mosquitto as the MQTT broker instead of Adafruit IO for this lab?
 - How do you test if the Mosquitto broker is running correctly on your system?
 - In what scenarios would Adafruit IO be more beneficial than Mosquitto?
