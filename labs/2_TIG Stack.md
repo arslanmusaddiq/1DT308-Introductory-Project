@@ -181,5 +181,195 @@ you will see this output
 
 # Step 3: Set up a TIG Stack
 
-I will continue from here...
+The next step is to hook this up with the TIG stack to visualize the data. 
+
+
+## Install InfluxDB on macOS
+
+InfluxDB is your time-series database where sensor data will be stored.
+
+
+ Install via Homebrew:
+
+```bash
+brew install influxdb
+
+```
+Start InfluxDB:
+
+```bash
+brew services start influxdb
+
+```
+Confirm it's running:
+
+```bash
+influx
+```
+
+If the influx CLI tool is not available in your terminal’s path yet, probably because you are using InfluxDB 2.x, or the path was not added automatically by Homebrew. In this case:
+
+Check if InfluxDB is installed: 
+
+```bash
+brew list | grep influxdb
+
+```
+If it is installed, find the version: 
+
+```bash
+brew info influxdb
+
+```
+
+If you installed InfluxDB v2.x, you have to initialize it first
+
+```bash
+influxd
+```
+
+Now open a new terminal tab and set it up:
+
+```bash
+influx setup
+
+```
+
+It will prompt you for:
+
+- Username
+- Password
+- Organization name
+- Bucket name (this is like a database)
+- Initial token
+
+If it does not include the CLI (influx) tool by default. You might get the command not found: influx error.
+
+For this, install 
+
+Install the influx CLI
+```bash
+brew install influxdb-cli
+
+```
+
+This will give you the actual influx command that lets you talk to the server.
+
+Once the CLI is installed, start the InfluxDB server (it doesn’t auto-run by default):
+
+```bash
+brew services start influxdb
+
+```
+
+Now in a new terminal tab, run:
+
+```bash
+influx setup
+
+```
+
+If your Influx DB is installed successfully, then lets setup a Telegraf to subscribe to Mosquitto and push data to InfluxDB. 
+
+
+
+## Set Up Telegraf to Subscribe to MQTT and Send Data to InfluxDB
+
+
+Telegraph collects data from Mosquitto and forwards it to InfluxDB.
+
+
+### Install Telegraf
+
+```bash
+brew install telegraf
+
+```
+
+### Create Telegraf Config File
+We are configuring it to:
+
+- Use the MQTT consumer plugin
+
+- Output to InfluxDB v2
+
+- Subscribe to our test/temperature and test/humidity topics
+
+Befoe configuring, we need to find InfluxDB API token, whih is a key that lets Telegraf write data into your InfluxDB bucket.
+
+- Open http://localhost:8086 in your browser.
+- Log in.
+- Go to the "Load Data" tab on the left sidebar.
+- Click on "API Tokens".
+- You will see something like "Telegraf Token" or whatever name you gave it during setup.
+
+
+
+![Program output](../images/Influx-token.png)
+
+
+
+Now create a config file (e.g., telegraf.conf) like this:
+
+
+
+```bash
+nano ~/telegraf.conf
+
+```
+
+and paste the following: 
+```toml
+
+[agent]
+  interval = "10s"
+  round_interval = true
+  metric_batch_size = 1000
+  metric_buffer_limit = 10000
+  collection_jitter = "0s"
+  flush_interval = "10s"
+  flush_jitter = "0s"
+  precision = ""
+  debug = false
+  quiet = false
+  logfile = ""
+
+[[outputs.influxdb_v2]]
+  urls = ["http://localhost:8086"]
+  token = "YOUR_TOKEN_HERE"
+  organization = "YOUR_ORG_NAME"
+  bucket = "YOUR_BUCKET_NAME"
+
+[[inputs.mqtt_consumer]]
+  servers = ["tcp://localhost:1883"]
+  topics = [
+    "test/temperature",
+    "test/humidity"
+  ]
+  data_format = "value"
+  data_type = "float"
+  name_override = "dht11_sensor"
+```
+
+after configuring run the Telegraph using this:
+
+```bash
+telegraf --config ~/telegraf.conf
+
+```
+
+You should start seeing something like this: 
+
+
+
+![Program output](../images/run-telegraph.png)
+
+That means it’s reading from MQTT and writing to InfluxDB!
+
+
+Run your query in data explore for example 
+
+
+
+
 
