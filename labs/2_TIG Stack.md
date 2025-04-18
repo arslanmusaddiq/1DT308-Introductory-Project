@@ -39,7 +39,7 @@ We are not using Adafruit IO in this setup because we prefer to manage the broke
 
 ### Instructions to Install Mosquitto on macOS
 
-### Option 1: Install Mosquitto Using Homebrew (macOS)
+### Install Mosquitto Using Homebrew (macOS)
 If you are using **macOS**, you can install Mosquitto using **Homebrew**:
 
 1. **Install Homebrew**:
