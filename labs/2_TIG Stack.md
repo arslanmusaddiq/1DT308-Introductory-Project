@@ -370,6 +370,104 @@ That means it’s reading from MQTT and writing to InfluxDB!
 Run your query in data explore for example 
 
 
+from(bucket: "DHT11")
+  |> range(start: -1h)  // Adjust the time range as needed (e.g., -1h for the last hour)
+  |> filter(fn: (r) => r["_measurement"] == "dht11_sensor")  // Assuming your measurement is "mqtt", but change if needed
+  |> filter(fn: (r) => r["_field"] == "value")  // The field is "value"
+  |> filter(fn: (r) => r["topic"] == "test/temperature" or r["topic"] == "test/humidity")  // Filter by topic
+  |> yield(name: "mean")
+
+
+  Ensure the measurement name, field name and topics are used correctly
+
+This (above) query will retrieve all fields (value) from all measurements, filtered by the topic tags for temperature and humidity.
+
+You should see something like this: 
+
+![Program output](../images/Influx-query.png)
+
+
+## Visualize the Data with Grafana
+
+
+It’s common to visualize time-series data to understand patterns and trends. You can do this in two main ways:
+
+1. Use InfluxDB’s Data Explorer (Quick Visualizations), you can click on Graph and to review your data. 
+or 
+
+2. Use Grafana for Real-Time Dashboards
+
+Grafana is a powerful tool that integrates seamlessly with InfluxDB, allowing you to create live, auto-refreshing dashboards. 
+
+To set it up, do the following steps. 
+
+
+- Install Grafana on your system.
+
+
+```bash
+brew install grafana
+
+```
+
+The default login credentials for Grafana are:
+
+Username: admin
+
+Password: admin
+
+
+- Start Grafana
+
+```bash
+brew services start grafana
+
+```
+
+and go to your browser, open the following:
+
+
+http://localhost:3000/login
+
+It will ask for passwaord change. 
+
+After that click on Connections on left hand side. 
+
+In the data source section, search for InfluxDB and select it.
+
+
+This will open the configuration page for the InfluxDB data source.
+
+Select Flux as query language and paste your 
 
 
 
+URL: Enter the URL of your InfluxDB instance (e.g., http://localhost:8086 or the IP of the machine running InfluxDB).
+
+and write your InfluxDB Details
+Your organization name, Token, bucket etc. 
+
+Click on save and test and click on building a dashboard. 
+
+
+Database: Enter the bucket name you have set in InfluxDB, e.g., DHT11.
+
+HTTP method is GET, 
+
+and leave rest of the things as default. 
+
+
+
+- Add InfluxDB as a Data Source in Grafana:
+
+now write the flux query, for example: 
+
+from(bucket: "DHT11")
+  |> range(start: -24h)  // Adjust the time range as needed
+  |> filter(fn: (r) => r["_measurement"] == "dht11_sensor")
+  |> filter(fn: (r) => r["_field"] == "value")
+  |> filter(fn: (r) => r["topic"] == "test/temperature" or r["topic"] == "test/humidity")
+  
+  and you will be able to see something like this: 
+
+![Program output](../images/grafana.png)
