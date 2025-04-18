@@ -276,7 +276,7 @@ If your Influx DB is installed successfully, then lets setup a Telegraf to subsc
 ## Set Up Telegraf to Subscribe to MQTT and Send Data to InfluxDB
 
 
-Telegraph collects data from Mosquitto and forwards it to InfluxDB.
+Telegraf collects data from Mosquitto and forwards it to InfluxDB.
 
 
 ### Install Telegraf
@@ -295,7 +295,7 @@ We are configuring it to:
 
 - Subscribe to our test/temperature and test/humidity topics
 
-Befoe configuring, we need to find InfluxDB API token, whih is a key that lets Telegraf write data into your InfluxDB bucket.
+Before configuring, we need to find InfluxDB API token, whih is a key that lets Telegraf write data into your InfluxDB bucket.
 
 - Open http://localhost:8086 in your browser.
 - Log in.
@@ -351,7 +351,7 @@ and paste the following:
   name_override = "dht11_sensor"
 ```
 
-after configuring run the Telegraph using this:
+after configuring run the Telegraf using this:
 
 ```bash
 telegraf --config ~/telegraf.conf
@@ -362,7 +362,7 @@ You should start seeing something like this:
 
 
 
-![Program output](../images/run-telegraph.png)
+![Program output](../images/run-telegraf.png)
 
 That means it’s reading from MQTT and writing to InfluxDB!
 
