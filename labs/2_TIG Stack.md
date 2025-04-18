@@ -378,6 +378,7 @@ That means it’s reading from MQTT and writing to InfluxDB!
 
 Run your query in data explore for example 
 
+```bash
 
 from(bucket: "DHT11")
   |> range(start: -1h)  // Adjust the time range as needed (e.g., -1h for the last hour)
@@ -385,9 +386,10 @@ from(bucket: "DHT11")
   |> filter(fn: (r) => r["_field"] == "value")  // The field is "value"
   |> filter(fn: (r) => r["topic"] == "test/temperature" or r["topic"] == "test/humidity")  // Filter by topic
   |> yield(name: "mean")
+```
 
 
-  Ensure the measurement name, field name and topics are used correctly
+Ensure the measurement name, field name and topics are used correctly
 
 This (above) query will retrieve all fields (value) from all measurements, filtered by the topic tags for temperature and humidity.
 
