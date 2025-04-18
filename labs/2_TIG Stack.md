@@ -185,6 +185,9 @@ you will see this output
 
 ![Program output](../images/mosquitto-all.png)
 
+
+At this point, your mosquitto is up and running. 
+
 # Step 3: Set up a TIG Stack
 
 The next step is to hook this up with the TIG stack to visualize the data. 
