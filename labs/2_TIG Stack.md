@@ -517,3 +517,21 @@ This lab will be examined by a teacher/TA.
 - How do you connect InfluxDB to Grafana?
 - What are the steps to create a dashboard in Grafana for visualizing temperature and humidity data?
 - How would you set up a real-time data refresh rate for the dashboard?
+
+
+# Recommended Future Improvement: Dockerized TIG Stack (not required to pass this lab)
+
+- For ease of deployment, the entire TIG stack, along with the Mosquitto MQTT broker, can be containerized using Docker. 
+- You dont have to install Telegraf, InfluxDB, or Grafana on your laptop individually, just run them in Docker, and they work like native apps. 
+- All these containers are launched together using one simple command:
+
+```bash
+docker-compose up -d
+
+```
+- You can also shut down all services instantly:
+
+```bash
+docker-compose down
+
+```
