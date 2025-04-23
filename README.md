@@ -32,8 +32,10 @@ Lecture 1: IoT Basics, Raspberry Pi Pico & Sensors.
 
 * [Presentation](https://gitlab.lnu.se/1dt308/content/-/blob/master/presentations/Introduction%20to%20IoT.pdf?ref_type=heads)
 
-
 Lecture 2: IoT Communication & MQTT. 
 
-
 * [Presentation](https://gitlab.lnu.se/1dt308/content/-/blob/master/presentations/MQTT.pdf?ref_type=heads)
+
+Lecture 3: TIG Stack. 
+
+* [Presentation](https://gitlab.lnu.se/1dt308/content/-/blob/master/presentations/TIG%20Stack.pdf?ref_type=heads)
