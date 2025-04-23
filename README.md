@@ -18,8 +18,8 @@ This course consists of several labs. The labs are designed to start as tutorial
 
 Labs that needs to be checked by teacher/TA:
 
-* Lab 0: [labs/0_pico_getting_started](https://github.com/arslanmusaddiq/1DT308-Introductory-Project/blob/master/labs/1_pico_getting_started.md)  
-* Lab 1: [labs/1_input_output](https://gitlab.lnu.se/1dt308/content/-/blob/master/labs/2_input_output.md?ref_type=heads)
+* Lab 0: [labs/0_pico_getting_started](https://gitlab.lnu.se/1dt308/content/-/blob/master/labs/0_pico_getting_started.md?ref_type=heads)  
+* Lab 1: [labs/1_input_output](https://gitlab.lnu.se/1dt308/content/-/blob/master/labs/1_input_output.md?ref_type=heads)
 * Lab 2: [labs/2_TIG_Stack](https://gitlab.lnu.se/1dt308/content/-/blob/master/labs/2_TIG%20Stack.md?ref_type=heads)
 * Lab 3: Visualization
 
