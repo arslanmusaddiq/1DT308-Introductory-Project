@@ -72,7 +72,7 @@ Now next step is to create a simple web dashboard that reads from the CSV file a
 
 Create a templates folder in the same directory and inside it, create index.html.
 
-Make a fun dashboard ask you like. 
+Make a fun dashboard as you like. 
 
 
 In Terminal 1, run your subscriber:
