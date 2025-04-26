@@ -77,6 +77,8 @@ Make a fun dashboard as you like.
 
 In Terminal 1, run your subscriber:
 
+For example, 
+
 ```bash
 python3 MQTT-Subscriber.py
 
