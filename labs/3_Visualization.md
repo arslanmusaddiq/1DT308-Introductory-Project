@@ -74,6 +74,25 @@ Create a templates folder in the same directory and inside it, create index.html
 
 Make a fun dashboard ask you like. 
 
-For example this is what I made: 
+
+In Terminal 1, run your subscriber:
+
+```bash
+python3 MQTT-Subscriber.py
+
+```
+In Terminal 2, run your dashboard:
+
+
+```bash
+python3 dashboard.py
+
+```
+Visit http://localhost:5000 in your browser and see your own live IoT dashboard. :) 
+
+
+For example, this is what I made: 
 
 ![Program output](../images/Dashboard-example.png)
+
+
