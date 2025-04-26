@@ -61,7 +61,7 @@ If your script is working fine, you will see an output like this:
 
 And you will see timestamp values in CSV file like this:
 
-![Program output](../images/CSV-exampple.png)
+![Program output](../images/CSV-example.png)
 
 
 ## Build a Flask Web Dashboard
@@ -76,4 +76,4 @@ Make a fun dashboard ask you like.
 
 For example this is what I made: 
 
-![Program output](../images/Dashboard-exampple.png)
+![Program output](../images/Dashboard-example.png)
