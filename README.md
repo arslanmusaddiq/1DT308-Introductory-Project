@@ -21,8 +21,7 @@ Labs that needs to be checked by teacher/TA:
 * Lab 0: [labs/0_pico_getting_started](https://gitlab.lnu.se/1dt308/content/-/blob/master/labs/0_pico_getting_started.md?ref_type=heads)  
 * Lab 1: [labs/1_input_output](https://gitlab.lnu.se/1dt308/content/-/blob/master/labs/1_input_output.md?ref_type=heads)
 * Lab 2: [labs/2_TIG_Stack](https://gitlab.lnu.se/1dt308/content/-/blob/master/labs/2_TIG%20Stack.md?ref_type=heads)
-* Lab 3: Visualization
-
+* Lab 3: [labs/3_Visualization](https://gitlab.lnu.se/1dt308/content/-/blob/master/labs/3_Visualization.md?ref_type=heads)
 
 ## Lectures
 
