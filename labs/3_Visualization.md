@@ -93,7 +93,7 @@ python3 dashboard.py
 Visit http://localhost:5000 in your browser and see your own live IoT dashboard. :) 
 
 
-For example, this is what I made: 
+This is what I made: 
 
 ![Program output](../images/Dashboard-example.png)
 
