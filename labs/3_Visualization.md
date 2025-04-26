@@ -57,8 +57,12 @@ In your script, you will need to give MQTT broker address. In this case, you are
 
 If your script is working fine, you will see an output like this: 
 
+![Program output](../images/MQTT-Subscriber.png)
 
 And you will see timestamp values in CSV file like this:
+
+![Program output](../images/CSV-exampple.png)
+
 
 ## Build a Flask Web Dashboard
 
@@ -72,4 +76,4 @@ Make a fun dashboard ask you like.
 
 For example this is what I made: 
 
-
+![Program output](../images/Dashboard-exampple.png)
