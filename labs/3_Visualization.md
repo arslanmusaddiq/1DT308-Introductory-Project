@@ -96,3 +96,20 @@ For example, this is what I made:
 ![Program output](../images/Dashboard-example.png)
 
 
+# Examination
+
+If you have done this lab correcly, you should be able to answer the following questions: 
+
+This lab will be examined by a teacher/TA.  
+
+### MQTT Setup and Data Logging:
+- How does the Python MQTT subscriber script function to receive data from the MQTT broker?
+- How can you verify that the data is being correctly logged into the CSV file?
+
+### Flask Web Dashboard:
+- How does Flask handle real-time data on the web dashboard in this lab?
+- How does the Flask application fetch and display temperature and humidity data from the CSV file on the dashboard?
+
+### Data Storage:
+- What are the benefits and limitations of storing sensor data in a CSV file versus a database (like InfluxDB or SQLite)?
+- How could you extend this project to use a database for data storage instead of a CSV file?
