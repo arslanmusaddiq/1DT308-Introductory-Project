@@ -38,3 +38,7 @@ Lecture 2: IoT Communication & MQTT.
 Lecture 3: TIG Stack. 
 
 * [Presentation](https://gitlab.lnu.se/1dt308/content/-/blob/master/presentations/TIG%20Stack.pdf?ref_type=heads)
+
+Lecture 4: IoT Data Visualization. 
+
+* [Presentation](https://gitlab.lnu.se/1dt308/content/-/blob/master/presentations/Visualization.pdf?ref_type=heads)
