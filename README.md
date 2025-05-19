@@ -42,3 +42,11 @@ Lecture 3: TIG Stack.
 Lecture 4: IoT Data Visualization. 
 
 * [Presentation](https://gitlab.lnu.se/1dt308/content/-/blob/master/presentations/Visualization.pdf?ref_type=heads)
+
+Lecture 5: Lars Karlsson - Lecture 1 - Projects.
+
+* [Presentation](https://gitlab.lnu.se/1dt308/content/-/blob/master/presentations/LK%20-%20Lecture%201%20-%20Projects.pdf?ref_type=heads)
+
+Lecture 6: Lars Karlsson - Lecture 2 - Experiences.
+
+* [Presentation](https://gitlab.lnu.se/1dt308/content/-/blob/master/presentations/LK%20-%20Lecture%202%20-%20Experiences.pdf?ref_type=heads)
